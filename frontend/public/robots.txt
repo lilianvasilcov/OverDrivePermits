@@ -1,0 +1,14 @@
+# robots.txt for OVERDRIVE PERMITS
+
+User-agent: *
+Allow: /
+
+# Disallow admin and API routes
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://overdrivepermits.com/sitemap.xml
+
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 1
+
