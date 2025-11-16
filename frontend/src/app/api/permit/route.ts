@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
-import { PermitRequest } from '../../../../shared/types/permit.types';
+import { PermitRequest } from '@/types/permit.types';
 
 // Email service configuration
 const createTransporter = () => {

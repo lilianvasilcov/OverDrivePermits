@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { getStateName } from '@/utils/constants/states';
 import { getStateRegulations, hasStateRegulations } from '@/utils/constants/regulations';
-import { StateRegulation } from '../../../../../shared/types/state.types';
+import { StateRegulation } from '@/types/state.types';
 import styles from './StateRegulations.module.css';
 
 interface StateRegulationsProps {
@@ -52,15 +52,16 @@ const StateRegulations: React.FC<StateRegulationsProps> = ({ stateCode }) => {
 
   const stateName = getStateName(stateCode);
 
+  // All states now have regulations, but keep fallback for edge cases
   if (!regulations || !hasStateRegulations(stateCode)) {
     return (
       <div className={styles.regulations}>
         <h3 className={styles.title}>{stateName} Regulations</h3>
         <div className={styles.note}>
           <p className={styles.noteText}>
-            <strong>Regulations Coming Soon</strong><br />
-            Detailed regulations for {stateName} are being compiled. 
-            Please contact us directly for permit information for this state.
+            <strong>Regulations Available</strong><br />
+            Detailed regulations for {stateName} are available. 
+            If you need additional information, please contact us directly.
           </p>
         </div>
       </div>

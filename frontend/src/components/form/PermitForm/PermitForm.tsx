@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import axios from 'axios';
 import { permitFormSchema, PermitFormData } from './validationSchema';
-import { PermitRequest } from '../../../../shared/types/permit.types';
+import { PermitRequest } from '@/types/permit.types';
 import { US_STATES } from '@/utils/constants/states';
 import Input from '@/components/common/Input';
 import Select from '@/components/common/Select';

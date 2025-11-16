@@ -1,4 +1,4 @@
-import { USState } from '../../../../shared/types/state.types';
+import { USState } from '@/types/state.types';
 
 export const US_STATES: USState[] = [
   { code: 'AL', name: 'Alabama' },
