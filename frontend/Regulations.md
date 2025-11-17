@@ -1,0 +1,2624 @@
+Alabama
+Alabama Oversize Information
+
+Permits
+
+Oversize Permits are valid for 5 days in this state. Driver must have a permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed during daylight only, (one-half hour before sunrise to one-half hour after sunset) Monday through Saturday. No Sunday travel. Continuous travel is not allowed even when overweight only.
+
+Restrictions
+
+No travel is allowed on major holidays.
+
+Speed Limit
+
+For overweight speed limit might listed on the permit. For oversize loads maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ (8′ on lanes less than 12′ wide)
+Height: 13’6”;
+Length: 57′ trailers (53’6″ on roads less than 12′ wide) and 85′ overall (unless trailer exceeds 57′);
+Overhang: 10′ front; 5′ rear; must be within length limits;
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 42,000.
+These parameters are established by the local legislation.
+
+Routine Oversize Load Permit Limits
+
+Width: 16′ (over 14′ cannot use Interstate)
+Height: 16’
+Length: 150′ (maximum overhang 20′)
+Overhang: 20′ overhang is the maximum permitted.
+Weight: 250,000 Gross weight; Steer – 12,000; Single – 22,000; Tandem – 44,000; Tridem – 66,000; Quad — 88,000; 5 axles – 110,000; 6 axles – 122,000; 7 axles – 142,000; 8 axles – 150,000
+Loads exceeding these dimensions, over 150,000 are Superloads.
+
+
+
+Get Your Permit Today
+Call: 224-998-3880
+Escorts
+
+Width: over 12′ – 2 escort pilot cars needed.
+Height: over 15’5′ – 1 escort pilot car needed *(may be needed at lower heights on some routes)
+Bucket or Blade Rule: If bucket or blade protrudes past sides of the trailer – 1 escort needed. (No escort needed if outriggers are used to prevent bucket or blade from protruding sides of the trailer).
+Length: over 90 – 1 escort pilot car needed, over 105′ – 2 escorts needed.
+Overhang: over 5′ rear overhang – 1 rear escort needed, over 10′ front overhang – 1 front escort needed.
+Miscellaneous
+
+Bulldozers, front-end loaders and similar equipment shall be loaded with the blade to the rear any time the blade protrudes beyond the transporting vehicle. Overweight dozer and blade must be attached, or else hauled on separate loads if the blade is detached. 60′ Structural steel is exempt from permits and escorts.
+
+Security Measures
+
+“Oversize Load” signs must be clearly visible on the front and the rear of any over-width or over-length vehicle or combination of vehicles and loads. Flags must be placed at the front and the rear corners of any over-dimensional load or vehicle. Over 4′ rear overhang requires lights at night. (Over 5′ needs a permit, and cannot run at night). There are no sign or flag requirements for overweight or overweight only loads.
+
+Washington
+Washington oversize permits information
+Washington Oversize Permits
+Washington oversize permits are valid for 3 days. Must have the overweight permit prior to entering the state.
+Operating time
+Travel is allowed one half hour before sunrise to one-half hour after sunset, including Saturdays and Sundays. Vehicle/loads not exceeding 12′ wide, 14’6″ high and 105′ long, including legal overhangs, are allowed to travel at night with proper lighting.
+Restrictions
+Weekday curfew restrictions for the cities of Seattle-Everett, Tacoma, Olympia, Vancouver, Kelso and Spokane are listed on the Commuter Curfew Hours sheet which accompanies permits. No travel allowed starting noon the day prior to a major holiday until one-half hour before sunrise the day after a holiday and some holiday weekends.
+Speed Limit
+60 mph. unless otherwise specified on permit.
+Legal dimensions
+The vehicle must have the following characteristics:
+Width: 8’6″
+Height: 14′
+Length: 53′ semi-trailer (a 56′ trailer and load permit is available for legal loads)
+Overhang: 3′ front, 15′ rear from center last axle to end of load
+Weight: 80,000 Gross; Steer – 600 lbs. per inch of width; Single – 20,000; Tandem – 34,000; Tridem – 42,000 (with at least 8′ of axle spacing)
+Routine permit limits
+Width: 16′
+Height: 16′
+Length: 125′ trailer and load
+Weight: Single – 22,000; Tandem – 43,000
+Note: Washington state oversize permits do not guarantee height clearances on permitted routes.
+Escorts
+On Multiple Lane Highways:
+Width: Over 14′ – 1 escort; over 20′ – 2 escorts (Seattle 12'0" - 1 pilot car, over 14'0" 2 pilot car.)
+Height: Over 14’6″ – 1 escort with height pole (Seattle 14'1" - 1 pilot car, over 15'0" 2 pilot car.)
+Length: Trailer length including load over 125′ – 1 escort (Seattle 81'0" - 1 pilot car, over 90'0" 2 pilot car.)
+On 2-Lane Highways:
+Width: Over 11′ – 2 escorts
+Height: Over 14’6″ – 1 escort with height pole
+Length: Trailer length including load over 105′ – 1 escort
+Overhang: rear overhang exceeds 1/3 of total trailer and load length – 1 escort; front overhang of 20′ measured from center of steering axle to front of load – 1 escort
+
+
+Security measures
+“Oversize Load” signs are required on all over dimensional loads. Flags must be displayed on all four corners of all over width loads, and at the extreme ends of all protrusions, projections, or overhangs.
+When night movement is allowed, loads projecting beyond the sides of the vehicle must have amber lights visible from the front and side at the outermost extremities. Rearmost edge of the projecting load must be marked with a red lamp visible from the rear and side.
+
+Oregon
+Oregon Oversize Permits Information
+
+Permits
+
+Oregon Oversize Permits are valid for 10 days. Driver must have the permit prior to entering the state.
+
+Operating Time
+
+Loads less than 10′ wide on Green Routes and less than 12′ wide on all Interstate roads or Green Routes are allowed continuous travel. All other loads are allowed travel one-half hour before sunrise to one-half hour after sunset, seven days a week from Labor Day to Memorial Day. Memorial Day to Labor Day, travel is restricted starting noon on Saturday and all day Sunday.
+
+Restrictions
+
+Loads that exceed 12′ wide are restricted movement in Portland, Salem, Eugene, Grants Pass and Medford areas from 7:00 to 9:00 a.m., 11:00 a.m. to 1:00 p.m. and 4:00 to 6:00 p.m.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14′
+Length: 53′ semitrailer and no overall limit on designated routes. Group 1 routes – 60′
+Overhang: 4′ front; 5′ rear; Rear overhang not to exceed 1/3 of wheelbase of the tractor/trailer combination.
+Weight: 80,000 Single – 20,000 Tandem – 34,000 Tridem – Depends on spacing
+Routine Permit Limits
+
+Width: 16′
+Height: 17’
+Length: 150′
+Weight: Single – 21,500; Tandem – 43,000; Tridem – Depends on spacing, maximum 58800.
+Escorts
+
+On Interstate and multi-lane highways:
+
+Length: Over 120′ – 1 escort pilot car; over 140′ – as required on permit
+Width: Over 14′ – 1 escort pilot car; over 16′ – as required on permit
+Height: Over 14’6” – 1 escort pilot car
+On 2-lane “green” routes:
+
+Length: Over 105′ – 1 escort pilot car; over 120′ – 2 escort pilot cars; over 140′ – as required on permit
+Width: Over 12′ – 1 escort pilot car; over 14′ – 2 escort pilot cars; over 16′ – as required on permit
+Height: Over 14’6” – 1 escort pilot car
+Most other 2-lane routes:
+Length: Over 95′ – 1 escort pilot car; over 120′ – 2 escort pilot cars; over 140′ – as specified by permit
+Note*: Extra restrictions and pilot cars are required on a few secondary routes
+
+Width: Over 9′ – 1 escort pilot car
+Height: Over 14’6” – 1 escort pilot car
+Security Measures
+
+“Oversize Load” are required on all wide loads and vehicle/loads over 80′ long. Flags at least 18″ square are required on all wide loads at the outermost extremities. Night travel requires illuminated lamps or marker lights at the outermost extremities. Rear overhang of 4′ or more must be marked with a flag or, in darkness with red warning lights. When width exceeds 10′ on a two-lane highway, or 12′ on a multi-lane highway, amber warning lights are required unless operating with a minimum of two pilot cars.
+
+California
+California Oversize Permits Information
+
+Permits
+
+California Oversize Permits are valid for 7 days.
+
+Operating Time
+
+Travel is permitted from one-half hour before sunrise to one-half hour after sunset, although the Department of Transportation may grant night and weekend operations depending on the dimensions of the load. Night and weekend travel must be requested at the time of ordering your California Oversize Permit.
+
+Restrictions
+
+No travel for loads over 10′ wide, Monday through Friday in the Sacramento, San Francisco and San Diego areas: 7:00 – 9:00 a.m. & 4:00 – 6:00 p.m. Los Angeles area: 6:00 – 9:00 a.m. & 3:00 – 6:00 p.m. *San Francisco/Oakland Bay Bridge: 6:30 – 9:00 a.m. & 3:30 – 6:30 p.m. *Over 11′ wide or over height require highway patrol escort. Over 12′ wide restricted to 11:00 a.m. – 1:00 p.m. Monday – Friday. Holiday travel restrictions usually apply only for larger loads.
+
+Speed Limit
+
+55 mph, unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14′(overheight not permitted on flat-bed, see next section)
+Length: 75′ (65′ on non-designated highways), 48′ semitrailer. 60′ poles, pipes, machinery, steel beams or other objects of a structural nature do not require a permit.
+Note*: 53′ trailers are not legal unless the kingpin to center of rear axle does not exceed 40′. Longer trailers can be permitted only if they are stretched for a specific load, or it can otherwise be justified by the load.
+
+Overhang: 10′, as long as length including overhang does not exceed 75′ overall.
+Weight: 80,000 Gross Single – 20,000; Tandem – 34,000; Tridem – depends on axle spread
+Routine California Oversize Permit Limits
+
+Width: 15′
+Height: Depends on the route. Written route review may be required from the applicant for heights greater than 17′.
+Length: Generally up to 135′
+Overhang: When rear overhang puts the tractor/trailer over 80′ total length, California may deny a permit and require the load to be on a stretch trailer.
+Weight: Steer – 12,500; Single – 20,000; Tandem – 46,000*; Tridem – 58,061 to 60,000*; Spread axle tandems (8’–10’2 spread) can only have 40,000 pounds maximum. Tridems with over 10′ spacing (5’–5′) can only be permitted for 40,000 pounds maximum. Over 15′ wide, 17′ high or 135′ long are considered super loads.
+*Note: These vary depending on axle spacing and routes.
+
+
+
+Get Your Permit Today
+Call: 224-998-3880
+Escorts
+
+Length: Over 100′ on some routes – 1 escort pilot car, over 120′ – 1 escort pilot car
+Overhang: Over 25′ front or rear – 1 or more escort pilot cars.
+Width: Over 12′ – 1 escort pilot car (Some local routes may need escort under 12′), over 13′ on 2-lane – 2 escort pilot cars on some routes, over 14’11” on Interstate and 4-lane – 2 escort pilot cars, over 16′ (over 15′ on 2-lane) also needs CHP escorts (3 CHPs).
+Height: Over 17′ – 1 escort pilot car, utility clearance, and route survey. CHP escorts may also be required. If an escort is desired for a lower height, it must be stated on the trip permit, or you will be subject to a fine.
+Security Measures
+
+Signs and flags are required on vehicles that are over 8’6″ wide, over 80′ long, or have over 10′ overhang. Signs are also required when overweight only. For night travel, amber marker lights are required at front corners of load and one on left outside extreme edge, visible from front and sides, and red at rear corners visible from rear and sides. When a rear overhang is 4′ or greater, it requires at least two lights or rear light bar at night. Rear light bar not needed on long load in daylight unless turn signals and brake lights are hidden by the load.
+
+Alaska
+Alaska Oversize Permits Information
+
+Permits
+
+Alaska Oversize Permits are valid for 3 days, more time may be requested for distance or weather-related issues.
+
+Operating Time
+
+Daylight only (one-half hour before sunrise to one-half hour after sunset), Monday through Saturday. Legal width, and up to 15′ high and 75′ long may travel anytime. Up to 10′ wide may travel on weekends. Over 10′ wide may travel until 12:00 noon on Saturdays. No Sunday travel.
+
+Restrictions
+
+No travel allowed Monday – Friday in urban areas from 7:00 – 8:00 a.m. and 4:30 – 6:00 p.m. No Sunday travel. No travel on major holidays. For holidays that fall on Sunday or Monday, any movement is prohibited from noon Friday through midnight Monday. For holidays that fall on Friday or Saturday, any movement is prohibited from noon Thursday through midnight Sunday.
+
+Speed Limit
+
+55 mph.
+
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 15′
+Length: 48′ semi-trailer, 75′ overall, but 53′ semi-trailers with no overall length limit are legal on designated highways if kingpin to center of rear group does not exceed 41′
+Overhang: 3′ front, 4′ rear
+Weight: GVW not specified. Single – 20,000 (8′ 1″ min. spacing)*; Tandem–38,000 (3′ 6″ min. spacing); Tridem–42,000 (3′ 6″ min. spacing); Quad–50,000 (3′ 6″ min. spacing)
+*Note: Spread axle groups cannot carry over approximately 10,000 pounds per axle in British Columbia.
+
+Routine Alaska Oversize Permit Limits
+
+Width, Height, Length: Depends on routes.
+
+Weight: 1500,000 Gross; Single – 30,000; Tandem – 56,000; Tridem – 70,000; Quad – 80,000
+
+
+Get Your Permit Today
+Call: 224-998-3880
+Escorts
+
+Width: Over 10’6” – 1 escort pilot car; over 12′ – 2 escort pilot cars; over 14′ – 3 escort pilot cars
+Height: Over 17′ – 1 escort pilot car with height pole
+Length: Over 85′ – 1 escort pilot car; over 100′ – 2 escort pilot cars
+Overhang: Front overhang of 3′-10′ – front escort pilot car; Rear overhang of 4’–20′ – 1 escort pilot car or can use extended light bar in lieu of escort; over 20′ – 1 escort pilot car b.
+Security Measures
+
+Permits not issued for divisible loads. “Oversize Load” signs are required on any wide load. Flags are required on over width loads/vehicles and on overhangs. Signs or flags are not required for movements that are overweight only
+
+Idaho
+Idaho Oversize Permits Information
+
+Permits
+
+Idaho Oversize Permits are valid for 5 days.
+
+Operating Time
+
+Travel is allowed one-half hour before sunrise to one-half hour after sunset, including Saturdays and Sundays (majority of routes). Up to and including 10′ wide, 120′ long or 14’6 high, travel is allowed 24/7 (majority of routes) with lighting as specified on the Idaho oversize permit. Weekend travel is allowed on the majority of routes during daytime hours.
+
+Restrictions
+
+If the load is over 13′ wide, movement is prohibited between 6:30 a.m. – 8:30 a.m., and 4:00 p.m. – 6:00 p.m. in most major cities. Holiday travel restrictions depend on dimension and route.
+
+Speed Limit
+
+Interstate 70 mph. Non-interstate 65 mph. Unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14′
+Length: 53′ semi-trailer on National Network, 48′ trailer on non-National Network (“non-designated”)
+Overhang: 4′ front, 10′ rear
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – depends on spacing; Steer – 600 pounds per inch of tread width (13,200 pounds with 11″ tires).
+*Note: Several 2-lane highways in Idaho are non-designated, including US-12 except in the Lewiston to Spalding, US-93 from Salmon to Challis, and US-95 from Council to Grangeville. For divisible loads, trailers exceeding 48’ are only allowed with an annual extra length permit, and the tractor-trailer off-track measurement must not exceed 5’6″ (3.00 on a few mountain routes). Non-divisible loads are covered by a single or annual permit, without regard to off-track amount.
+
+Routine Idaho Oversize Permit Limits
+
+Width: 16′
+Height: 15’6″
+Length: 110′.
+Weight: Single – 33,000 to 22,000*; Tandem – 56,000 to 38,500*; Tridem – 70,500 to 48,000*;  Steer – 600 pounds per inch of tread width (13,200 pounds for 11″ tires)
+Note*: Group weight maximums depend on route classification, with Interstate routes getting the highest. Loads exceeding these dimensions are considered Super Loads.
+
+Escorts
+
+Width: On 2-Lane Highways: Over 12′ – 1 escort pilot car; over 14′ – 2 escort pilot cars; over 16′ – may require 3 escort pilot cars; On Interstate System: Over 15′ – 1 escort pilot car; over 16′ – may require 2 or 3 escort pilot cars
+Height: Over 16′ – 1 escort pilot car.
+Length: On 2-Lane Highways: Over 100′ – 1 escort pilot car ; On Interstate System: Over 120′ – 1 escort pilot car; Overhang: Over 25′ rear – 1 escort pilot car.
+Security Measures
+
+“Oversize Load” signs are required on all permit loads. Flags are required on all four corners and extremities of oversized loads.
+
+Nevada
+Nevada Oversize Permits Information
+
+Permits
+
+Nevada oversize permits are valid for 5 days. Driver must have an overweight permit prior to entering the state.
+
+Operating Time
+
+One-half hour before sunrise to one-half hour after sunset, plus the following exceptions: Loads not exceeding 12 wide, 15′ high, 110′ long are permitted for night travel. Loads not exceeding 14′ wide, 15′ high, 110′ long, are permitted for weekend travel except in restricted areas noted in next section.
+
+Restrictions
+
+No travel is allowed on major holidays and holiday weekends. For loads exceeding 12′ wide, 15′ high, 110′ long, no weekend travel is allowed on I-80 between Sparks and California line or on I-15 between Las Vegas (exit 33) and California line. There are no weekday curfews for Las Vegas, Reno or other cities. Holiday travel is usually permitted for loads not exceeding 12 wide, 15′ high, 110′ long.
+
+Speed Limit
+
+Interstate routes - 70 mph. Non-interstate routes - 65mph. unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14′
+Length: 53′ semi-trailer, 75′ maximum length (including rear overhang)
+Overhang: 10′ (sum of both front and rear), (as long as length including overhang does not exceed 75′).
+Weight: 80,000 Gross Single – 20,000 Tandem – 34,000 Tridem – 42,000
+Routine Oversize Permit Limits
+
+Width: 14′
+Height: 15′
+Length: 110′
+Overhang: 25′ (sum of both front and rear).
+Weight: Single – 20,000; Tandem – 46,725* Tridem – 58,000 to 59,000*; (5 axles)* (6 axles)* (7 axles)* – *Depends on spacing
+Escorts
+
+On Interstate and 4 or more lane highway:
+
+Width: Over 14′ – 1 escort pilot car; over 16′ – 2 escort pilot cars; over 17′ – may require 2 escort pilot cars and Highway Patrol.
+Height: Over 15’6″ – 1 escort pilot car with height pole
+Length: Over 105′ – 1 escort pilot car
+Overhang: Over 25′ front or rear – 1 escort pilot car
+On 2 or 3-lane highway:
+
+Width: Over 12′ – 1 escort; over 14′ – 2 escort pilot cars; over 16′ – 3 escort pilot cars, over 17′ – reviewed on an individual basis, may require 2 escort pilot cars and Highway Patrol. Hoover Dam area: width 8’6″ to 10′ (maximum allowed) – 2 escort pilot cars.
+Height: Over 15’6″ – 1 high-pole escort
+Length: Over 105′ – 1 escort pilot car
+Overhang: Over 25′ front or rear – 1 escort pilot car
+Security Measures
+
+All oversized vehicles must display “Oversize Load” signs in the front and rear. Flags must be placed on all 4 corners of the load and at the maximum widths when the load is wider that vehicle. Over 4′ overhang should also display flags. Headlights must be on low beam. Signs and flags shall only be displayed when necessary.
+
+NEVADA LIGHT PERMIT: You must have a Nevada Light Permit to run flashing revolving amber warning light(s) or even to travel with it turned off but uncovered.
+
+Arizona
+Arizona Oversize Permits Information
+
+Permits
+
+Arizona oversize permits are valid for four days. Drivers have the option of purchasing permits at most Ports of Entry.
+
+Operating Time
+
+Travel is allowed during daylight hours, (one-half hour before sunrise to one-half hour after sunset). Loads or vehicles not over 10′ wide or 14’6” high or not over 10′ rear overhang are allowed continuous travel. Loads not over 16′ wide, 16′ high,120′ long and 250,000 pounds may travel on Interstate and specified state routes at night, and from 3:00 a.m. to 12:00 noon on weekends (except on holiday weekends and in curfew areas), this must be requested when a permit is ordered and must be stated on the permit. Note – all loads over 11′ wide will be required to have one escort to travel from 3 a.m. to noon on weekends, and loads 15′ high and over will need escort with a height pole.
+
+Restrictions
+
+No over-dimensional or overweight loads allowed on I-17, I-10 and SR 60 within city limits of the Phoenix area; or I-10 or I-19 within city limits of the Tucson area between the hours of 7:00 – 9:00 a.m. and 4:00 – 6:00 p.m. Monday – Friday. Local “Courtesy Permit” route approval is required for over dimensional travel within Phoenix and Tucson. No travel permitted on major holidays.
+
+Speed Limit
+
+55 mph, unless otherwise specified on permit.
+
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14′
+Length: 57′ 6″ semi-trailer on Interstate; 65′ overall combination if more than 53′ semi-trailer on other highways
+Overhang: 3′ front, 6′ rear
+Weight: 80,000 Gross; Steering – 20,000; Single – 20,000; Tandem – 34,000; Tridem – 42,000
+Routine Arizona Oversize Load Permit Limits
+
+Width: 14′ 
+Height: 16′
+Length: 120′
+Weight: 250,000 Gross; Tandem – 46,000*; Tridem – 51,450–53,974*; Tridem – 28,000* (Tandem and Tridem weights may vary depending on axle spacing and axle width.
+
+
+Get Your Permit Today
+Call: 224-998-3880
+Escorts
+
+Width: over 14′ – 1 or more escort pilot cars. Some restricted routes require 2 escort pilot cars over 12′ wide and a few for over 10′ wide
+Height: over 16′ – 1 or more escort pilot cars
+Length: over 120′ – 1 or more escort pilot cars
+Overhang: Front or Rear over 20′ – 1 escort pilot car.
+Security Measures
+
+All overwidth vehicles or loads exceeding 8′ 11″ need to display “Oversize Load” signs. All overwidth loads and vehicles must be flagged with red or fluorescent orange flags 18″ square or larger on all 4 corners and at the widest points of the load. Any front or rear overhang must be flagged or lighted. Up to 10′ overhang may travel at night but must be lit and flagged. There are no sign or flag requirements for overheight or overweight only loads.
+
+Hawaii
+Hawaii Oversize Permits Information
+
+Permits
+
+Permits are valid only for dates specified.
+
+Operating Time
+
+Travel is allowed during daylight hours, except during peak hours. Divisible load permits are not available. The permit covers only the person or firm designated as permitted and is not transferable. The permit shall be carried in the vehicle during the movement. For Annual permits a copy of the permit is carried in the vehicle and the original permit must be readily available for inspection from the operator’s offices in the county of issuance.
+
+Restrictions
+
+Weekend/Night Travel – Operating time is specified on the permit. Night travel may be authorized in the permit for oversize or overweight vehicles. Authorized weekend travel will also be noted on the permit. Movements on Saturdays and Sundays are at the discretion of the applicable district engineer. Holiday – Restrictions are noted on the permit and holiday travel may be authorized.
+
+Travel may be restricted on state highways during the following hours 5:00–8:30 am and 3:00–6:00 pm. Hawaii Administrative Rules Chapter 19-101 establishes restricted movement of overweight vehicles along and upon Hana Highway between Kailua Village and Hana Town. (Restricted gross weight of less than 10 ton without a permit)
+
+Legal dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 9
+Height: 14
+Length: 48′ semi-trailer, 65′ overall
+Overhang: 4′ front, 4′ rear.
+Weight: GVW 88000.
+Routine Oversize Permit limits
+
+Width: 14’
+Length: 70’
+High: 16’
+Escorts
+
+Width: 12’
+Height: Depends on routing
+Length: Depends on routing
+Security Measures
+
+ESCORTS AND SIGNS Labeling — Signs reading “wide load” are required on all vehicles over 12' in width. Sign must have yellow background with black letters 10" high. Sign dimensions must be 6' x 1'. Red flags 24" square are required on vehicles over 12' in width. Escort Vehicles and Personnel — Vehicles over 12' in width must be accompanied by a lead escort. Two escorts are required for vehicles over 14' in width. Certification – Pilot Car Escort Certification is not currently required.
+
+Utah
+Utah Oversize Permits Information
+
+Permits
+
+Oversize permits are valid for 5 days. Driver must have permit prior to entering the state, unless a permit is purchased at state line Port Of Entry.
+
+Operating Time
+
+Loads that do not exceed 12′ wide, 14′6 high, 105’ long, or have an overhang in excess of 10′ are allowed travel 24 hours 7 days a week with proper safety equipment. All other loads are allowed to travel one-half hour before sunrise to one-half hour after sunset, including Saturday and Sunday.
+
+Restrictions
+
+Loads exceeding 10′ wide, 14′ high, 105′ overall length are prohibited travel from 6:00 a.m. to 9:00 a.m. and 3:30 p.m. to 6:00 p.m. Monday through Friday in the following counties: All highways south of Perry Interchange, I-15, exit 357; all highways in Weber, Davis, and Salt Lake counties, all highways north of Ironton Interchange, Exit 261 on I-15, SR75 and SR68 MP 16 in Utah county. No travel is allowed starting at 2:00 p.m. the day prior to a major holiday and on Pioneer Day (July 24th) until daylight the following weekday.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14′
+Length: 53′ semi-trailer
+Overhang: 3′ front, 6′ rear
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 42,500
+Routine Utah Oversize Permit Limits
+
+Width: 17′
+Height: 17′ 6″
+Length: No set maximum.
+*Note: Bulldozer blades, loader buckets or similar equipment exceeding 16′ must be removed for transport, but may be hauled on same load.
+
+Escorts
+
+On Interstate and freeways:
+
+Width: Over 14′ – 1 escort; over 16′ – 2 escorts; over 20′ – 2 escorts and 1 police escort
+Height: Over 16′ – 2 escorts; over 17’6″ – 2 escorts and 1 police escort
+Length: Over 120′ – 1 escort; over 175′ – 2 escorts and 1 police escort; over 200′ – 2 escorts and 2 police escort
+Overhang: Over 20′ – 1 escort
+On other highways:
+
+Width: Over 12′ – 1 escort; over 14′ – 2 escorts; over 17′ – 2 escorts and 1 police escort
+Height: Over 16′ – 2 escorts; over 17’6″ – 2 escorts and 1 police escort
+Length: Over 105′ – 1 escort; over 120′ – 2 escorts; over 175′ – 2 escorts and 1 police escort; over 200′ – 2 escorts and 2 police escort
+Overhang: Over 20′ – 1 escort
+*Note: Loads exceeding 10′ wide, 105’ long, or have an overhang in excess of 10′ need an escort when moving at night.
+
+Security Measures
+
+“Oversize Load” signs and red flags are required on all vehicles exceeding 10′ wide, 14′ high, or 105′ long. Red flags are required on front overhangs exceeding 3′ or rear overhangs exceeding 4′. Loads 10′ wide must have marker lights indicating extreme width, amber lights at the front and center of the load, and red lights at the rear. Overhang exceeding 20′ (front or rear) must have a rotating or flashing beacon mounted at end of the overhang. Loads with 3′ front and 4′ rear overhang require steady amber marker light (front overhang) or red clearance light (rear overhang). Warning lights are required when headlights are necessary.
+
+Montana
+Montana Oversize Permits Information
+
+Permits
+
+Montana Oversize Permits are valid for 3 days.
+
+Operating Time
+
+Loads not exceeding 10′ wide, 14’6″ high, or 110′ in length may travel 24/7 on all routes.  Daylight hours (½ hour before sunrise to ½ hour after sunset), including Saturdays and Sundays, is allowed for loads not exceeding 18′ wide, 18′ high, or 120′ in length except on Red Route highways. DW21 and 5 MPH conditions on 2-lane highways only allow daytime travel.
+
+Restrictions
+
+Montana oversize permits do not allow for travel on major holidays, holiday weekends or on Red Route Highways after 3:00 P.M. Fridays until Sunrise on Saturday, and from 12:00 Noon Sunday to sunrise on Monday if dimensions exceed 10′ wide, 15’6″ high or 110′ in length; and no travel is allowed on major holidays, holiday weekends or after 3:00 P.M. Friday until Monday morning if dimensions exceed 18′ wide, 17′ high, or 120′ in length.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6”
+Height: 14′
+Length: 53′ semi-trailer, 75′ maximum length if trailer exceeds 53′ or if there is any rear overhang
+Overhang: Overall length including overhang up to and including 75′ is legal. Over 75′ needs permit.
+Weight: 80,000 Gross Single – 20,000 Tandem – 34,000 Tridem – 42,000
+Divisible Loads Exceeding 80,000: You can exceed 80,000 gross without a permit as long as you are legal on all axle/group weights and you are licensed for at least the amount of your gross weight.
+
+Routine Montana Oversize Permit Limits
+
+Width: 18′
+Height: 17′
+Length: 150′
+Weight: Single – 24,000; Tandem – 48,000*; Tridem – 62,700*; 5 axles, 6 axles or 7 axles depends on spacing
+*Variable, dependent on axle spacing;
+
+Escorts
+
+On Interstate Highways:
+
+Width: Over 16’6″ – 1 escort pilot car
+Length: Over 120′ – 1 escort pilot car
+On 2-Lane Highways:
+
+Width: Over 12’6″ – 1 escort pilot car, over 16’6 – 2 escort pilot cars
+Length: Over 110′ – 1 escort pilot car
+Height: Over 17′ – 1 escort with high pole
+Weight: Over 54,300 – 55,000 on a Tridem (varies with spacings) – 2 escorts (DW21 Conditions)
+Security Measures
+
+Vehicle/load exceeding 10′ in width require “Oversize Load” signs front and rear, and 5″ flashing amber lights, revolving beacon or strobe light(s) are required at each end of the Oversize Load sign on the power unit, or a single beacon light may be used on top of the power unit as long as it is visible from all directions. If the light is blocked by the height/width of the load, the rear of the load should also have a light. “Long Load” sign must be displayed on the rear of combinations exceeding 105′ on non-Interstate routes, and exceeding 120′ on Interstate routes. Over length load does not need signs if less than 110′ total overall length.
+
+Wyoming
+Wyoming Oversize Permits Information
+
+Permits
+
+Wyoming oversize permits are obtained from Ports of Entry by the driver (see phone list at bottom of this page). Driver must call ahead to the Port/Scale at least one hour prior to arrival and obtain a clearance number. Failure to do this will result in up to a $500 fine and 24-hour shutdown. The permit is usually valid for one day or one trip.
+
+Operating Time
+
+One-half hour before sunrise to one-half hour after sunset, including weekends, plus loads not exceeding 10′ wide, and all other dimensions are legal, may travel at night on Interstate highways only with proper lighting.
+
+Restrictions
+
+Holiday travel is usually allowed for loads not requiring escorts, but Ports of Entry are not open, so check with the Port on pre-ordering permit if you wish to run on the holiday.
+
+SEASONAL LOAD RESTRICTIONS: No specific annual restrictions, but they may be imposed as necessary during spring thaw.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Length: 60′ semi-trailer and load (including any overhang)
+Width: 8’6″
+Height: 14′
+Weight: 80,000 – 117,000 Gross (Federal Bridge Formula applies) Single – 20,000 Tandem – 36,000 Tridem – 42,000 (8’1″ to 8’5″ of spacing) 36,000 with 8′; 42,500 pounds with greater than 8’6″ spacings; and 43,500 with greater than 10′ of spacings
+Divisible Loads Exceeding 80,000: You can exceed 80,000 gross without a permit on state and Interstate highways as long as you are legal on all axle weights and bridge and you are licensed for at least the amount of your gross weight.
+
+Routine Wyoming Oversize Permit Limits
+
+Length: 110′
+Width: 18′
+Height: 17′
+Weight: Single – 25,000 Tandem – 55,000 Tridem – 65,000 Quad - 74,000
+Register for up to 117,000 pounds to permit for that much or more
+
+Loads in excess of these dimensions are considered as superloads.
+
+Escorts
+
+On Interstate Highways:
+
+Length: At discretion of WY Highway Patrol
+Overhang: Over 25′ rear – 1 escort
+Width: Over 14′ – 1 escort (Additional escorts may be required by the Highway Patrol for extreme widths.)
+Height: As determined by WY Highway Patrol (not usually required)
+On 2-nd Lane Highways:
+
+Length: Over 109′ – 2 escorts
+Width: Over 13’11” or if load extends past center lane at any time – 2 escorts
+Height: As determined by WY Highway Patrol (not usually required)
+Security Measures
+
+All oversize loads/vehicles must display Oversize Load on both front and rear. Flags are to be placed on projections extending beyond sides of trailer. Over 4′ of rear overhang must be flagged (daytime) or lighted at night.  Night running, if allowed, requires an amber clearance light on each front corner and red clearance light on each rear corner of the load and a revolving amber light, amber strobe, or two-way flashing amber lights at least 4″ in diameter mounted on the vehicle visible to both front and rear.
+
+Colorado
+Colorado Oversize Permits Information
+
+Permits
+
+Colorado Oversize Permits are valid for 5 days.
+
+Operating Time
+
+Sunrise to Sunset. Overweight-only vehicles, not in excess of 110,000 pounds GVW are granted continuous travel. Up to 12′ wide, night travel is allowed with proper lighting, see “signs and lights” below. Over 12′ wide but not over 14′ wide requires an escort for night running.
+
+Restrictions
+
+Curfew times are shown on the addendum that accompanies a permit. Travel is prohibited during peak hours of 6:00 a.m. – 9:00 a.m. and 3:00 p.m. – 6:00 p.m. Monday through Friday. Eisenhower Tunnel on I-70: maximum overall height allowed is 13’11”. Higher loads use US6 to bypass the tunnel. Over 11′ wide permitted loads must pull over and call to get clearance to pass through the tunnel. Loads into or out of Denver require a city permit for city streets.
+
+No oversize movement is EVER allowed where the “Chain Law” is in effect. Overweight ONLY are allowed to chain up and proceed as conditions allow. Chain Law is generally in effect from September 1st through May 31st on I-70 from M.M 133-M.M 259.
+
+Speed Limit
+
+Interstate 65 mph. Non-interstate 55 mph. Speed limit might be listed on the permit. Both of OS or OW loaded trucks must slow down in settlements and on the bridges. Following speed signs on the road.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14′ 6″ designated highways, 13′ non-designated.
+Length: 57’4″ trailer and load legal on the interstate or designated highways, if trailer exceed 57'4" permit require.
+Overhang: 4′ front, 10′ rear. Over 4′ rear needs lighting for night running
+Weight: 80,000 Gross on Interstate; 85,000 on non-Interstate; Steer – 20,000; Single – 20,000; Tandem – 36,000; Tridem – 54,000
+Routine Colorado Oversize Permit Limits
+
+Width: 17′
+Height: 16’ over 14’6” requires a survey
+Length: 130′ (4-lane highways).
+Overhang: 25′ front, 35′ rear.
+Weight: Single – 22,000-27,000; Tandem – 42,000-50,000; Tridem – 55,000-65,000; Quad– up to 72,000 max.
+The maximum permitted weights depend on route classification and axle spacing.
+
+Loads exceeding 17′ wide or 200,000 GVW are Super Loads.
+
+
+
+Get Your Permit Today
+Call: 224-998-3880
+Escorts
+
+Length: Over 85′ on some portions of 2 and 4-lane highways – 1 escort pilot car, over 110′ on 2-lane or over 115′ on 4 or more lanes – 1 escort pilot car
+Overhang: Over 25′ – 1 escort pilot car.
+Width: Interstate over 15′ – 1 rear escort or one flashing yellow light in the rear.
+The following requirements apply to most routes (“Green Routes”); some smaller routes may require more:
+
+Two-lane highways: Width: over 13′ – 1 escort, over 15′ – 2 escort pilot cars or 1 front escort pilot car and flashing yellow light in rear.
+Four-lane highways:
+Width: over 13′ – 1 rear escort pilot car or one flashing yellow light in the rear, over 15′ – 2-escort pilot cars, or front escort pilot car and flashing yellow light in the rear
+Height: Over 16′ – 1 escort pilot car with a high pole, over 17’6″ – route survey and utility clearance letters also required
+*Note: All pilot car vehicles must be over 60″ wide for CO.
+
+Security Measures
+
+“Oversize Load” signs are required front and rear for all oversize loads. They are not required and should not be used for overweight ONLY loads. Flags are required at all four corners of any extremities for wide and over length loads, and at the end of load projections greater than 4 feet. For night travel of wide loads < 12′, a flashing yellow light mounted on the front of the vehicle and two or three mounted to the extreme rear are required. Over-length or with rear overhang (over 10′) may run at night with a flashing yellow light mounted to the front of the vehicle and from one to three cluster lights mounted to overhang (red for rear overhang, yellow for front overhang). For night travel with legal overhang (10′ rear or less) but greater than 4′ rear, a red light or lantern plainly visible for 500 feet is required at the end of load projection.
+
+New Mexico
+New Mexico Oversize Information
+
+Permits
+
+The transportation permit is valid for 5 days. The driver must have the corresponding document that grants him the right to enter the state.
+
+Operating Time
+
+New Mexico oversize overweight permits allow for travel one-half hour before sunrise to one-half hour after sunset 7 days a week. Loads not exceeding 10’ wide, 14’6” high, 120’ long and/or 140,000 pounds are permitted continuous travel.
+
+Restrictions
+
+Monday through Friday, movement is prohibited between the hours of 7:00 a.m. – 9:00 a.m. and 4:00 p.m. to 6:00 p.m. in the city limits of Albuquerque, Rio Rancho, Santa Fe, Las Cruces, Los Lunas and Espanola. No travel on major holidays.
+
+Speed Limit
+
+Permittee shall comply with all posted speed limits and under no circumstances shall the permittee exceed sixty-five (65) MPH.
+
+Legal Dimensions
+
+Width: 8’6″
+Height: 14′
+Length: 57’6″ trailer on designated highways, 65′ overall length on all other roads.
+Overhang: 3’ front and 7′ rear
+Weight: 80,000 Gross Single – 21,600 Tandem – 34,320 10′ Spread – 39,000 Tridem – Depends on spacing
+Routine State Oversize Permit Limits
+
+Width: Depends on routes.
+Height: 15’6″ needs a route survey; 18′ needs utility surveys and clearance from municipal and local authorities.
+Length: Depends on routes.
+Weight: Single – 23,000 on Interstate, 18,000 – 20,000 all other roads, depending on spacing;Tandem – 46,000; Tridem – 60,000; Quad – 68,000; 5 axles – 105,000; 6 axles – 119,000; 7 axles – 127,000
+Escorts
+
+Width: Over 14′ – 1 escort (a few routes require an escort for over 12′ wide); over 18′ – 2 escorts; over 20′ – police escort and Flagmen
+Height: Over 15′6″; – 1 escort and route survey (some routes may require route survey for lower heights)
+Length: Over 110′ – 1 escort; over 120′ – 2 escorts
+Security Measures
+
+When an overwide load includes a bulldozer or construction equipment with a blade or other attachments, such attachments shall be completely lowered and angled as much as possible to minimize the width and shall be secured to the vehicle.
+
+“Oversize Load” signs required on any oversize, overweight or overweight only load. Red flags at least 18″ square must be affixed to each corner and the widest part of the load. Loads that exceed 3′ front overhang or 4′ rear overhang require flags on each corner if load is 2′ in width.
+
+Texas
+Texas Oversize Regulations
+
+Permits
+
+Oversize permits are valid in this state for three to five days. Must have an overweight permit prior to entering Texas.
+
+Operating Time
+
+One-half hour before sunrise to one-half hour after sunset, including Saturday and Sunday. Loads not exceeding 10′ wide, legal height (14′) or 100′ long with legal front and rear overhang may travel at night on Interstate system only. Overweight only may have continuous movement.
+
+Restrictions
+
+City or county curfew times are listed on the permit, however, most areas have no travel between 7:00 a.m. – 9:00 a.m. and 4:00 p.m. – 6:00 p.m. Loads exceeding 14′ wide, 16′ high or 110′ long are restricted travel on major holidays.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14′
+Length: 59′ semi-trailer
+Overhang: 3′ front, 4′ rear
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 42,000; Quad – 50,000
+Routine State Oversize Limits
+
+Width: 20′
+Height: 18’11”
+Length: 125′
+Overhang: 25′ front, 30′ rear
+Weight: Single – 25,000; Tandem – 46,000; Tridem – 60,000; Quad – 70,000
+Loads exceeding these dimensions must have a route inspection certification on file prior to Texas oversize overweight issuance. The state will propose a route which we are then required to survey physically and sign off on.
+
+Escorts
+
+Width: Over 14′ – 1 escort, over 16′ – 2 escorts.
+Height: Over 17′ – 1 escort with height pole, over 18′ – 2 escorts with height pole
+Length: Over 110′ – 1 escort, over 125′ – 2 escorts.
+Overhang: Over 20′ – 1 escort
+*Note: If the load is over two dimensions that require escort, then 2 escorts will be required.
+
+Security Measures
+
+Signs are only required on escort vehicles. Red flags, 12″ square, should be placed at the widest part of the load and at all extremities and on a rear overhang of 4′ or more. 
+
+North Dakota
+North Dakota oversize permit regulations
+
+North Dakota oversize load permits are valid for 3 days. Driver must have permit prior to entering the state.
+
+Operating time:
+
+Sunrise to sunset, including Saturday and Sunday except loads over 16 feet wide and 110 feet long cannot travel Saturday afternoon or Sunday all day. Overweight loads and loads that not exceed 12W 120L and legal high can travel 24/7.
+
+Restrictions:
+
+Loads over 16′ wide are not permitted to travel starting 12 noon the day prior to a major holiday until sunrise the day after the holiday.
+
+Speed Limit
+
+40 mph. if the gross weight exceeds 120 000 pounds. OS loads do not have additional speed limits unless otherwise specified on permit.
+
+Legal parameters:
+
+North Dakota oversize permit require if exceed:
+
+Width: 8’6″
+Height: 14′ (unless routes of travel include structures that are not 14′)
+Length: 53′ semi-trailer and load, 75 overall including load and any rear overhang
+
+North Dakota overweight permit require if exceed:
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 48,000
+
+Routine permit limits:
+
+Width: 18′
+Height: 18′
+Length: 120′
+Weight: Steer – 12,100 for 11″ tires (550 pounds per inch of tire width); Single – 24,000; Tandem – 45,000; Tridem – 60,000; Quad – 68,000
+
+Escort:
+
+Width: Over 14’6″ on 2-lane highways– 1 escort; over 16′ – 2 escorts on 2-lane highways or 1 escort on 4-lane highways; over 18′ – 2 escorts and 1 Police escort.
+Length: Over 120′ – 1 escort
+Height: Over 18′ – written authority from utility companies to travel under overhead wires.
+Note: Instead of pilot car, for width over 14’6 but not over 16′, load may be equipped with lighted rotating or flashing amber light(s) that are visible from the front and rear at 500 feet
+
+Security measures:
+
+“Oversize Load” sign is required on rear of the vehicle when overall length exceeds 75′. All over dimensional loads must have red or bright orange flags, 18″ square, on the traffic side of the load front and rear. Loads authorized with night movements are required to have clearance lights visible from the front, rear and side, marking the outermost portion of the vehicle and load which extends beyond legal width; 1 rotating or 2 flashing amber lights mounted above the cab visible at a distance not less than 500′; flashing amber lights are required at the rear when lights on the cab are not visible. Overhang of 4′ or more shall be marked at the extreme end of the load with flags (red, 12″ x 12″) during day and red lights during night travel.
+
+South Dakota
+South Dakota Oversize Permits Information
+
+Permits
+
+Oversize permits are valid for 3 days. Driver must have permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed one-half hour before sunrise to one-half hour after sunset, including Saturday and Sunday. Overweight only loads and loads not exceeding 10′ wide, 14’6″ high, 110′ overall length traveling on interstate highways are allowed continuous travel.
+
+Restrictions
+
+SEASONAL LOAD (WEIGHT) RESTRICTIONS: Loads are subject to spring weight restrictions during the period of February 15th to April 30th.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6”
+Height: 14”
+Length: 53′ semi-trailer, overall length not limited.
+Overhang: 3′ front, 4′ rear
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 42,000
+Routine South Dakota Oversize Permit Limits
+
+Width: 16′
+Height: 16′
+Length: Depends on route
+Weight: Single – 24,000; Tandem – 46,000; Tridem – 60,000; Quad – 68,000
+Escorts
+
+Width: On Interstate Highways: Over 16′ – 1 escort. On most State Highways: Over 20′ – 1 escort. Multiple escorts are required if the load extends more than two feet into adjacent driving or passing lanes, or if traffic cannot pass without the permit vehicle or passing vehicle driving on the shoulder of the road.
+Length: Normally no requirements.
+Height: Normally no requirements.
+*Note: Highways 16 and 18 in the Black Hills area requires 1 escort of loads exceeds 10′
+
+Security Measures
+
+“Oversize Load” signs are required on all loads exceeding 12′ wide or 95′ long. Travel at night requires reflectorized or lighted signs. All oversized vehicles and loads must display flags that are 18” square. They must be attached to all corners of vehicles or loads wider than 8’6” and to corners of any load extending beyond the width of the hauling vehicle. Flags are also to be attached to load projecting more than 3 feet in front of the vehicles front bumper, or more than 4 feet beyond the rear of the trailer. If the front or rear projection is two feet or less, at least one flag is needed on the projection. Two flags are required on the projection if it is over 2 feet in width.
+
+Load overhang must have proper lighting for nighttime running with amber lights, red lights, and reflectors.
+
+Nebraska
+Nebraska Oversize Permits Information
+
+Permits
+
+Nebraska oversize permits are valid for 10 days. Driver must have the wide load permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed one-half hour before sunrise to one-half hour after sunset, including Saturday and Sunday. Overweight is allowed continuous travel.
+
+Restrictions
+
+No travel on state highways (except for I-80) in Lincoln weekdays from 7:00 a.m. to 9:00 a.m. and 4:00 p.m. to 6:00 p.m., and Saturdays and Sundays after 12:00 noon. Omaha restricted for the same times on all routes. On Cornhusker football home game Saturdays, travel on I-80 in Lincoln area is restricted, between exits 395 and 409, and the state highway system is closed to oversize permit travel from Iowa line to Nebraska 14 and from Kansas line north to Nebraska 91. Nebraska permit office is closed on state holidays, including Arbor Day (last Friday in April). Travel restrictions apply on major holidays and holiday weekends.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14’6″
+Length/Overhang: 53′ semi-trailer and load, 65′ combination (multiple) trailers and load
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 42,000 on designated roads, 34,000 on all other roads.
+*Note: Poles, pipes, beams, utility poles and other construction materials are exempt from permits for length or rear overhang on US and SR HWYs only.
+
+Routine Permit Limits
+
+Width: 16′
+Height: 16′ depends on route.
+Length: 105′
+Weight: Single – 20,000 Tandem – 40,000 Tridem – 60,000
+Escorts
+
+Width: Over 12′ – 1 escort pilot car*.
+Length: 125′ – 1 escort pilot car
+Height: 16′ – 1 escort pilot car with height pole and route survey.
+*Note: On divided highways, a light bar attachment mounted on the rear of the load may be allowed in place of an escort if stated on the wide load permit. The light bar must be mounted at a height sufficient to be seen clearly by traffic to the rear, and must have a left and right rotating amber, yellow or flashing light large enough to be visible for a distance of at least 800 feet.
+
+Security Measures
+
+“Oversize Load” signs are required on front of the vehicle and rear of the load when width exceeds 10′. Flags, at least 18″ square, are required on all four corners of the vehicle when the load exceeds 12′ in width. Rear overhang of 4′ or more must display a red flag at least 12″ square during daylight hours, and a steady burning red light visible for at least 200′ at night.
+
+Kansas
+Kansas Oversize Permits Information
+
+Permits
+
+Kansas oversize permits are valid for seven days. The DOT permit is normally obtained prior to entering the state. Permits can also be obtained at Ports of Entry. (You need proof of insurance in the vehicle if you buy permits at a POE).
+
+Operating Time
+
+Travel is allowed a one-half hour before sunrise to one-half hour after sunset, 7 days a week and holidays. Overweight-only with legal dimensions is allowed night travel, provided a permit is obtained to authorize it. There are NO holiday or weekend restrictions.
+
+Restrictions
+
+Turnpike
+
+Width up to 12 is allowed to travel without an escort, during daylight hours. Over 14′ wide is limited to Monday through Thursday travel from 8:30 a.m.-4:30 p.m. Maximums allowed on turnpike is 14′ in height, 16’ wide or 125′ long. Loads over 14′ high require special approval from a Turnpike Highway Patrol Officer. Maximum weights: 20,000 single, 34,000 tandem, 42,000 triple, 50,000 quad. Maximum gross weight 120,000.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14′
+Length: 59’6″ trailer, 85′ overall for tractor-trailer combination provided the trailer is not over 59’6” long
+Overhang: 3′ front, 4′ rear
+Weight: 80,000 Gross on Interstate and designated routes; 85,500 on other roads (must be registered for 85,500 and have legal axle weights); Single – 20,000; Tandem – 34,000; Tridem – 42,000
+Routine Kansas Oversize Permit Limits
+
+Width: 16’6″
+Height: 18′ (Depends on clearances. Over 17′ high requires notification of all appropriate utilities before making the move).
+Length: 126′    (poles, pipes, or structural items are allowed up to 140′)
+Weight: Single – 22,000; Tandem – 45,000; Tridem – 60,000; Quad – 65,000
+To permit for overweight, your tractor needs to be registered for 85,500, or pay extra for a trip permit.
+
+*Note: When overweight on any axle group, all axles must be down. Loads exceeding these dimensions or over 150,000 pounds GVW is considered as a Super Load.
+
+Loads in excess of 80,000 GVW, the unit must be registered for 85,500.
+
+Escorts
+
+Width: Over 16’6″ or when transporting large structures on 4-lane highways – 2 escort pilot cars;
+Height: Over 18′ – 1 escort pilot car with a height pole. Over 17′ high requires notification of all appropriate utilities before making the move.
+Length: over 126’ – front and rear escort pilot cars.
+Over 14′ on highways less than 4 lanes – 2 escort pilot cars, or “The rear escort may be eliminated if a warning light is attached to the top of the towing vehicle and to the rear of the load and is mounted no less than two feet or more than eight feet above the surface of the road, except for superloads and large structures, they require 2 escort pilot cars.”
+
+Exemptions
+
+Poles, beams, steel pipes and construction steel loads may be up to 85′ long overall (vehicle and load) without a permit as long as the trailer does not exceed 59’6″ (daylight travel only), and if other dimensions are legal. Blades, buckets, counterweights, etc. must be removed. If overweight it must be hauled on a separate truck.
+
+Security Measures
+
+Oversize Load” signs are required for all loads moving under a permit. Red flags must be attached to each side of widest part of the wide load, and to the rear of all over length loads. If overhang is over legal limits, end of the overhanging object must be flagged and “a lamp shall be placed at the end of the load to make the overhang more visible during periods of hazy daylight.”
+
+Oklahoma
+Oklahoma Oversize Information
+
+Permits
+
+Overweight permits are valid for 5 days. Driver must have permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed for one-half hour before sunrise to one-half hour after sunset seven days a week. Overweight ONLY can have continuous travel but must be requested when ordering permit.
+
+Restrictions
+
+Oversize load movements are not allowed on the Interstate system through Cleveland, Oklahoma, and Tulsa counties between 7:00 a.m. to 9:00 a.m. and 3:30 p.m. – 6:30 p.m. Monday through Friday (does not apply to overweight only). No travel allowed on major holidays.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Turnpike
+
+Loads up to 9’6″ wide are permitted without requiring a Pike Pass. Loads over 9’6″ must have a valid Pike Pass account.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ (8′ on any highway having a surface width of less than 20 feet)
+Height: 13’6″
+Length: 59’6″ semitrailer and load is legal on all Interstate routes and many of the main U.S. Highways; 53′ semitrailer and load on other routes.
+Weight: 80,000 Gross on Interstate, 90,000 on non-Interstate routes (with legal tandem and tridem weights) Single – 20,000; Tandem – 34,000; Tridem – 42,000
+Routine Oversize Permit Limits
+
+Width: 16′
+Height: Depends on routes
+Length: No set maximum
+Weight: Single – 20,000; Tandem – 40,000 (with at least 4’3″ axle spacing) or 39,000 (less than 4’3″ spacing); Tridem – 60,000 (57,000 with 4’2″ axle spacing); Quad – 65,000; Steer Axle – 15,000 (With minimum spacing of 15′ steer to first drive axle).
+For an overweight permit, your registration must be for at least the amount of gross weight you need permitted if less than 90,000 pounds.
+
+Escorts
+
+Width: Over 12’– 1 escort pilot car, over 14′ – 2 escort pilot cars.
+Height: Over 15’8″ – 2 escort pilot cars with height pole; public utilities and railroads along the route must be contacted in advance of the move by the permittee.
+Length: Interstate Over 100' - 1 pilot, on 2 line hwy - Over 80′ – 1 escort pilot car, over 100’– 2 escort pilot cars
+Security Measures
+
+“Oversize Load” signs are required on the front of tractor and rear of load or trailer (whichever extends the farthest) on all oversized loads moving under permit. All over width and over length loads require 18″ x 18″ red or fluorescent orange flags. Flags are required at each corner of the load and on the widest point of any oversize load. Rear overhang of 4 feet or more must be flagged.
+
+Minnesota
+MINNESOTA OVERSIZE PERMITS INFORMATION
+
+Permit:
+
+Permits are valid for 7 days. Driver must have permit prior to entering the state.
+
+Operating time:
+
+Sunrise to sunset can run without special lighting. Up to and including 10′ wide can usually run 2:00A.M. to 10:00P.M, weekdays and Saturdays (except for curfew areas and Friday summer restrictions, below) but must have flashing amber lights front and rear at night, and lights in place of flags and outlining vehicle and load for night running. Over 10′ wide must have front and rear escorts plus lights to run before sunrise or after sunset. During summer months (Memorial Day weekend through the Friday after Labor Day), no movement from 2:00 p.m. Friday until sunrise on Saturday except for up to 9′ wide on 22′ or wider roadway, up to 14′ high. Travel is permitted Saturday all day, and Sunday from sunrise to 12:00 noon. Over 10′ wide can travel at night only with front and rear escorts and must meet all lighting requirements.
+
+Restrictions:
+
+No travel is allowed from 2:00 p.m. the day before major holidays, some holiday weekends and on Fishing Opener Weekend in May until 2:00 a.m. the day after the holiday. No travel is allowed after 2:00 p.m. Fridays and Sundays from Memorial Day through Labor Day. For vehicles over 14’6″ wide, over 110′ long, no travel is allowed Monday through Friday in the Twin City Metro area between the hours of 6:00 a.m. – 8:30 a.m. or 3:30 p.m. – 6:00 p.m. or in Duluth area between 7:00 a.m. – 8:30 a.m. or 4:00 p.m. – 5:30 p.m. unless specifically stated on permit.
+
+SEASONAL LOAD (WEIGHT) RESTRICTIONS: Winter load increases (allowing 10% over maximum axle weights) usually go into effect sometime in December. The start date changes from year to year. Over legal axle/group weights are usually not allowed during the spring thaw period, usually from about February 1 or March 1 (depending on zone) through early to mid-May, then middle-range limits take effect until about May 31.
+
+Legal dimensions:
+
+The vehicle must have the following characteristics:
+
+·        Width: 8’6″
+
+·        Height: 13’6″
+
+·        Length: 75′ overall, 53′ semi-trailer, 43′ kingpin setting measured from kingpin to center of rear axle group.
+
+·        Overhang: 3’ front and over 4’ rear must be flagged during day hours.
+
+·        Weight: 80,000 Gross on designated highways; 73,280 non-designated with 5 axles (80,000 with 6);
+
+·        Steer Axle – 600 pounds per inch of tire width (13,200 pounds with 11″ tires); Single – 20,000 designated highways (18,000 other roads); Tandem – 34,000; Tridem – 42,000
+
+Routine permit limits:
+
+·        Width: 14’6″, and up to 16′ for certain routes; 20′ wide requires route survey
+
+·        Height: 14′ – 15’6″ with route restrictions. Loads over 16′ are highly restricted and a route survey is required.
+
+·        Length: 95′ for two-vehicle combination (wheelbase of 75′), 103′ with a single pivot point. Loads over 160′ long require a route survey
+
+·        Weight: Single – 20,000 Tandem – 40,000 (46,000 with bridge check) Tridem – 60,000 Quad – 72,000; Steer – 600 pounds per inch of tire width (13,200 on 11″ tires) Pusher Axle – 500 pounds per inch of tire width (11,000 pounds with two 11″ tires)
+
+You must be registered for at least the amount of weight you are permitting for Minnesota.
+
+Loads exceeding these dimensions or weights are considered as Super Loads.
+
+Escorts:
+
+·        Width: Over 14’6″ – 1 escort pilot car on divided highways, 2 escort pilot cars on non-divided highways. Over 16′ – 2 escort pilot cars; Police escort required if load encroaches on opposing lane
+
+·        Height: Over 15’6″ – 1 escort pilot car with high pole suggested, but not required. Height survey is required to get a permit for over 15’6″ height.
+
+·        Length: Over 95′ – 1 escort pilot car; over 110′ – 2 escort pilot cars.
+
+Note: A few routes with “deficiencies” may require an extra escort. For night travel, 2 escort pilot cars required for loads over 10′ wide and/or over 85′ long.
+
+Security measures:
+
+“Oversize Load” signs required when escorts are required or when load is over 12′ wide for day travel and 10′ wide for night travel and/or length exceeds 85′. At night, required signs must be lighted or reflective and visible from at least 500ft. Flags (18″ square) are required whenever rear overhang exceeds 4′, or when vehicle/load exceeds 9′ in width or 75′ in length. Flags should be mounted at tip of overhang, at corners and widest points of load. An over width or over length vehicle/load requires flags at each corner of the load, with an additional flag at the widest point on each side of the load if it extends beyond the corner flags. Overhang exceeding 4′ requires light at night. Flashing amber lights are usually required on the permit when over 12′ wide.MINNESOTA OVERSIZE PERMITS INFORMATION
+
+Permit:
+
+Permits are valid for 7 days. Driver must have permit prior to entering the state.
+
+Operating time:
+
+Sunrise to sunset can run without special lighting. Up to and including 10′ wide can usually run 2:00A.M. to 10:00P.M, weekdays and Saturdays (except for curfew areas and Friday summer restrictions, below) but must have flashing amber lights front and rear at night, and lights in place of flags and outlining vehicle and load for night running. Over 10′ wide must have front and rear escorts plus lights to run before sunrise or after sunset. During summer months (Memorial Day weekend through the Friday after Labor Day), no movement from 2:00 p.m. Friday until sunrise on Saturday except for up to 9′ wide on 22′ or wider roadway, up to 14′ high. Travel is permitted Saturday all day, and Sunday from sunrise to 12:00 noon. Over 10′ wide can travel at night only with front and rear escorts and must meet all lighting requirements.
+
+Restrictions:
+
+No travel is allowed from 2:00 p.m. the day before major holidays, some holiday weekends and on Fishing Opener Weekend in May until 2:00 a.m. the day after the holiday. No travel is allowed after 2:00 p.m. Fridays and Sundays from Memorial Day through Labor Day. For vehicles over 14’6″ wide, over 110′ long, no travel is allowed Monday through Friday in the Twin City Metro area between the hours of 6:00 a.m. – 8:30 a.m. or 3:30 p.m. – 6:00 p.m. or in Duluth area between 7:00 a.m. – 8:30 a.m. or 4:00 p.m. – 5:30 p.m. unless specifically stated on permit.
+
+SEASONAL LOAD (WEIGHT) RESTRICTIONS: Winter load increases (allowing 10% over maximum axle weights) usually go into effect sometime in December. The start date changes from year to year. Over legal axle/group weights are usually not allowed during the spring thaw period, usually from about February 1 or March 1 (depending on zone) through early to mid-May, then middle-range limits take effect until about May 31.
+
+Legal dimensions:
+
+The vehicle must have the following characteristics:
+
+·        Width: 8’6″
+
+·        Height: 13’6″
+
+·        Length: 75′ overall, 53′ semi-trailer, 43′ kingpin setting measured from kingpin to center of rear axle group.
+
+·        Overhang: 3’ front and over 4’ rear must be flagged during day hours.
+
+·        Weight: 80,000 Gross on designated highways; 73,280 non-designated with 5 axles (80,000 with 6);
+
+·        Steer Axle – 600 pounds per inch of tire width (13,200 pounds with 11″ tires); Single – 20,000 designated highways (18,000 other roads); Tandem – 34,000; Tridem – 42,000
+
+Routine permit limits:
+
+·        Width: 14’6″, and up to 16′ for certain routes; 20′ wide requires route survey
+
+·        Height: 14′ – 15’6″ with route restrictions. Loads over 16′ are highly restricted and a route survey is required.
+
+·        Length: 95′ for two-vehicle combination (wheelbase of 75′), 103′ with a single pivot point. Loads over 160′ long require a route survey
+
+·        Weight: Single – 20,000 Tandem – 40,000 (46,000 with bridge check) Tridem – 60,000 Quad – 72,000; Steer – 600 pounds per inch of tire width (13,200 on 11″ tires) Pusher Axle – 500 pounds per inch of tire width (11,000 pounds with two 11″ tires)
+
+You must be registered for at least the amount of weight you are permitting for Minnesota.
+
+Loads exceeding these dimensions or weights are considered as Super Loads.
+
+Escorts:
+
+·        Width: Over 14’6″ – 1 escort pilot car on divided highways, 2 escort pilot cars on non-divided highways. Over 16′ – 2 escort pilot cars; Police escort required if load encroaches on opposing lane
+
+·        Height: Over 15’6″ – 1 escort pilot car with high pole suggested, but not required. Height survey is required to get a permit for over 15’6″ height.
+
+·        Length: Over 95′ – 1 escort pilot car; over 110′ – 2 escort pilot cars.
+
+Note: A few routes with “deficiencies” may require an extra escort. For night travel, 2 escort pilot cars required for loads over 10′ wide and/or over 85′ long.
+
+Security measures:
+
+“Oversize Load” signs required when escorts are required or when load is over 12′ wide for day travel and 10′ wide for night travel and/or length exceeds 85′. At night, required signs must be lighted or reflective and visible from at least 500ft. Flags (18″ square) are required whenever rear overhang exceeds 4′, or when vehicle/load exceeds 9′ in width or 75′ in length. Flags should be mounted at tip of overhang, at corners and widest points of load. An over width or over length vehicle/load requires flags at each corner of the load, with an additional flag at the widest point on each side of the load if it extends beyond the corner flags. Overhang exceeding 4′ requires light at night. Flashing amber lights are usually required on the permit when over 12′ wide.
+
+Iowa
+Iowa Oversize Permits Information
+
+Permits
+
+Iowa Oversize Permits are valid for 5 days. Driver must have the Iowa DOT permit before entering the state.
+
+Operating Time
+
+Permitted vehicles up to 100′ in length, 11′ width, 14’4 height may have continuous travel seven days a week (24/7), provided travel is on the roadway with a minimum width of 22 feet and minimum lane width of 11 feet, and with safety lighting as specified on Iowa provisions sheet. Larger loads may travel one-half hour before sunrise to one-half hour after sunset, including Saturdays and Sundays.
+
+Restrictions
+
+No travel allowed starting 12 noon the day prior to major holidays and holiday weekends. Des Moines I-235 travel prohibited from 7:00 – 9:00 A.M. and from 4:00 – 6:00 P.M. Monday through Friday. Other highways in Des Moines can be included under the curfew at officer’s discretion if traffic is heavy.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 13’6″
+Length: 53′ semi-trailer and load. (Overhang which results in over 53′ semi-trailer and load length is not legal without Iowa Oversize Permit. Steel pipe, beams and constructions materials are NOT exempt.)
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 42,000 (w/ minimum 8’1″ axle spacing)
+Routine Iowa Oversize Permit Limits
+
+Width: 18′
+Height: 18′
+Length: 120′
+Weight: Single – 20,000; Tandem – 40,000; Tridem – 60,000; Steer Tire – Permit does not break out the steer axle weight but enforcement goes by the single (steer) tire weight rating (on the side of the tire) times two.
+*Note: You must be licensed for as much as you wish to permit in Iowa. Loads exceeding these dimensions or weight are considered as super loads.
+
+Escorts
+
+On 4-lane roadways: Width: 14’6” to 16’6″ – 1 rear escort pilot car or 2 amber revolving or strobe lights (one on the power unit, one on rear extremity of vehicle or load). Over 16’6″ – 1 escort pilot car.
+On 2-lane highways: Width: When width exceeds one-half of roadway width up to and including 14’6″ – 1 front escort pilot car. Width over 14’6″ – 1 escort pilot car. An amber or strobe light on the power unit and on the rear extremity of the vehicle or load may be used instead of an escort if the width is up to and including 14’6 and exceeds one-half of the roadway and lane width is 12 feet or more with sufficient shoulders.
+On all highways:
+Height: Over 14’6″ – 1 escort pilot car with a height pole.
+Length: Over 85′ – 1 escort pilot car or amber revolving light. Over 120′ – 1 escort pilot car
+Overhang: Front projection over 25′ or rear over 10′ – 1 escort pilot car or amber revolving light or strobe light on the rear of the load for rear overhang over 10′).
+Security Measures
+
+“Oversize Load” signs and flags are required when a vehicle and load exceeds 75′ in length, 8’6 width, and/or 14’4 in height. Flags are required for rear overhang exceeding 4 feet on all permitted vehicles/ loads. Flags should be mounted at each front corner of the towing unit, at each rear corner of the load, and at any wide points/protrusions of the load. An amber revolving light at least 7″ high and 7″ in diameter is required on the towing unit whenever length exceeds 85′, front overhang exceeds 25′ or rear overhang exceeds 10′ (light should be on the load in the rear) or weight exceeds 80,000 lbs. An escort can be used in lieu of amber light.
+
+Missouri
+Missouri Oversize Permits Information
+
+Permits
+
+Oversize Permits in Missouri are valid for 7 days. Driver must have an overweight permit prior to entering the state.
+
+Operating Time
+
+One-half hour before sunrise to one-half hour after sunset, including Saturday and Sunday, loads over 14 feet wide will not be allowed weekend travel. Travel times are more limited in metropolitan and tourist areas (see Restricted Travel section below). Overweight up to 112,000 pounds gross 12’6” in width and/or 110' overall length may travel 24/7. Must be legal height. This movement is restricted for holiday periods and urban/tourist areas. 
+
+Restrictions
+
+No travel from noon the day prior to major holidays or holiday weekends until one-half hour before sunrise on the following Monday. No travel is allowed weekdays from 6:30 a.m. to 9:00 a.m. and 3:30 p.m. – 6:30 p.m., in St. Louis city and county (except for route 370); St. Charles County on I-70, route 94 and route 40/61; Jefferson County on I-55 and on routes 67, 21, 30, 141 and 61/67. No travel is allowed from 7:00 a.m. to 9:00 a.m. and 4:00 p.m. – 6:00 p.m. in the Kansas City area on routes 150, 291, I-470, 152 west to I-435 and inside the area bounded by these routes; inside the city limits of Springfield except on I-44, Route 60 and 65. These metro area curfews do not apply to loads that are overweight only. No permit movement is allowed on these bridges – Mississippi River bridge in St. Louis on I-70, I-55, I-64, MO 799 and on route 60/62 to Cairo, IL., Missouri River bridge in Miami on MO 41, Glasgow on MO 240, and Washington on MO 47, Lake of the Ozarks bridge in Hurricane Deck on MO 5. During the tourist season, Saturday and Sunday travel are not allowed on routes in Lake of the Ozarks and Branson (within 10 miles of Branson), with the exception of route 65 in the Branson area. Tourist season means Memorial Day through Labor Day at Lake of the Ozarks and through October 31st in Branson area.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14′ on designated highways, 13’6″ on other roads.
+Length: 53′ semi-trailer and load (including rear overhang) on Interstate and designated highways; 60′ when more than 10 air miles from designated system.
+Weight: 80,000 Gross Single – 20,000 (22,000 on secondary) Tandem – 34,000 (36,000 on secondary) Tridem – 34,000 (8′ of spacing), 42,500 (9′ of spacing)
+Routine Oversize Permit Limits
+
+Width: 16′
+Height: 16′ (15’7″ maximum on some routes)
+Length: 150′
+Weight: Gross – 160,000; Single – 20,000; Tandem – 46,000; Tridem – 60,000; Quad – 72,000; 5 axles – 104,000; 6 axles – 120,000; 7 axles (1-3-3) – 132,000;
+Escorts
+
+Width: Over 12’4″ – 1 escort pilot car on Interstate and divided highways, 2 escort pilot cars off designated highway; over 14′ – 1 escort pilot car on Interstate and divided highways, 2 escort pilot cars required on 2-lane and undivided highways
+Length: Over 90′ – 1 escort pilot car on all highways except divided highways
+Height: Over 15’6″ on 2-lane & undivided, and over 15’6” divided highways – route survey and 1 escort pilot car with height pole.
+Security Measures
+
+Oversize Load” signs are required on front and rear of the load vehicle when width exceeds 10’6″. When a combination loads overall length exceeds 90′ or the overall length of a single unit exceeds 50′ an oversize load sign on the rear is required. Flags are required at the extreme ends or projections of all over width and over length loads.
+
+Arkansas
+Arkansas Oversize Permits Information
+
+Permits
+
+Arkansas oversize permits are valid for three days. Must have the permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed during daylight only (sunrise to sunset), seven days a week. Continuous travel may be allowed with a permit if overweight only. Poles, pipes, and beams are exempt from length permits only during daytime travel. Loads not exceeding 90′ long (other dimensions legal) may have continuous travel.
+
+Restrictions
+
+No oversize movement through the metropolitan Little Rock area between the hours of 7:00 a.m. – 9:00 a.m. and 4:00 p.m. – 6:00 p.m., and on I-30 (M.M. 138-143), I-40 (M.M. 151-155), and all of I-630. No travel on major holidays (New Years, Memorial Day, Independence Day, Labor Day, Thanksgiving and Christmas). If the holiday falls on Monday or Friday, no weekend movement allowed.
+
+Speed Limit
+
+55 mph, unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14′ 0″
+Length: 53’6″ trailer and load
+Overhang: 3′ front, 4′ rear; 60′ poles, pipes, machinery, steel beams or other objects of a structural nature do not require a permit for daylight travel for up to 90′ overall length. Night travel requires a permit. Otherwise, up to 53’6″ trailer/load is allowed without a permit. (If long beams are on a stretch trailer and do not extend beyond the rear of the trailer, then a permit is required.)
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 54,000
+*Note: Steer Axle – Arkansas asks for manufacturer’s front axle weight rating (up to a maximum of 20,000 pounds), which you are not allowed to exceed.
+
+Routine Arkansas Oversize Permit Limits
+
+Width:18′ (20′ on some non-interstate routes)
+Height:17′ (Over 16′ must obtain special approval, and is not allowed on Interstates. Utility personnel must accompany load over 17′.)
+Note*: Over 14′ wide or over 15′ high is looked at on a case-by-case basis to determine if route survey is required.
+
+Length: No set limit
+Weight: Single – 20,000; Tandem – 46,000; Tridem – 60,000; Quad – 68,000
+*Note:  Loads exceeding these dimensions are classed as Super Loads.
+
+
+
+Get Your Permit Today
+Call: 224-998-3880
+Escorts
+
+Width:
+On 2-lane Highways: Over 12′ – 1 escorts, Over 14′ – 2 escorts
+On Interstate and Controlled Access Highways: Over 14′ – 1 escort; Over 16′ – 2 escorts . Note*: Police escorts for larger loads are looked at on a case-by-case basis.
+Height: Over 15′ – 1 escort pilot car with height pole
+Length: Over 100′ – 1 escort pilot cars shall follow a vehicle on Interstates, controlled access, and divided highways with four or more lanes, and the escort shall lead a vehicle on all other highways; Over 115′ – 2 escort pilot cars (one leading and one following) are required on all highways with fewer than four lanes.
+Security Measures
+
+“Oversize Load” signs are required on front and rear of all loads exceeding legal width, height or length. Red flags 18″ square are required on lower rear corners on all loads exceeding legal width, height or length. There are no sign or flag requirements for overweight only loads.
+
+Louisiana
+Louisiana Oversize Permits Information
+
+Permits
+
+Louisiana Oversize Permits can be ordered for the number of days needed. Driver must have a DOT permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed from sunrise to sunset seven days a week; except for restrictions below. Over 14′ wide may only travel until noon on Saturday. Overweight-only and not over 65′ overall length may have continuous travel.
+
+Restrictions
+
+Permit loads may not cross any bridge spanning the Mississippi River in the New Orleans area or be within 2 miles of such bridge from 6:30 a.m. – 9:00 a.m. and from 3:30 p.m. – 6:00 p.m., Monday through Friday. Loads over 12′ wide may not travel on the Interstate system through Shreveport, Monroe, Lake Charles, Baton Rouge, and New Orleans from 7:00 a.m. – 9:00 a.m. and from 3:30 p.m. – 6:00 p.m., Monday through Friday. Loads over 8’6″ wide, 14’4″ high, 70′ long and over 120,00 pounds will not be allowed to cross the US 190 Mississippi River Bridge in Baton Rouge from 6:30 a.m. – 9:00 a.m. and 3:30 p.m. – 6:00 p.m. Monday through Friday.  The restricted areas are detailed on the permit and on the provision sheets. Vehicles and loads over 16′ wide may not travel on Interstate highways in Louisiana. No travel on major holidays, and in certain areas during Mardi Gras.
+
+Speed Limit
+
+55 mph.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 14’ on designated highways, 13’6″ on non-designated.
+Length: 59’6″ trailer or load on Interstate and designated highways; 65′ truck and trailer on other highways
+Overhang: 4′ front, 8′ rear (over 59’6″ length of load on trailer needs permit on all roads).
+Weight: 80,000 Gross (with a Tridem axle, 83,400 on Interstate & 88,000 non-Interstate, if licensed for it)
+Interstate highway system: Single – 20,000; Tandem – 34,000; Tridem – 42,000; Quad – 50,000
+Non-Interstate highways: Single – 22,000; Tandem – 37,000; Tridem – 45,000; Quad – 53,000
+Routine Louisiana Oversize Permit Limits
+
+Width: 18′
+Height: 16’5″
+Length: 125′
+Weight: Single – 24,000 if GVW is 120,000 pounds or less, 20,000 if GVW exceeds 120,000 pounds; Tandem – 48,000 if GVW is up to 120,000 pounds; but 40,000 if it exceeds 120,000 pounds; Tridem – 60,000; Steer axle cannot exceed 13,000 pounds if tandem exceeds 40,000 pounds and gross weight exceeds 120,000 pounds; 5 axles – 108,000; 6 axles – 120,000; 7 axles – 132,000.
+*Note: Vehicles must be registered for 88,000 to run with the Louisiana overweight permit. Loads exceeding these dimensions or with GVW exceeding 254,000 pounds are considered as Super Loads.
+
+Escorts
+
+Width: Over 12′ – 1 escort pilot car; over 16′ – 1 State Police escort on 2-lane or multi-lane highways; over 18′ – 2 State Police escort.
+Length: Over 90′ – 1 escort pilot car; over 125′ – 1 State Police escort (steerable dolly is required)
+Height: Over 15’10” 1 escort pilot car with height pole when traveling off the interstate, Over 16’8″ may require an escort with utility lift (depends on routes). City of New Orleans (non-Interstate) – Police escort needed if not on Interstate and width over 12′, height over 13’6″, or length over 90′. Over 18′ – 2 State Police escort
+Security Measures
+
+“Oversize Load” signs are required for all loads exceeding 10′ wide, over 75′ long or exceeding legal overhang. Flags are required on all overwide loads. Flags must be placed on all four corners of the load and at any protrusions. Over-length must be flagged, no sign requirements. Rear overhang over 4′ must be flagged. NO sign or flag requirements for height only.
+
+Wisconsin
+Wisconsin Oversize Permits Information
+
+Permits
+
+Wisconsin Overweight Permits are valid for 14 days. Must have the overweight permit prior to entering the state.
+
+Operating Time
+
+Loads not exceeding 12′ wide, 13’6″ high or 100′ long may run 24/7, except between 4:00 PM to 11:00 PM on Sunday, and between 4:00 P.M. to 11:00 P.M. between the fourth Sunday in May and Labor Day. Greater than these dimensions may not run during hours of darkness, not from Noon on Saturday until sunrise on Monday, and not between 4:00 P.M. to 11:00 P.M. between the fourth Sunday in May and Labor Day. Overweight-only can travel 24/7, including weekends and holidays, unless otherwise stated on the permit.
+
+Restrictions
+
+Travel is restricted from 4:00 p.m. – 8:00 p.m. the day prior to a holiday and on major holidays and holiday weekends. Travel is restricted in these counties: Columbia, Dane, Milwaukee, Rock or Waukesha between 4:00 p.m. – 8:00 p.m. on Sundays, and between 4:00 p.m. – 8:00 p.m. on Fridays between the fourth Friday in May and Labor Day. Travel is restricted from 6:00 a.m. – 9:00 a.m. and 3:00 p.m. – 6:00 p.m. Monday through Thursday; 6:00 a.m. – 9:00 a.m. and 3:00 p.m. – 8:00 p.m. on Friday and 3:00 p.m. – 8:00 p.m. on Sunday if traveling on the Milwaukee County Expressway.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 13’6″
+Length: 53′ semi-trailer on designated highways (where kingpin to axle does not exceed 43′), 75′ overall on other roads
+Overhang: 3’ front; 4’ rear
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 42,000
+Routine Wisconsin Oversize Permit Limits
+
+Width: 16′
+Height: Depends on routes
+Length: No set limit
+Weight: Single – 20,000 (with 4 tires) Tandem – 65,000 Tridem – 81,000
+Escorts
+
+Width: Over 15′ – 1 escort
+Height: Depends on route
+Length: Usually not required
+Security Measures
+
+“Oversize Load” signs are required when the vehicle exceeds 10′ wide or is over length. Red or orange flags, 18″ square, are required at the front and rear corners of over width loads, and at the widest point of any load which is more than 4″ wider than the vehicle or the front or rear corners of the load. An overhang requires a single flag to be fastened at the extreme rear of the load if the overhang or projecting portion is 2′ wide or less. If overhang is over 2′ wide, 2 flags are required. When moving during hours of darkness, lights are required at the outermost extremities, an amber lamp is needed in the front and a red lamp is needed at the rear. Amber lights are also required where the load extends beyond the width of the front or rear edges. When load overhangs more than 4′ beyond the rear of the vehicle, red lamps are required to indicate maximum width and length.
+
+Illinois
+Illinois Oversize Permits Information
+
+Permits
+
+Illinois Oversize Permits are valid for 5 days.
+
+Operating Time
+
+Overweight permit loads with legal dimensions are authorized to move 24 hours a day, 7 days a week.
+Overweight and/or Over-dimension permit loads with dimensions equal to or less than 10’0” wide, 13’6”’ high, 200’ long are authorized to move 24hours a day, 7 days a week with one additional civilian escort when traveling during the hours of darkness.
+Overweight and/or Over-dimension permit loads with dimensions equal to or less than 14’ 6” wide, 15’ high, 200’ long are authorized to move from½ hour before sunrise until ½ hour after sunset, 7 days a week.
+Overweight and/or Over-dimension permit loads with dimensions equal to or less 16’0” wide, 17’ high are authorized to move from ½ hour before sunrise to ½ hour after sunset Monday through Friday, and from ½ hour before sunrise until noon, Saturday (unless specified otherwise on the provision sheet or permit).
+Overweight and/or Over-dimension permit loads with dimensions greater than 200’ long are authorized to move from ½ hour before sunrise to ½hour after sunset Monday through Friday. No Saturday or Sunday movement is allowed (unless specified otherwise on the provision sheet or permit).
+Overweight and/or Over-dimension permit loads with dimensions greater than 16’0” wide, 17’0” high, are authorized to move from 9:00am CST to3:00pm Monday through Friday. No Saturday or Sunday movement is allowed (unless specified otherwise on the provision sheet or permit).
+Restrictions
+
+Permit loads on Expressways in Cook County are restricted to a maximum of 120,000 pounds, 12′ wide and/or 13’6″. Several special restrictions apply in Cook County, as listed on provision sheets (General Provisions B). Loads over 14’6″ wide up to and including 16′ wide are limited to the hours of 9:00 a.m. – 3:00 p.m. Monday through Friday in Cook, DuPage, Lake, Kane, Madison, McHenry, Monroe, St. Clair and Will counties. Over 16′ wide may have additional restrictions. No travel from noon the day prior to major holidays or holiday weekends. Maximum width is 12′ and maximum height is 14’6″.
+
+Maximum gross weight allowed is 120,000. Length exceeding 100′ needs prior approval and special permit. Separate permits must be obtained from the Illinois State Toll Highway Authority.
+
+Length limitations do not apply (over dimensional permit not needed) for vehicles operated in the daytime, Monday through Friday, when transporting beams, poles, pipe, culvert or other objects of a structural nature 80′ or less in length (overall length 100′ or less). Farm tractors and other implements of husbandry may be hauled without a permit during daylight hours (including weekends) when over width only. Illinois Oversize Permits is still needed if over 13’6 high, or overweight.
+
+Speed Limit
+
+Maximum speed shall be 5 m.p.h. below the posted speed limit, EXCEPT when otherwise specified in the permit. Legal weight, legal height movements up to and including 10 feet wide are allowed to travel at the legal maximum speed limit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ on designated highways, 8′ on non-designated
+Height: 13’6″
+Length: 53′ semi-trailer* on designated highways, 65′ overall on non-designated.
+Overhang: 3′ front, 4′ rear. More rear overhang is allowed if within legal length limits.
+Weight: 80,000 Gross Single – 20,000; Tandem – 34,000; Tridem – 42,500
+*Note: Kingpin to the center of rear axle not over 45’6″, or needs to be permitted.
+
+Routine Illinois Oversize Permit Limits
+
+Width: 14’6
+Height: 15′ (depending on overhead clearances, 3″ clearance required)
+Length: 145′
+Weight: Single – 24,000; Tandem – 48,000; Tridem;–;60,000 (no single axle to exceed 21,000); Quad – 60,000 on standard permit, up to 100,000 with a super load permit.
+*Note: Overweight applications get treated as superloads when: On 5 axles, grossing over 100,000 pounds and/or over 48,000 pounds on a tandem group. On 6 or more axles, grossing over 120,000 pounds and/or over 48,000 pounds on any axle group.
+
+**Note on Lift or Pusher axles: Maximum weight variance between axles in a group is 2,000 pounds. Over 16′ wide or 17′ high will require a field or district engineering investigation. Over 17′ high, all overhead utility companies must be contacted and documentation must be provided
+
+***Note: Maximum height on Chicago highways is 13’6″. No interstate routing is allowed for over 15’9” height. Height of 16′ or more requires detailed route survey.
+
+Escorts
+
+Width: Over 14’6 – 1 escort pilot car; over 16′ – 3 escort pilot cars; over 18′ – State Police escort.
+Height: Over 14’6 – 1 escort pilot car with high pole; over 18′ – 2 escort pilot cars and State Police.
+Length: Over 110′ – 1 escort pilot car; over 145′ – 3 escort pilot cars; over 200′ – State Police.
+*Note: Loads exceeding any two of the above dimensions – 2 escort pilot cars.
+
+Security Measures
+
+Flags are required on the extremities of all oversize vehicles or loads and all protruding objects. “Oversize Load” signs are required on loads over 10′ wide, 14’6 high and/or 75′ long. All oversize/overweight permit loads must display an operable oscillating, rotating or flashing amber light or lights on the tractor.  Light(s) must be visible from both sides and the front, and must be strong enough to be seen for at least 500 feet in the daytime. When visibility of the light is blocked from the rear, and for loads over 80′ long or combinations over 100′ long require a second light mounted 10′ of rear of the object, as high as practical over it.
+
+Kentucky
+Kentucky Oversize Information
+
+Permits
+
+Oversize permits are valid for ten calendar days. Must have the truck permit prior to entering the state.
+
+Operating Time
+
+Kentucky now allows continuous running, 24/7 including Saturday and Sunday, except for restrictions below and superloads.
+
+Restrictions
+
+No overweight/over dimensional loads are allowed to travel in Boone, Kenton, Campbell, Jefferson, and Fayette Counties from 7:00 a.m. – 9:00 a.m. or 4:00 a.m. – 6:00 p.m. Monday through Friday. No travel allowed on Owensboro KY 2155/2262 Bridge (between KY and IN).
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ Interstate and designated roads, 8′ on non-designated.
+Height: 13’6″
+Length: 53′ trailer or load on Interstate and designated highways; 65′ truck and trailer other highways
+Overhang: 5′ rear overhang on 48′ trailer (53′ semi-trailer and load)
+Weight: 80,000 Gross Single – 20,000 Tandem – 34,000 Tridem – 48,000
+Routine Kentucky Oversize Limits
+
+Width: 16′ Height: 15’6″ *See note below
+Height: 15’6″ (Some parkway routes may have lower restrictions; route survey required for all loads over 15’6″)
+Length: 110′
+Overhang: 1/3 of the trailer length rounded down to the nearest foot. The overhang cannot exceed 35′ total.
+Weight: Single – 24,000; Steering – 24,000; Tandem – 45,000/5 axles; 48,000/6 or more; Tridem – 60,000; Quad – 80,000; 5 Axles – 96,000; 6 Axles – 120,000 (6 axles, 7 axles on 2-lane); 7 Axles – 134,000 – 140,000* (*On 4-lane, with a booster axle rather than a rear Tridem to get over about 134,000)
+(These dimensions and weights may vary depending on routes).
+
+*Note: Weight does not put you into superload status until approximately 200,000 pounds gross.
+
+Escorts
+
+Width: On 4 or more lane divided highways: Over 12′ – 1 escort pilot car; over 14′ – 2 escort pilot cars; over 16′ – 4 escort pilot cars. On 2-lane highways: Over 10’6″ to 12′ – 1 escort pilot car; over 12′ to 14’ – 2 escort pilot cars.
+Length: On 4 or more lane divided highways: Over 110′ – 1 escort pilot car; over 120′ – 3 escort pilot cars plus a pivot dolly is required. On 2-lane highways: Over 75′ to 85′ – 1 escort pilot car; over 85′ – 1 front and 2 rear.
+Overhang: On 4 or more lane divided highways: Over 10′ – 1 escort pilot car (some highways may need 2). On 2-lane highways: Over 10′ – 1 escort pilot car (some highways may need 2)
+Height: On 4 or more lane divided highways: Over 14’11” – 1 escort pilot car with a height pole. On 2-lane highways: Over 14’11” 1 escort pilot car with height pole
+Security Measures
+
+“Oversize Load” signs are required for all loads exceeding 10’6″ wide. Flags are required on all four corners of any wide load and extremities. Over-length must be flagged, no sign requirements.
+
+Tennessee
+Tennessee Oversize Information
+
+Permits
+
+Oversize Permits are valid for 10 days. Driver must have the permit prior to entering the state.
+
+Operating Time
+
+24 hours, 7 days per week continuous movement with normal travel conditions authorized.
+
+Restrictions
+
+Movements will not be allowed on the interstate system of highways between the hours of 6:00 a.m. – 9:00 a.m. and 3:00 p.m. – 6:00 p.m. from Monday through Friday in counties having a population exceeding 250,000. No travel on major holidays. Travel is also restricted to the day(s) prior to and after major holidays.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 13’6″
+Length: Not to exceed 50′ from kingpin to end of the trailer.
+Overhang: 5′ (total for front and rear)
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 42,000 (8′ spacing)
+Routine Oversize Permit Limits
+
+Width: 16′
+Height: 15′
+Length: 120′
+Weight: Single – 20,000; Tandem – 40,000; Tridem – 60,000; 5 axles – 100,000; 6 axles – 120,000; 7 axles 140,000
+Escorts
+
+Length: Over 90′ – 1 escort; Over 120′ – 2 escorts; Over 75′ to 85′ long requires rotating or strobe type amber light
+Width:
+On Interstate and 4-lane highways: -Over 12’6″ – 1 escort; Over 14′ – 2 escorts
+On 2-lane highways: Over 10′ – 1 escort (unless over 24′ pavement width excluding shoulders); Over 14′ – 2 escorts
+Height: Over 15′ (if approved) – 1 escort with height pole
+Security Measures
+
+“Oversize Load” signs are required on all loads over 10′ wide and/or 75′ in length. Loads over 75’ long require a rotating amber light or strobe type light on the end of the load. Red flags are required on all overwide loads (front and rear) at the top and bottom of each side where load is widest. Red flags (18″) square are required on the extremities when load extends beyond the sides more than 4″. Flags must be placed at the extreme rear end of over length loads or when there is over 4′ rear overhang.
+
+Mississippi
+MISSISSIPPI OVERSIZE PERMITS INFORMATION
+
+Permits:
+
+Permits are valid for 3 days. Driver must have permit prior to entering the state.
+
+Operating time:
+
+Travel is allowed one-half hour after sunrise to one-half hour before sunset, Monday through Saturday. No Sunday travel. Continuous movement is allowed for loads not exceeding 12′ wide, 13’6″ high, 99′ overall length, 150,000 pounds GVW, 4′ rear overhang, and with proper lighting for night travel. However, when the load is over 10′ wide, an escort is required for night travel.
+
+Restrictions:
+
+No travel after 12:00 noon on days prior to major holidays and some holiday weekends. No travel is allowed for loads over 12′ wide in Jackson, Memphis and Gulf Coast areas from 7:00 a.m. – 8:30 a.m. and 4:30 p.m. – 5:30 p.m. Monday through Friday.
+
+Legal dimensions:
+
+·        The vehicle must have the following characteristics:
+
+·        Width: 8’6″
+
+·        Height: 13’6″
+
+·        Length: 53’0 trailer, 99′ overall length
+
+·        Overhang: 2’11” front, 14’11” rear
+
+·        Weight: 80,000 Gross Single – 20,000 Tandem – 34,000 Tridem – 42,000
+
+Routine permit limits:
+
+·        Width: 20′
+
+·        Height: 15’6″ (over 15’7″ requires route survey)
+
+·        Length: 120′
+
+·        Height: 16’ (Over 16′ requires route survey, utility company letters, and special approval.)
+
+·        Weight: Single – 20,000 Tandem – 48,000 Tridem – 57,000 (60,000 on Interstate)
+
+Escorts:
+
+·        Width: Over 12’11″ – 1 escort pilot car; over 16′ – 2 escort pilot cars; over 10′ wide at night – 1 escort pilot car
+
+·        Length: Over 95′ – 1 escort pilot car (2 on some routes); over 105′ – 2 escort pilot cars
+
+·        Height: The DOT may require an escort with high pole for some routes if conditions warrant. A route survey is required when exceeding 15’7″ in height.
+
+·        Overhang: Over 15′ front or rear – 1 escort pilot car
+
+Security measures:
+
+“Oversize Load” signs are required for all loads exceeding 12 feet wide. Flags are required on all corners of loads that measure 10′ – 12′ wide. Loads over 12′ wide require flashing amber lights mounted on the rear of the load and signs on the front of the load. Over length loads and loads that exceed 4′ overhang must be flagged.
+
+Michigan
+Michigan Oversize Permits Information
+
+Permits
+
+Michigan Oversize Permits are valid for 5 days. Driver must have a permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed one-half hour before sunrise to one-half hour after sunset, Monday through Friday. Weekend travel is now being permitted on a trial basis for loads not exceeding 10′ wide, 14′ in height, and 90′ in length. No weekend travel when dimensions are greater. However, overweight only with all dimensions, all legal and not exceeding 70′ overall length can have continuous travel.
+
+Restrictions
+
+No travel starting at noon the day preceding a major holiday and holiday weekends until daylight of the first day after the holiday or holiday weekend. Loads over 12′ wide or 90′ long are not to move from 7:00 a.m. – 9:00 a.m. and from 3:00 p.m. – 6:00 p.m. in the following counties: Genesee, Ingham, Jackson, Kalamazoo, Kent, Muskegon, Macomb, Oakland, Saginaw, Westenau, Wayne.
+
+Note on Bridge Crossings: Contact Mackinaw Bridge Authority (phone 906-643-7600) 24 hours prior to planned bridge arrival/crossing. Escort will be provided (no charge) for loads exceeding legal weight or 10′ wide. Crossing is not allowed when winds exceed 25 miles per hour.
+
+Ambassador Bridge (between Detroit and Windsor, Ontario) is now charging $50.00 or more for O/D shipments and may require a one-day notice. They have restricted crossing hours from 10:00 AM to 4:00 PM, Monday through Friday. Ambassador Bridge phone is 313-496-1111.
+
+LIFT AXLES: According to Michigan provision sheet, “Vehicles must have air or lift axles on the ground.” According to the permit office, when under a load, all axles including flip axles must be on the ground if you are overweight.
+
+SEASONAL LOAD RESTRICTIONS: Usually February to April, maximum weights per axle and specific routing may vary. No overweight permits will be issued during the spring weight restriction period. Maximum axle weights may be reduced up to 35%. A tandem group may be allowed only 26,000 pounds (13,000 pounds per axle), or with two tandem groups, they may allow 26,000 pounds for one group and 32,000 for the other tandem group. Frost Phone: 800-787-8960
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ designated highways, 8’0″ all other roads
+Height: 13’6″
+Length: 53′ semi-trailer on Interstate and designated highways, 50′ maximum on non-designated highways. 53’ trailer must have kingpin setting of 41’.
+Overhang: 3′ front; any rear amount is permissible if the legal length is not exceeded.
+Weight: 80,000 Gross; Steer Axle – 700 pounds per inch of tire width (15,400 pounds with 11″ tires); Tandem – 34,000 (32,000 on non-designated roads, and 26,000 on second tandem); Tridem – 42,000 (39,000 on non-designated); Single – 20,000 designated highways (18,000 other roads)
+Routine Michigan Oversize Permit Limits
+
+Width: 16′ (or 14′ during spring thaw restrictions)
+Height: 15′ Shipper/driver are responsible for finding safe routes when the height exceeds 13’6″
+Length: 150′
+Weight: “Handled on a case-by-case basis.” Air or lift axles should be on the ground.
+You must be registered for at least the amount of weight you are permitting for Michigan.
+
+Loads exceeding these dimensions must be applied for as superloads, and may take up to ten days to issue once shipper letter, route surveys, etc. are received.
+
+Escorts
+
+Width: Over 12′ – 1 escort pilot car; over 14′ – 2 escort pilot cars
+Height: Over 14’5″ – 1 escort pilot car with high pole; over 15′ – 2 escort pilot cars and a route survey must be submitted and approved.
+Length: Over 90′ – 1 escort pilot car; over 100′ – 2 escort pilot cars. Overhang: Over 15′ – 1 escort pilot car.
+Security Measures
+
+“Oversize Load” signs are required on the front of the vehicle and on the rear of the load for any over dimensional load. An over width or over length vehicle/load requires flags at each corner of the load, with an additional flag at the widest point on each side of the load if it extends beyond the corner flags. When rear overhang is 4′ or more, the extreme rear of the load must have a flag for daytime running, and a red light or lant
+
+Indiana
+Indiana Oversize Permits Information
+
+Permits
+
+Indiana Oversize Permits are valid for 15 days.
+
+Operating Time
+
+Vehicles up to 110′ in length, 10′ wide, and 13’6″ high and less than 200,000 pounds are allowed continuous travel seven days a week (24/7) with a permit. Over 110′ long, 10′ to 14’4 wide and up to 15′ in height may travel 7 days a week from one-half hour before sunrise to one-half hour after sunset. Between 14’4” and 16′ wide, Monday through Friday from 30 minutes before sunrise to 30 minutes after sunset. Over 16′ wide, over 15′ high, or over 200,000 pounds are usually allowed to move 8:30 a.m. – 3:30 p.m. Monday through Friday, but other provisions may apply. Overweight only loads can travel 24/7.
+
+Restrictions
+
+No travel allowed starting at noon the day prior to major holidays and holiday weekends.
+
+TOLL ROAD: Maximum dimensions without a state permit are 12′ wide, 14’6 height, 53′ trailer and load, 90,000 pounds gross weight. This is for routes/loads using only the toll road. Loads over 10′ wide are restricted to daylight hours only. 12′ wide loads are allowed to run weekends except certain holidays. Toll charge is by number of axles and miles. Escort requirements are the same as for other Indiana divided highways.
+
+Speed Limit
+
+Interstate routes 65 mph. Any permitted vehicle over 85’ long, or 10’6” wide, or above legal height may not exceed 55 miles per hour.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 13’6″
+Length: 53′ semi-trailer and load (including overhang), kingpin to rear axle not to exceed 43′.
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 51,000
+Routine Indiana Oversize Permit Limits
+
+Width: 16′
+Height: 15′
+Length: 110′
+Weight: Single – 28,000; Tandem – 48,000; Tridem – 60,000; 5 Axles – 108,000*; 6 Axles – 120,000*; 7 Axles – 120,000* (*These depend on spacing)
+Loads exceeding these dimensions or weight are considered as super loads. Applications for over 16′ wide need detailed route survey. Over 15′ height requires a pre-qualified signal contractor/utility bucket truck to accompany load on any non-Interstate routes. Over 17′ high also requires route survey and utility company letter if overhead lines must be moved.
+
+Escorts
+
+Width: On all highways, over 12’4 – 1 escort pilot car. Over 14’4″ to 17′ on dual lane divided highways – 1 escort pilot car, and 2 escort pilot cars on all other roads. Greater than 17′ on all roads – front and rear Police escorts required.
+Height: Over 14’6″ – 1 escort pilot car with height pole; over 15′ – 1 escort pilot car with height pole and utility bucket truck except on Interstate.
+Length: Over 110′ – 1 escort pilot car. Over 130′ – front and rear Police escort.
+Weight: Over 200,000 pounds GVW – 2 escort pilot cars.
+Security Measures
+
+“Oversize Load” signs are required on all permitted vehicles/loads. 2 Flags (18″ square) are required on oversize movements, placed at widest point. Vehicles must travel with low-beam headlights on for all oversize loads.
+
+Alabama
+Alabama Oversize Information
+
+Permits
+
+Oversize Permits are valid for 5 days in this state. Driver must have a permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed during daylight only, (one-half hour before sunrise to one-half hour after sunset) Monday through Saturday. No Sunday travel. Continuous travel is not allowed even when overweight only.
+
+Restrictions
+
+No travel is allowed on major holidays.
+
+Speed Limit
+
+For overweight speed limit might listed on the permit. For oversize loads maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ (8′ on lanes less than 12′ wide)
+Height: 13’6”;
+Length: 57′ trailers (53’6″ on roads less than 12′ wide) and 85′ overall (unless trailer exceeds 57′);
+Overhang: 10′ front; 5′ rear; must be within length limits;
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 42,000.
+These parameters are established by the local legislation.
+
+Routine Oversize Load Permit Limits
+
+Width: 16′ (over 14′ cannot use Interstate)
+Height: 16’
+Length: 150′ (maximum overhang 20′)
+Overhang: 20′ overhang is the maximum permitted.
+Weight: 250,000 Gross weight; Steer – 12,000; Single – 22,000; Tandem – 44,000; Tridem – 66,000; Quad — 88,000; 5 axles – 110,000; 6 axles – 122,000; 7 axles – 142,000; 8 axles – 150,000
+Loads exceeding these dimensions, over 150,000 are Superloads.
+
+
+
+Get Your Permit Today
+Call: 224-998-3880
+Escorts
+
+Width: over 12′ – 2 escort pilot cars needed.
+Height: over 15’5′ – 1 escort pilot car needed *(may be needed at lower heights on some routes)
+Bucket or Blade Rule: If bucket or blade protrudes past sides of the trailer – 1 escort needed. (No escort needed if outriggers are used to prevent bucket or blade from protruding sides of the trailer).
+Length: over 90 – 1 escort pilot car needed, over 105′ – 2 escorts needed.
+Overhang: over 5′ rear overhang – 1 rear escort needed, over 10′ front overhang – 1 front escort needed.
+Miscellaneous
+
+Bulldozers, front-end loaders and similar equipment shall be loaded with the blade to the rear any time the blade protrudes beyond the transporting vehicle. Overweight dozer and blade must be attached, or else hauled on separate loads if the blade is detached. 60′ Structural steel is exempt from permits and escorts.
+
+Security Measures
+
+“Oversize Load” signs must be clearly visible on the front and the rear of any over-width or over-length vehicle or combination of vehicles and loads. Flags must be placed at the front and the rear corners of any over-dimensional load or vehicle. Over 4′ rear overhang requires lights at night. (Over 5′ needs a permit, and cannot run at night). There are no sign or flag requirements for overweight or overweight only loads.
+
+Florida
+Florida Oversize Information
+
+Permits
+
+Oversize Permits in Florida are valid for 5 days. Driver must have a permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed a one-half hour before sunrise to one-half hour after sunset, during Weekdays. Saturday and Sunday travel is restricted to one-half hour before sunrise to 12:00 noon. If the load is 10′ wide and under, legal trailer length, and height, movement is allowed all days during daytime hours (flags are required).
+
+Restrictions
+
+No movement allowed during peak traffic hours. Travel is prohibited during 6 main holidays plus Martin Luther King Day as well as the days before and after New Year’s, Thanksgiving and Christmas may also be restricted.
+
+Florida turnpike limit is 12′ wide, 13’6 high. Turnpike routes are applied for with the state application. Additional toll charge is approximately 25 cents per mile for 7 axles, 20 cents per mile for 5.
+
+Speed Limit
+
+Interstate 70 mph. Non-interstate 55 mph. Unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ (8′ on some non-designated)
+Height: 13′ 6″ (13′ non-designated).
+Length: 48′ trailer (53′ semi-trailer must have kingpin setting of 41′ from the center of kingpin to center of rear axle to be legal), 75′ overall length.
+Overhang: 3′ front, 3’ rear.
+Weight: 80,000 Gross; Single – 22,000; Tandem – 44,000; Tridem – 66,000
+Routine State Oversize Permit Limits
+
+Width: 14′
+Height: 14’6″
+Length: 95′
+Overhang: maximum 10′ rear overhang during night travel.
+Weight: Depends on spacing 5 Axles – 112,000; depends on spacing and routes 6 Axles – 122,000; 7 Axles – 142,000.
+Loads exceeding these dimensions or weights have to be applied for as Super Loads.
+
+Escorts
+
+Width: Over 12′ – 1 escort pilot car, (over 12′ on some 2 lanes – 2 escort pilot cars), over 14′ – 2 escort pilot cars, over 15′ may also require State Police escort.
+Height: Over 14’6 – 1 escort pilot car with height pole, over 16′ – 1 escort pilot car with height pole and 1 State Police on state roads. At 15′ high and over needs route survey.
+Length: Over 95′ – 1 escort pilot car (May require 2 escorts in certain situations); Over 150′ – 2 escort pilot cars; Over 250′ – 1 escort pilot car and 1 State Police vehicle)
+Overhang: Rear overhang up to 20′ past center of last axle or dolly may require 1 escort pilot car.
+Miscellaneous
+
+Blades, buckets, counterweights, etc. may be hauled up to 16′ wide, only if cannot be reduced (welded parts). Parts may be hauled on the same vehicle.
+
+Security Measures
+
+Flags are required on all over width, over height and over length loads, and with 3′ front or 4′ rear overhang. Flags must be red or orange and 18” square placed on all four corners and all protrusions, projections, and overhangs. “Oversize Load” signs are required on all loads exceeding 10′ wide, over legal length or 14′ high. Loads exceeding 10′ wide, or over 4′ rear overhang need 360-degree amber warning light on the tractor. Width over 12′, height over 14’6, length 85′ or over, requires two 360 degree amber warning lights, one on the tractor and one at the rear of the load.
+
+Maine
+Maine Oversize Permits Information
+
+Permits
+
+Maine Oversize Permits are valid for 7 days. Driver must have a Maine DOT permit prior to entering the state.
+
+Operating time
+
+One-half hour before sunrise to one-half hour after sunset, 7 days a week; except no travel on weekends in the months of July and August. Overweight-only loads are permitted to travel at any time of day.
+
+Restrictions
+
+No travel on major holidays or some holiday weekends.
+
+TURNPIKE: Loads limited to 13’6 high, 14’6 wide. Travel is allowed one-half hour before sunrise to one-half hour after sunset.
+
+Speed Limit
+
+Interstate routes - 65 mph. Non-interstate routes - 60 mph.  Unless otherwise specified on permit or road signs.
+
+Legal dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 13’6 (Load may exceed by 6″, for a legal loaded height of 14″, as long as the load is not reducible and not traveling on Maine Turnpike.)
+Length: 53′ semi-trailer and 74′ overall length on Interstate and designated highways; 48′ trailer and 69′ overall length on other highways. “The maximum legal length of vehicles and loads traveling more than 1 mile beyond the National Network is 74′.”
+Overhang: 74′ overall length maximum
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 42,000
+Routine Maine Oversize Permit Limits
+
+Width: 16′
+Height: 16′
+Length: 125′
+Weight: Single – 20,000; Tandem – 52,000; Tridem – 75,000
+Tractor must be registered for 90,000 pounds to permit for overweight up to 90,000, or register for 100,000 maximum to permit over 90,000.
+
+Loads exceeding these dimensions are treated as superloads.
+
+Escorts
+
+Width: Over 12′ – 1 escort pilot car; over 16′ – 1 escort pilot car and 1 police escort; over 20′ – 2 Police escorts
+Length: Over 80′ – 1 escort pilot car; over 125′ – 1 escort pilot car and 1 police escort; over 150′ – 2 Police escorts
+Height: Over 16′ – 1 escort pilot car with a height pole.
+Security Measures
+
+“Oversize Load” signs and flags required for all overwidth and overlength permit loads. Signs should be mounted at the front bumper and at the rear of the load. Flags (18″ x 18″) should be mounted at corners of load and widest extremities. Over 4′ rear overhang must be flagged (two flags if the overhang is more than 2′ wide). Run with headlights on low beam (not required if overweight only), and flashing, rotating amber light or light bar on top of the cab. Movement when not oversized requires that load signs be removed or covered and that amber beacon lights be extinguished. All over-dimension moves require headlights on low beam, and flashing, rotary or amber lights on top of the cab.
+
+New Hampshire
+New Hampshire Oversize Permits Information
+
+Permits
+
+New Hampshire oversize permits are valid for five travel days. Must have the overweight permit prior to entering the state.
+
+Transportation Time
+
+Travel is allowed one-half hour before sunrise to one-half hour after sunset, Monday through Friday. No weekend or holiday travel for over dimensional loads. Overweight only are permitted continuous travel.
+
+Restrictions
+
+Travel through the city of Manchester is restricted during the hours of 7:00 a.m. – 9:00 a.m.  and 3:00 p.m. – 6:00 p.m. Toll road requirements are the same as other highways. No travel on major holidays, including some holiday weekend restrictions.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+Width: 8’6″
+Height: 13’6″
+Length: 53′ semi-trailer on Interstate and designated highways (41′ Kingpin to center of rear tandem);
+48′ semi-trailer on all other roads. Length limitations do not apply to vehicles transporting poles, pipes, logs, timbers, steel beams (not for stretch trailers)
+Weight: 80,000 Gross Single – 20,000 designated highways* (22,400 other roads)
+Tandem – 34,000 designated highways* (36,000 other roads) Tridem – Same as tandem
+* When GVW isn’t over 73,280 pounds, 22,440 pounds legal on a single axle, and 36,000 on a tandem
+
+Routine New Hampshire Oversize Permit Limits
+
+Width: 15′
+Height: 15′, Over 13’6″ needs a route survey.
+Length: 110′
+Weight: Single – 25,000 Tandem – 50,000 Tridem – 70,000
+Loads exceeding these dimensions are treated as super loads.
+
+A bridge review is required when: any single axle exceeds 27,500 pounds, any axle of a tandem exceeds 25,000 pounds, any axle of a tridem exceeds 22,500 pounds, any axle of a quad exceeds 20,000 pounds, any 5-axle combination exceeds 100,000 pounds, any 6-axle combination exceeds 120,000 pounds, any 7-axle combination exceeds 130,000 pounds, any combination of 8 or more axles exceeds 149,999 pounds.
+
+Escorts
+
+Width: At 12′ – 1 escort; over 14’1” – 1 State Police escort (need 48 hour notice).
+State may require a second escort for some routes.
+Height: Over 14′ – 1 escort with height pole and route survey.
+Overhang: Over 15′ – 1 escort; 2 escorts are required if overhang exceeds 15′ and width is over 12′.
+Length: At 90′ – 1 escort; over 100′ – 1 escort and 1 State Police.
+Security Measures
+
+“Oversize Load” sign required on front of an oversize vehicle and on the rear of the vehicle or load, whichever provides the best rear display. Mount red flags (at least 12″ square) on all extremities of the load when load extends over sides of trailer more than 4 inches. When rear overhang exceeds 4′, 1 flag shall be displayed at the end of the overhang if less than 2′ wide and 2 flags if the overhang is over 2′ wide. There are no special lighting requirements.
+
+Vermont
+Vermont Oversize Permits Information
+
+Permits
+
+Overweight Permits are valid for 10 travel days. Driver must havethe permit prior to entering the state.
+
+Operating Time
+
+Travel is permitted one-half hour before sunrise to one-half hour after sunset. Overweight only and capable of traveling with the traffic flow are not restricted to daylight travel time. No weekend travel for loads over 10’ 6” wide, 100’ in length or 108,000 pounds gross. Movement may be restricted on Friday afternoons between July 1st and Labor Day. Overweight only and capable of traveling with the traffic flow are not restricted to daylight travel.
+
+Restrictions
+
+State highway speed is limited to 45 miles per hour for loads exceeding 90,000 pounds, 10′ wide, 13’6 high or over 75’ long. Loads over 10’6″ wide, 100′ long or 108,000 gross pounds are restricted from traveling on holidays and weekends starting Friday noon through sunrise Monday from July 1st through Labor Day.
+
+Speed Limit
+
+Interstate routes - 65 mph. Non-interstate routes - 55 mph.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 13’6
+Length: 53′ semi-trailer on Interstate and designated highways (41′ Kingpin to center of rear axle), 75′ overall length.
+Weight: 80,000 Gross; Single – 20,000 designated highways, 22,400 other roads; Tandem – 34,000 designated highways, 36,000 other roads.
+Routine Vermont Oversize Permit Limits
+
+Width: 15′
+Height: 14′
+Length: 100′
+Overhang: Not to exceed one-third the length of the load.
+Weight: “Department decides on case-by-case basis”, 150,000 lbs. gross
+Escorts
+
+Width: 12′ or greater – 1 escort
+Length: 80′ or greater – 1 escort
+Overhang: 15′ or greater – 1 escort
+Security Measures
+
+“Oversize Load” signs and flags are required on all oversized vehicle. Red flags (at least 18″ square) are required on corners and extremities of loads or vehicles. Over length loads or loads with front or rear overhang which exceeds 4 feet, one flag shall be displayed at the end of the overhang if less than 2 feet wide, and two flags if the overhang is 2 feet wide or more.
+
+Massachusetts
+Massachusetts Oversize Permits Information
+
+Permits
+
+Massachusetts Oversize Permits are valid for 5 days. Driver must have a DOT permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed Monday 12:01 a.m. through noon on Saturday and on Sunday from 12:01 a.m. until noon. Vehicles between 12′ and 14′ wide, over 13’11” in height, and between 80′ and 114′ long are only permitted to travel sunrise to sunset Monday through Friday except no travel will be allowed between 7:00 a.m. – 9:00 a.m. or between 3:30 p.m. – 7:00 p.m. Loads over 14′ wide and/or over 115′ in length are allowed to travel from 9:30 a.m. – 3:30 p.m. Tuesday through Thursday.
+
+Restrictions
+
+No travel on major holidays, and some holiday weekends. Routes 95 and 93 in the Boston area are restricted to travel only between 9:30 a.m. to 3:30 p.m.
+
+Massachusetts Turnpike: Between NY line and I-95, no permit is required up to 10′ wide, legal weight, and up to 80′ long. Turnpike permits are issued for vehicles and loads up to 12′ wide, 13’9″ high, 80′ long, and up to 99,000 pounds.  (Lower limits apply to the Sumner, Callahan and Ted Williams Tunnels in the Boston area.) Permits to exceed these dimensions on the Turnpike require special engineering approval plus a $350.00 fee. Vehicles/loads over 12′ wide, over 100′ long or over 130,000 gross requires a police escort. The Turnpike phone number is: 781-431-5148.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 13’6″
+Length: 53′ semi-trailer on Interstate and designated highways.
+Overhang: 3′ front, 4′ rear
+Weight: 80,000 Gross; Single – 24,000 designated highways (22,400 other roads);Tandem – 34,000; Tridem – 36,000
+Routine Massachusetts Oversize Permit Limits
+
+Width: 14′
+Height: 14′ (Over 13’8″ requires a height survey)
+Length: 115′
+Weight: 130,000 pounds gross (see note below). Single, Tandem, Tridem – Depends on axle spacing
+Loads exceeding these dimensions are treated as super loads. Over 130,000 pounds gross requires engineering company survey of structures.
+
+*Note: the maximum superload within Massachusetts is 16 feet.
+
+Escorts
+
+Width: Over 12′ – 1 escort pilot car; over 13′ – 2 escort pilot cars; over 15′ – 2 escort pilot cars and 2 State Police vehicles. (Loads from 8’6″ to 12′ must have an escort when traveling in the tunnels.)
+Height: Over 13′ 8″ – route/height survey and 1 front escort pilot car; Over 13’11” (depending on route) – 2 escort pilot cars. Over 14’11” – 2 front escort pilot cars and State Police escort.
+Length: Over 80′ – 1 escort; over 95′ – 2 escort pilot cars; over 135’– 2 escort pilot cars and 2 State police vehicles.
+Overhang: Over 4′ if poles, masts, booms, etc. or if the overhang is over 10′ – 1 escort pilot car
+*Note: On Massachusetts Turnpike, over 12′ wide, over 100′ long or over 130,000 pounds gross requires a police escort. On Cape Cod, if the width is over 12′ – 1 escort pilot car and State Police escort.
+
+Security Measures
+
+“Oversize Load” sign required on the rear of an oversize vehicle that does not require an escort. Mount red flags on extremities and corners for any over width or over length vehicle. For all over dimensional loads, made during hours of darkness, a flashing amber light shall be in operation above the highest point of the vehicle and visible from the front and rear of the vehicle.
+
+Rhode Island
+Rhode Island Oversize Permits Information
+
+Permits
+
+Rhode Island permits are valid for five days.
+
+Operating Time
+
+Travel is allowed for one-half hour before sunrise to one-half hour after sunset. No travel is allowed on Saturday or Sunday. Overweight-only loads are allowed continuous travel Monday through Friday.
+
+Restrictions
+
+No travel starting 12:00 noon the day prior to major holidays and holiday weekends until sunrise of the following weekday. Victory Day (2nd Monday in August) is also a restricted travel day.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 13′ 6″
+Length: Interstate and designated highways – 53′ semitrailer (41′ kingpin to center line of rear axle), other roads 48′ semitrailer
+Overhang: 3′ front, 6′ rear
+Weight: 80,000 Gross; Single – 22,400; Tandem – 36,000; Tridem – 42,000 with axle spacing less than 4’6″
+Routine Rhode Island Oversize Permit Limits
+
+Width: Determined by route and dimensions
+Height: Determined by route and dimensions
+Length: Determined by route and dimensions
+Weight: Determined by spacings, usually 22,500 per axle is permitted; 5 Axles 6 Axles or 7 Axles – depends on spacings, weight, and routing, over 200,000 pounds, an outside engineering firm must survey the routes
+Escorts
+
+Width: Over 12′ – 1 escort, over 14’6″ – 2 escorts
+Length: Over 80′ – 1 escort, over 90′ – 2 escorts
+Overhang: Over 15′ – 1 escort
+High: 14 - 1 escort and route survey require 
+Security Measures
+
+“Oversize Load” signs are required for all loads exceeding legal width, length or rear overhang. Wide loads require at least two flags, 18″ square, and up to six flags mounted at the widest extremities. Over-length vehicles require one flag if the load is less than 2′ wide and two flags if the load is more than 2′ wide. Headlights are required to be on at all times during movement of the load.
+
+Connecticut
+Connecticut Oversize Permits Information
+
+Permits
+
+Connecticut Oversize Permits are valid for 3 days.
+
+Operating Time
+
+Daylight only (one-half hour after sunrise to one-half hour before sunset), weekend travel allowed for loads that do not exceed 12’ width, 80’ overall length, 13’6 hight and if gross weight does not exceed 120.000, no holidays travel. No moves 6:30 to 9:00 a.m. or 4:00 to 6:00 p.m. Loads 13’6″ wide or over 14′ high can only travel Tuesday through Thursday, 9:00 a.m. to 4:00 p.m.
+
+Restrictions
+
+No travel on major holidays.  If a holiday falls on Monday, shut down is at 12:00 noon on Friday.  For Thanksgiving and Christmas, shut down is at 12:00 noon on the day before the Holiday.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 13’6″
+Length: 48′ trailer
+Overhang: No permit needed for overhang, but overhang over 4’ needs to be flagged for the day and lighted for the night.
+Weight: 80,000 Gross; Single – 22,400; Tandem – 40,000; Tridem – 60,000
+*Note: 53′ semi-trailer is only legal on Interstate and designated highways if the distance between the kingpin and the center of the rear axle does not exceed 43′.
+
+Routine Connecticut Oversize Permit Limits
+
+Width:16′
+Height: 14′
+Length: 130′
+Weight: Single – 22,400; Tandem – 40,000; Tridem – 60,000.
+*Note: Over 14′ wide, 14′ high or 120 long is considered a Super Load.
+
+Escorts
+
+Width: Over 12′ – 1 escort pilot car; over 13’6″ – 2 escort pilot cars; 15′ or greater – 3 escort pilot cars.
+Height:  Over 14′ – 1 escort pilot car with a pole (route survey required before ordering permit). Over 15’1″ high AND 16’6″ wide or greater – 1 escort pilot cars and 2 State Police vehicles. Over 15’3″H – 1 escort pilot car and 2 State Police vehicles
+Length: Divided Highway over 100′ – 1 escort pilot car, over 120′ – 2 escort pilot cars. Undivided Highway over 80′ – 1 escort pilot car; over 100′ – 2 escort pilot cars.
+Overhang: Over 25′ – 1 escort pilot car.
+Security Measures
+
+“Oversize Load” signs are required on loads over 10′ wide or 13’6″ high.  Over 4′ of overhang must be flagged during the day and lighted at night. Flags are required on all corners of the permitted vehicle on any oversize or overweight load, and on widest points of wide loads.
+
+New York
+New York Oversize Permits Information
+
+Permits
+
+Oversize State permits are valid for 5 days. Driver must have permit prior to entering the state.
+
+New York City permit is good for one move, either day or night depending on dimensions and routes. A move requires 2 permits – 1 to get INTO the city and 1 to get OUT of the city.
+
+New York Thruway permit is good for a trip in 1 direction, with interruptions not to exceed 24 hours.
+
+Operating Time
+
+Travel is allowed one-half hour before sunrise to one-half hour after sunset, Monday through Friday. Loads that are less than 12′ wide or 85′ long, 13’6″ high and able to maintain normal highway speed are permitted to travel Saturday until Noon. Overweight only up to 99,999 pounds may travel 24/7.
+
+New York City: Night travel may be allowed or it may be necessary in New York City or on Long Island, depending on dimensions.
+
+NY Thruway: Overweight only up to 100,000 pounds may travel 24/7.
+
+Restrictions
+
+No travel is permitted for loads at 14′ wide, 14′ high, 90′ long or greater, through BUSINESS DISTRICTS between 7:00 a.m. – 9:00 a.m. and 4:00 p.m. – 6:00 p.m. At 16′ wide, 15′ high, 100′ long or greater, no STATE travel between 7:00 a.m. – 9:00 a.m. and 4:00 p.m. – 6:00 p.m. No travel on Sundays, major holidays and after 12:00 noon the day prior to a major holiday or holiday weekend. NYC is more restrictive. Other time restrictions may be listed on permits for local areas.
+
+New York City: Separate oversize permit is needed. Travel restrictions are numerous and permits/escorts can be expensive. Wide load permits for city are issued for one period either at night or during the day, not both. No loads over 12’1″ high are permitted in the tunnels. Trucks are not permitted on the Henry Hudson bridge at any time; loads over 13′ are restricted from the Hodges Memorial bridge; overweight vehicles are not permitted on the Bronx-Whitestone Bridge.
+
+NY Thruway: Separate permit is needed for the Thruway. No travel is permitted on weekends or on major holidays starting at 12:00 p.m. the day prior to the holiday. Thruway includes I-87 (NYC to Albany), I-95 (NYC to Connecticut), I-287 (connecting I-87 with I-95), I-90, and I-190 (connecting Buffalo with Niagara Falls). Loads over 13’6″ height are not allowed.
+
+Speed Limit
+
+55 mph.
+
+Legal Dimensions
+
+Width: 8’6″ (8′ in NYC or State Highway or roads with less than 10′ wide travel lanes)
+Height: 13’6″
+Length: 53′ semi-trailer on Designate Highway system and NY Access Highways; 48′ trailer and 65′ overall length on non-qualifying highways, in NYC and on NY Thruway. Trailer exceeding 48′ must have kingpin setting of 43′ or less from kingpin to center of rear axle. NYC: 53′ trailers only legal on segments of I-95, I-295, I-495 and I-695.
+Overhang: 3′ front and 4′ rear
+Weight: 80,000 Gross; Single – 22,400; Tandem – 36,000; Tridem – 54,000
+Overlength Permit Exemptions: Permits are not required for loads of poles, girders, columns or similar objects if only legal length is exceeded. This may not apply in NYC area.
+
+Routine New York Oversize Permit Limits
+
+Width: 16′
+Length: 160′
+Height: 15’11” (over 13’6 on Thruway)
+Overhang: Maximum rear overhang shall not exceed 1/3 the length of load, 2/3 of which must rest on the trailer bed. Front overhang may not exceed 15′.
+You must be registered for at least the amount of weight you are permitting for New York.
+
+Loads exceeding 16′ wide, 16′ in height, 160′ in length or 200,000 pounds or greater in gross weight are considered superloads.
+
+Escorts
+
+Width: Over 12′ – 1 escort; over 14′ – 1 escort; 16′ and over – 4 escorts (2 front, 1 rear, 1 Police)
+NY Thruway: Loads at 12’7″ through 14′ have restricted travel. Loads over 14′ are not allowed.
+Height: 14′ and over – 1 escort with height pole; 16′ and over – 1 escort with height pole and 1 Police escort.
+Length: Over 79′11 – 1 escort; 100′ and over – 2 escorts, 3 on two-lane highways; 160′ and over – 4 escorts and 1 Police.
+Overhang: Over 10′ front or rear overhang – 1 escort.
+Weight: Over 200,000 pounds – 1 police escort.
+Other Police Escort Requirements: Police escort is required whenever a vehicle must cross the center line of a bridge or highway; if a permit vehicle cannot maintain normal highway speeds (within 20 mph of posted speed); or when traveling at night.
+
+ROUTE SURVEYS NY STATE:
+
+Width: 14′ and over requires route survey to order a permit.
+Height: 14′ and over – route survey required to order a permit.
+Length: 100′ and over requires route survey to order a permit.
+ROUTE SURVEYS NY CITY:
+
+Width: 12′ and over requires route survey to order a permit.
+Height: 14′ and over – route survey required to order a permit.
+Length: 80′ and over requires route survey to order a permit.
+Weight: 120000 lbs and over requires route survey to order a permit.
+
+
+Security Measures
+
+“Oversize Load” signs are required (front and rear) on all oversized loads, including high loads. Red or orange fluorescent flags (18″ square on staffs), are required at all corners at the extremities of load or trailer for any over width or over length load. (For night moves when permitted, amber warning lights to must be placed on the front or side in place of flags, and red warning lights at the rear). Overhang of 4′ or more requires flags at end of load or lights at night (two flags required at extremities of overhang if width of overhang is more than 2′).
+
+Headlights and external lights must be turned on for all oversized loads. For wide or high loads (over 8’6″ wide or 13’6″ high), power unit must have a minimum of one amber light located on top of the vehicle and visible in a 360-degree radius.
+
+Ohio
+Ohio Oversize Permits Information
+
+Permits
+
+Oversize Permits are valid for 5 days. Driver must have the permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed one-half hour before sunrise to one-half hour after sunset, including weekends. Overweight ONLY is allowed to have continuous travel provided they are not obstructing traffic.
+
+Restrictions
+
+Travel is not allowed for loads over 12 feet wide between 6:30 a.m. – 9:00 a.m. and 4:30 p.m. – 6:00 p.m. Monday through Friday or from 3:00 PM until ½ hour before sunrise on Saturday and Sunday, and on Fridays from April 1 through November 30. Travel is not allowed from noon the weekday before major holidays until sunrise the following weekday.
+
+Speed Limit
+
+55 mph.
+
+Turnpike
+
+Driver must phone from pullover area to get clearance for the Turnpike. Ohio overweifght permits are issued at the entering toll plaza or you can order them online. Continuous travel is allowed for loads NOT exceeding 10′ wide, 90′ long, 14′ high or 4′ overhang. Loads over 11′ wide or over 112′ long require an escort and prior authorization. A police escort is required for all loads over 13′ wide or over 160′ long. Maximum height is 13’6″ during construction season, 14′ at other times (check ahead). Maximum length without pre-approval is 112 feet. Maximum gross weight allowed is 90,000 pounds without 2-day pre-approval. Permits exceeding 11′ wide, 112′ long or 14′ tall need to obtain permit via online system or by mail.  Speed Limit 55 mph.
+
+Legal Parameters
+
+Width: 8’6″
+Height: 13’6
+Length: 53′ semi-trailer and load
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 48,000.
+Routine Ohio Oversize Permit Limits
+
+Width: 14′
+Height: 14’6″ Any load over 14’10” is required to coordinate the move with the owners of all overhead signs, signals, utilities, etc., which may obstruct safe, clear movement.
+Length: No set maximum
+Weight: Single – 29,000 (distance of 16′ or more from an adjacent axle) Tandem – 36,000 (Spacing equal to or less than 4’) to 50,000 (Spacing greater than 4’0”) Tridem – 60,000 (4’1” minimum spacing) Quad – 60,000 (spacing 4’) 80,000 (Spacing 4’1” or greater)
+Loads exceeding these dimensions are considered superloads.
+
+Escorts
+
+Width: Over 13′ – 1 escort; over 14’6″ – 2 escorts; over 16′ – 2 escorts and 1 police escort
+Length: Over 90′ – 1 escort
+Height: Over 14’6″ – 1 escort with height pole; over 14’10” – 2 escorts
+Two escorts required if more than one of these conditions exist (for example, over 90′ long and over 13′ wide).
+
+Security Measures
+
+Dozer with blades over 12′ wide is restricted to within a 25-mile radius of the point of origin unless a traffic protector device is used. Without a protector, the blade must be removed and hauled separately. Blades over 14′ wide will not be permitted to move unless a traffic protector is used or blade will need to be removed and hauled separately. Blades over 15′ wide will not be permitted to move on state highways. Vehicle/load are not allowed to deviate from approved route, even to exit for fuel or food, unless stops are included on approved permit “Oversize Load” sign is required on front and rear of all oversized vehicles when vehicle or load is over 10′ wide, over 14’6″ high, or over legal length. Flags are to be displayed on all over dimensional vehicles and loads. Overwidth loads require flags at each corner of the vehicle or load, and two flags at the widest extremities of the vehicle or load. Overlength vehicles/loads and loads with a rear overhang of 4′ or more requires a single flag at the extreme rear if the overlength or projecting part is two feet wide or less, and two flags if wider than 2 feet to indicate the maximum width, lighting is required for night travel. Headlights must be on during the movement of any oversized vehicle/load.
+
+Pennsylvania
+Pennsylvania Oversize Permits Information
+
+Permits
+
+Overweight Permits are valid for 5 days. Driver must have a permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed from sunrise to sunset 7 days a week.
+
+Restrictions
+
+Traveling in urban areas are allowed movement seven days a week from 3:00 a.m. – 7:30 a.m. (2 pilots and special lighting are required), 9:00 a.m. – 4:00 p.m. and 7:00 p.m. to sunset, except holidays. Travel is also restricted from 9:00 a.m. – 4:00 p.m. in Fort Pitt, Squirrel Hill or Liberty Tunnels in Allegheny County. Permit travel is not allowed from noon the day before a major holiday and holiday weekend until sunrise the following weekday.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Turnpike
+
+A permit is required if load is over 10′ wide, 85′ long, 13’6 high, 100,000 pounds gross or any axle weight is over 22,400 pounds, or overhang extends 5′ to the front or 15′ to the rear. Loads over 11′ wide, 90′ long or overhang extends 5′ to the front or 15′ to the rear requires an escort. Vehicles over 160′ long require a Police escort. From Memorial Day to Labor Day, loads can travel between dawn and dusk Monday through Thursday, and between dawn and noon on Friday. After Labor Day until Memorial Day, loads can travel dawn to dusk Monday through Friday and dawn to noon on Saturday. Vehicles between 8’6″ wide and 10′ wide do not require a permit, but must follow time of day restrictions.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ on designated highways, 8′ on other roads
+Height: 13’6″
+Length: 53′ semitrailer (kingpin to center line of rear axle must not exceed 41′)
+Weight: 80,000 Gross; Steer Axle – 20,000; Single – 20,000; Tandem – 34,000; Tridem – 42,500
+70′ poles, pipes, machinery, steel beams or other objects of a structural nature do not require a permit for daylight travel for up to 85′ overall length.
+
+Routine Pennsylvania Oversize Permit Limits
+
+Width: 16′
+Length: 160′
+Weight: Single – 27,000 Tandem – 52,000 Tridem – 63,000 Quad – 72,000
+Loads exceeding 201,000 gross weight, width over 16 feet, or 160 feet overall length, are considered superloads.
+
+Escorts
+
+Width: Over 13′ on all highways – 1 escort
+Height: Over 14’6″ – 1 escort with height pole
+Length: Over 90′ – 1 escort
+Overhang: Over 15′ rear – 1 escort
+Weight: If permit requires reduced speed over bridges – 1 escort. If permit requires load to be only vehicle on a bridge, or to occupy more than one lane of traffic on a bridge – 2 escorts.
+*Note: If width exceeds 13′ and length exceeds 120′, or width exceeds 13′ and height exceeds 14’6″ 2 escorts are required.
+
+Security Measures
+
+“Oversize Load” signs are required on all oversized loads unless otherwise specified in the permit. Signs must be removed or covered when the vehicle/load is no longer oversize. Flags measuring 18″x18″ are required at the widest points of any oversize load and on rear overhang of 4′ or more. If rear lights are obstructed by load, lighting equipment is required. Headlights and rear lamps of a permitted vehicle must be on during movement when traveling with pilot car(s).
+
+New Jersey
+New Jersey Oversize Permits Information
+
+Permits 
+
+New Jersey Oversize Permits are valid for 5 days. Driver must have permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed sunrise to sunset, 7 days a week. Overweight loads only are not restricted for travel time, unless vehicle is incapable of being operated safely over 40 mph due to safety of load or hazardous road conditions.
+
+Restrictions
+
+No travel on major holidays. No travel on NJ Route 495 and the Holland Tunnel, New Jersey Turnpike, Garden State Parkway and the Atlantic City Expressway. Access onto the I-95 section of the NJ Turnpike between Ridgefield and the George Washington Bridge (mp118 to mp 122) is only obtainable with permission of the Turnpike Authority, phone (732) 247-0900, extension 5429. Vehicles traveling I-95 to New York via the GW Bridge must contact Patrick C. Kennedy Traffic Safety Officer of the NJ/NY Port Authority prior to arrival, phone (201) 242-8116.
+
+Legal Parameters
+
+Width: 8’6″ on designated roads, 8′ all other roads
+Height: 13’6″
+Length: 53′ semi-trailer on Interstate and designated highways (41′ kingpin to center of rear tandem);
+48′ semi-trailer on all other roads.
+Weight: 80,000 Gross Single – 22,400 Tandem – 34,000 Tridem – 56,400
+63′ poles, pipes, machinery, steel beams or other objects of a structural nature do not require an oversize permit for daylight travel.
+
+Routine Permit Limits
+
+Width: 18′
+Height: 16′ (over 14′, all public utility companies, NJDOT, County and Municipal Traffic Engineering departments need to be notified prior to the move)
+Length: 120′
+Weight: The maximum weight that can be permitted on each axle is 800 pounds per inch of tire width. GVW over 150,000 requires special clearance from DOT.
+Escorts
+
+On cross-border highways and driveways the following parameters are used:
+
+Width: Over 14′ – 1 escort; over 16′ – 2 escorts
+Height: Over 14′ – 1 escort
+Length: Over 100′ – 1 escort; over 120′ – 2 escorts.
+Security Measures
+
+“Oversize Load” or “Wide Load” signs required on all over width vehicles. Flags (18″ square) are required on over width extremities and the corners of the load, or on the rear corners of an over width and over length load. Low beam headlights and red tail lights (on both tractor and trailer) should be illuminated.
+
+
+
+West Virginia
+West Virginia Oversize Permits Information
+
+Permits
+
+West Virginia’s oversize permits are valid for 5 days. Must have the permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed from sunrise to sunset, seven days a week for loads that are 14′ wide or less. Loads exceeding 14′ wide are allowed travel sunrise to sunset Monday through Friday. Travel for vehicles exceeding 16′ wide is restricted to Sunday morning only. Overweight-only, not exceeding 110,000 pounds gross are allowed continuous travel.
+
+Restrictions
+
+No travel is allowed on major holidays and holiday weekends.
+
+Turnpike
+
+Loads that are less than 14’6″ high, 95′ long, 15′ overhang, or less than 110,000 lbs. is allowed weekend travel.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ Interstate and designated roads, 8′ on non-designated.
+Height: 13’6″
+Length: 53′ trailer or load on Interstate and designated highways, (with measurement from rear tractor axle to trailer first axle not to exceed 37′)
+Overhang: 3′ front, 6′ rear
+Weight: 80,000 Gross on designated routes, 65,000 local routes; Single – 20,000; Tandem – 34,000; Tridem – 42spacing spacing)
+Routine West Virginia Oversize Permit Limits
+
+Width: 16′
+Height: No limit if route can accommodate
+Length: No limit if route can accommodate
+Weight: 120,000 Gross; Single – 28,000; Tandem – 45,000; Tridem – 50,000; Quad – 55,000
+Escorts
+
+On 4 or more lane divided highways:
+
+Length:Over 95′ – 1 escort; Over 100′ – 2 escorts
+Overhang: Over 10′ front or rear overhang – 1 escort
+Width: Over 12′ – 1 escort; Over 14′ – 2 escorts; Over 15′ – 3 escorts; Over 16′ as required by route
+Height: 15′ – 1 escort (high pole) in addition to any other escort
+On 2-lane highways:
+
+Length: At 75′ – 1 rear escort; Over 95′ – 2 escorts
+Overhang: Over 10′ front or rear overhang – 1 escort
+Width: At 10’6″ to 12′ – 1 front escort; Over 12′ – 2 escorts; Over 15′ – 3 escorts; Over 16′ as required by routes
+Height: 15′ – 1 escort (high pole) in addition to any other escort
+*Note: Local districts may impose additional escort requirements
+
+Security Measures
+
+“Oversize Load” signs are required for all oversize loads. Red flags, 18″ square, should be displayed on each corner of the load.
+
+Maryland
+Maryland Oversize Permits Information
+
+Permits
+
+Maryland Oversize Permits are valid for 5 days. Driver must have a permit prior to entering the state.
+
+Operating Time
+
+One-half hour before sunrise to one-half hour after sunset, Monday through Friday and Saturday until Noon (see Restricted Travel, below, for some exceptions).Maryland started allowing travel 24/7 when dimensions do not exceed 12’ wide, 90’ long, 14’6” high and 120,000 pounds on routes that are not otherwise restricted. Night travel must be requested when applying for the permit. This is listed as a pilot program so it may change.
+
+Restrictions
+
+No movements across any toll facilities allowed from noon Friday until 9:00 A.M. Monday. This restriction is also applied to all of I-95 from Baltimore to the Delaware line. Over 12′ wide or over 92,000 pounds can only travel 9:00 A.M. to 3:30 P.M. (and Saturday until Noon) when on the Capital Beltway I-495/I-95 and Baltimore Beltway I-695. If 14′ wide or more, travel is only allowed from 9:00 A.M. to 3:30 P.M. (and Saturday until Noon on any highway. No travel on six major Holidays and Holiday weekends (check with the Permit Office).
+
+Toll Facilities: Far right lane must be used for all oversized loads. Toll facilities must be contacted at least 1 hour prior to arrival. If the lane is closed – Pull up – Wait – MDTA will open for you.
+
+BALTIMORE CITY: Baltimore permits for the predefined route into or out of Dundalk Marine Terminal are now included with the Maryland state permit provided the dimensions are under 120,000 pounds, 12′ wide, 14’6″ high and 85′ long. Loads with other Baltimore destinations or origins, or loads exceeding these dimensions have to be ordered separately from Baltimore City, which is usually slow with a 24-hour (minimum) turn-around time.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ Interstate & designated highways, 8′ all other roads.
+Height: 13’6″ (over 13’6″ not permitted on flat-bed).
+Length: 53′ semi-trailer on Interstate and designated highways, 48′ trailer all other roads. Trailers over 48′ are not to exceed 41′ kingpin to center of rear tandem axles, and not more than 4′ set back from front of the trailer to kingpin.
+Overhang: 3′ front; 6′ rear
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 42,500
+70′ poles, steel, etc. including 5′ rear overhang are legal. Shall not extend more than 10′ beyond rear.
+Routine Maryland Oversize Permit Limits
+
+Width: 16′
+Height: 16′
+Length: 140′
+Weight: 120,000 (non-Interstate) to 150,000 (Interstate) Single – 27,000; Tandem – 52,000; Tridem – 63,000
+Loads exceeding these dimensions are treated as super loads. Over 120,000 pounds gross on any non-Interstate routes is a superload.
+
+Escorts
+
+Width: Over 13′ – 1 escort pilot car; 14′ or more – 2 escort pilot cars; at 16′ or more – 2 escort pilot cars and 1 Police escort.
+Montgomery and Prince George Counties: loads over 12′ wide on 2-lane undivided – 2 escort pilot cars
+Length: Over 85′ – 1 escort pilot car; 140′ or more – 2 escort pilot cars.
+Height: 14’6″ or more – 1 escort pilot car with height pole (some routes may have other requirements), and a route survey must accompany the application.
+Weight: Over 120,000 pounds – 1 escort pilot cars and 1 Police escort is required on the entire route if any part of the route is on non-Interstate highways; over 130,000 pounds – 2 escort pilot cars and 1 Police escort (required even on Interstate-only routes).
+Security Measures
+
+“Oversize Load” or “Wide Load” signs are required if the vehicle and load exceeds 9′ in width. Flags and/or lights are needed for a rear overhang exceeding 4’. The flags are to be fastened at each corner and placed at the widest extremities. Instead of flags, red lights shall be displayed on the overhang and 1 on each side of the load.
+
+Delaware
+Delaware Oversize Permits Information
+
+Permits
+
+Delaware Oversize Permits are valid for 5 days.
+
+Operating Time
+
+Travel is permitted from sunrise to sunset. Movement should be avoided from 6:00 a.m. – 9:00 a.m. and 3:00 p.m. -7:00 p.m. Monday through Friday. Overall dimensions not exceeding 120’ long, 15’ wide, 15’ high and GVW<120,000lbs can travel Monday through Sunday. With prior approval, loads not exceeding 75’ long, 12’ wide, 14’6” high and GVW<120,000lbs can travel from 9:00 p.m. – 5:00 a.m. Monday through Friday.
+
+Restrictions
+
+No travel on most major holidays. Movement is to stop 12:00 noon the day before a holiday and can begin after 9:00 a.m. the day after the holiday.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ (8′ on non-designated)
+Height: 13′ 6″(13′ non-designated).
+Length: Interstate and Designated Highways – 53′ semi-trailers. 70′ poles, steel, etc. including 5′ rear overhang are legal. Shall not extend more than 10′ beyond rear.
+Overhang: 6′ rear, 3′ front.
+Weight: 80,000 Gross Steer –20,000; Single – 20,000; Tandem – 34,000; Tridem – 42,000
+Routine Delaware Oversize Permit Limits
+
+Width: 15′
+Height: 15′
+Length: 120′
+Weight: Single – 20,000; Tandem – 46,000; Tridem – 69,000; 5 Axles – depends on spacing; 6 or 7 Axles – 120,000.
+Loads exceeding these dimensions or weights are considered Super Loads.
+
+Escorts
+
+Width: Over 13′ – 1 escort pilot car; over 14′ – 2 escort pilot cars; over 15′ – 2 escort pilot cars and 1 State Police vehicle.
+Height: At 15’ – 2 escort pilot cars; at 17’6 and over – 2 escort pilot cars with State Police vehicle; at 15′ high and over – must have route survey.
+Length: 90′ or over – 1 rear escort pilot car; 100′ or over – 2 escort pilot cars; 120′ – 2 escort pilot cars and 1 State Police vehicle.
+Overhang: Over 15′ rear – 1 escort pilot car unless permit specifies otherwise.
+Weight: Over 120,000 pounds – 2 escort pilot cars and 1 State Police vehicle and bridge survey
+Security Measures
+
+Warning signs are required for all oversize movements. “Oversize Load” signs are to be displayed on all vehicles and loads exceeding legal width, length or rear overhang. Flags are required at the extremities on all overwide loads. Flags are required at the extreme rear of the load with rear overhang in excess of 4′; if the overhang is 2′ wide or less only 1 flag is needed; 2 flags are required if it is over 2′ wide. Rear warning lights are needed whenever the rear running lights, stop lights, turn signals or hazard lights are obstructed by the load. Warning lights (amber & red) are required for night travel.
+
+Virginia
+Virginia Oversize Permits Information
+
+Permits
+
+Overweight permits are valid for 13 travel days. Driver must have the permit prior to entering the state.
+
+Operating Time
+
+Sunrise to sunset, Monday through Saturday. Overweight or over length only, if length is not over 85’ including rear overhang are allowed continuous travel.
+
+Restrictions
+
+No travel is permitted within the corporate limits of cities/towns between the hours of 7:00 a.m. – 9:00 a.m. or 4:00 p.m. – 6:00 p.m., except for overweight or over length only, if length is not over 85’, including rear overhang.  No travel on major holidays and holiday weekends from noon the preceding weekday.
+
+Speed Limit
+
+55 mph. 
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″
+Height: 13’6″
+Length: 48′ semitrailer/53′ semitrailer, with 41′ kingpin to center of rear tandem; 65′ on secondary highways, 3’ front overhang, 4’ rear overhang.
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 42,500 (9′ axle spacing)
+Routine Virginia Oversize Permit Limits
+
+Width: 15′
+Height: 15′
+Length: 150′
+Weight: Single – 24,000; Tandem – 44,000; Tridem – 53,300; Quad – 63,000
+Escorts
+
+On Interstate Highways:
+
+Width: Over 12′ – 1 escort; over 14′ – 2 escorts; over 16′ – 3 escorts; over 18′ – case-by-case basis
+Height: Over 14’5″ – 1 escort with height pole
+Length: Over 120′ – 1 escort; over 150′ – 2 escorts; over 200′ – case-by-case basis
+Overhang: Over 3’6″ passenger side overhang – 1 escort; over 5′ passenger side overhang – 2 escort; over 10′ front or 15′ rear – 1 escort
+On 2-lane highways:
+
+Width: Over 12′ – 2 escorts; over 14′ – 3 escorts; over 16′ – 4 escorts; over 18′ – case-by-case basis
+Height: Over 14’5″ – 1 escort with height pole
+Length: Over 85’ – 1 escort; over 150 – 2 escorts; over 200′ – case-by-case basis
+Overhang: Over 3’6″ passenger side overhang – 1 escort; over 5′ passenger side overhang – 2 escort; over 10′ front or 15′ rear – 1 escort
+Security Measures
+
+“Oversize Load” signs are required on all over-dimensional permit loads. Flags at least 12″ square must be placed at the extremities of a vehicle load to identify over width or secured at the end of the load to identify overhang.
+
+North Carolina
+North Carolina Oversize Permits Information
+
+Permits
+
+North Carolina oversize permits are valid for 10 days. Drive must have a wide load permit prior to entering the state.
+
+Operating Time
+
+Travel is permitted from sunrise to sunset, seven days a week. Overweight-only, not exceeding 112,000 pound gross may travel 24/7.
+
+Restrictions
+
+No travel from noon the weekday prior to a major holiday until noon on the weekday after the holiday.
+
+Speed Limit
+
+Maximum posted limits unless otherwise specified on permit.
+
+Legal Parameters
+
+Width: 8’6”
+Height: 14’0
+Length: 53′ trailer (center of kingpin to center of rear tandem at 41′) on designated highways, 48′ trailer on all other roads. No overall designated legal length on all highways for 48′ trailer. For 53′ trailer, no overall designated length on Interstates or federally designated highways, 60′ overall on non-designated.
+Overhang: 3′ – Front, 14′11 – Rear
+Weight: 80,000 Gross Single – 20,000 Tandem – 38,000 Tridem – depends on spacing
+Routine North Carolina Oversize Permit Limits
+
+Width: 15′
+Height: No set limits – determined by route. Loads over 14′ may take extra processing time.
+Length: 105′
+Overhang: 15′ rear
+Weight: Steer Axle – 20,000; Single – 25,000; Tandem – 50,000; Tridem – 60,000; Quad – 68,000;
+5 axles – 112,000 6 axles – 120,000 7 axles – 132,000
+Weight over 132,000 or widths over 15′ are superloads. Letter from shipper must be included with a superload application.
+
+Escorts
+
+Width: Over 12′ – 1 escort; over 14′ – 2 escorts on 2 lane or 2 way roads
+Height: Over 14’5″ – 1 escort with high pole
+Length: Over 110′ – 1 escort; over 150′ – 2 escorts. 15 rear overhang.
+Weight: Over 149,999 pounds – 1 escort.
+Security Measures
+
+Blades and buckets which cannot be angled to not exceed 14 feet in width must be removed. A blade or bucket, if it is part of the original equipment being hauled, may be detached and hauled with the equipment without being considered a divisible load.
+
+“Oversize Load” signs are required at front and rear for all loads exceeding 10 feet wide. Flags (18″ red square) are required on each corner and at the widest point of the load for all loads over 8’6″ wide. Rear overhang in excess of 4′ requires a flag for daytime travel or clearance lights visible for nighttime travel.
+
+South Carolina
+South Carolina Oversize Permits Information
+
+Permits
+
+Oversize permits are valid for 7 days. Driver must have an oversize permit prior to entering the state.
+
+Operating Time
+
+Travel is allowed one-half hour after sunrise to one-half hour before sunset, Monday through Saturday. No Sunday travel allowed. Overweight-only up to 130,000 pounds gross is allowed continuous travel.
+
+Restrictions
+
+Loads over 12′ wide up to 15′ wide are prohibited in close proximity to large urban areas from 7:00 – 9:00 AM and 3:00 – 6:00 PM on school days and 4:30 – 6:00 PM on non-school days. Loads over 15′ wide must be moved Monday – Saturday from 9:00 a.m. – 3:00 p.m. during school days and 9:00 a.m. – 4:00 p.m. other days. Movement is prohibited on Friday and Saturday from Memorial Day through Labor Day east of I-95. No travel is allowed starting at 12:00 noon the day prior to a major holiday or holiday weekend.
+
+Speed Limit
+
+Interstate routes - 55 mph. Non-interstate routes - 45 mph.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ Interstate and designated highways
+Height: 13’6
+Length: 53’0 semitrailer (not to exceed 41′ from center of kingpin to center of rear tandem), 75′ overall including load
+Overhang: 5′ rear on a 48′ trailer, none on a 53′ trailer
+Weight: 80,000 Gross; Single – 20,000; Tandem – 34,000; Tridem – 35,200 depends on spacing.
+
+
+Implements of husbandry, including farm tractors, forestry equipment and road machinery, are exempt from needing permits when the load is not over 12′ wide, 13’6 high or 90,000 pounds gross. This exemption is for daylight running, and may run seven days a week.
+
+Routine South Carolina Overweight Permit Limits
+
+Width: 16′
+Length: 125′
+Overhang: 3′ front, 10′ rear on 48′ to 53′ trailer
+Height: No set limits – determined by route. Must be at least 3″ less than any overhead structure. Loads 16′ and over are required to submit a route survey.
+Weight: Single – 20,000; Tandem – 40,000; Tridem – 60,000; 5 axles – 90,000; 6 axles – 110,000; 7 axles – 130,000
+Escorts
+
+Width: Over 12′ on 2-lane highways – 1 escort; over 14′ (all highway) – 2 escorts, over 16′ – 2 escorts and 2 police
+Height: 16′ and higher – 1 escort with height pole and route survey
+Length: Over 125′ – 2 escort
+Overhang: Over 15′ rear – 2 escort
+Security Measures
+
+“Oversize Load” signs are required on all loads exceeding 12′ wide. Flags 12″ square are required on each corner for loads exceeding 12′ wide or when load extends beyond the sides more than 4″. A rotating amber beacon or strobe light is required on rear of loads exceeding 12′ wide up to 14′ wide. When width is over 14′ wide up to 16′ wide, a rotating amber beacon or strobe is required on each outer rear corner of the load. For any rear overhang of 4′ or more, a red flag must be displayed at the extremities.
+
+Georgia
+Georgia Oversize Information
+
+Permits
+
+Oversize Permits are valid for 10 days in this state.
+
+Operating Time
+
+Travel is allowed a one-half hour after sunrise to one-half hour before sunset, seven days a week. Loads not exceeding 125,000 lbs. with legal dimensions may have continuous travel, except holidays (must be requested when the oversize permit is ordered).
+
+Restrictions
+
+No travel is allowed on major holidays. No travel is allowed in Atlanta, between 7:00 a.m. – 9:00 a.m. and 3:00 p.m. – 6:00 p.m. Monday through Friday in the area bounded by I-285.
+
+Speed Limit
+
+Interstate 70 mph. Non-interstate 65 mph. Unless otherwise specified on permit.
+
+Legal Dimensions
+
+The vehicle must have the following characteristics:
+
+Width: 8’6″ (8′ on some non-designated)
+Height: 13’6″
+Length: 75′ (including overhang) is legal with 48′ to 53′ trailer, 60′ overall on some non-designated routes.
+Weight: 80,000 Gross; Single – 20,340; Tandem – 34,000; Tridem – depends on spacing, not more than 20,340 on any axle.
+Loads exceeding these dimensions or weights have to be applied for as Super Loads.
+
+Routine Oversize Permit Limits
+
+Width: 15’6
+Height: 16′
+Length: not set maximum.
+Weight: Single – 23,000; Tandem – 46,000; Tridem – 60,000; 5 Axles – 100,000; 6 Axles – 125,000; 7 Axles – 148,000
+Escorts
+
+Width: Over 12′ up to & including 14’8″ – 1 rear escort pilot car or amber light* on Interstate or limited access highway; 2 escort pilot cars (or 1 escort pilot car and rear amber light*) on 2-lanes; over 14’8″ up to and including 16’–1 escort pilot car on Interstate or limited access highway; 2 escort pilot cars on 2-lane road. Over 16′ – 2 escort pilot car and 1 Police vehicle.
+Height: Over 15’6″ – 1 escort pilot car with a height pole. (Escort may be required for 15′ or greater when traveling through larger cities).
+Length: Over 75′ – 1 escort pilot car or amber light* at each corner of the rear of the load. Over 100′ – 1 escort pilot car, Over 125′ – 2 escort pilot cars
+*Note: Must have Georgia amber light permit to use flashing amber light.
+
+Security Measures
+
+“Oversize Load” signs are required on all permit loads. Flags are required on all four corners and extremities of oversized loads.
+

@@ -77,3 +77,20 @@
   font-size: var(--font-size-lg);
 }
 
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .button {
+    font-size: var(--font-size-sm);
+    width: 100%;
+  }
+
+  .large {
+    padding: var(--spacing-3) var(--spacing-6);
+    font-size: var(--font-size-base);
+  }
+
+  .medium {
+    padding: var(--spacing-2) var(--spacing-5);
+  }
+}
+

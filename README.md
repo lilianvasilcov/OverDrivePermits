@@ -40,8 +40,6 @@ overdrive-permits/
 │   │   ├── styles/           # Global CSS and variables
 │   │   └── utils/            # Utilities and constants
 │   └── package.json
-├── backend/           # Node.js/Express backend (to be created)
-├── shared/           # Shared TypeScript types
 └── INSTRUCTIONS.md   # Detailed development instructions
 ```
 

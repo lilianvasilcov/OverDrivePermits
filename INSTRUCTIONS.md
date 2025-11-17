@@ -808,11 +808,6 @@ overdrive-permits/
 │   ├── package.json
 │   └── tsconfig.json
 │
-├── shared/
-│   └── types/
-│       ├── permit.types.ts
-│       └── state.types.ts
-│
 ├── .gitignore
 ├── README.md
 └── INSTRUCTIONS.md (this file)
