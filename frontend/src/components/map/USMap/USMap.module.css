@@ -21,12 +21,30 @@
   height: 100%;
   display: block;
   position: relative;
+  overflow: visible;
+}
+
+.stateLabel {
+  font-family: var(--font-primary, 'Inter', sans-serif);
+  font-weight: 600;
+  pointer-events: none;
+  user-select: none;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.leaderLine {
+  pointer-events: none;
+  transition: all 0.2s ease;
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .mapContainer {
     height: 400px;
+  }
+  
+  .stateLabel {
+    font-size: 12px !important;
   }
 }
 

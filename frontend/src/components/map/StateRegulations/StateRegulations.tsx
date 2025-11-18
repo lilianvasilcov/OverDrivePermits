@@ -70,54 +70,61 @@ const StateRegulations: React.FC<StateRegulationsProps> = ({ stateCode }) => {
 
   return (
     <div className={styles.regulations}>
-      <h3 className={styles.title}>{regulations.stateName} Regulations</h3>
+      <h3 className={styles.title}>{regulations.stateName} Oversize Information</h3>
       
-      {regulations.oversized && (
+      {regulations.permits && (
         <div className={styles.section}>
-          <h4 className={styles.sectionTitle}>Oversized Cargo</h4>
-          <p className={styles.sectionText}>{regulations.oversized}</p>
+          <h4 className={styles.sectionTitle}>Permits</h4>
+          <p className={styles.sectionText}>{regulations.permits}</p>
         </div>
       )}
 
-      {regulations.overweight && (
+      {regulations.operatingTime && (
         <div className={styles.section}>
-          <h4 className={styles.sectionTitle}>Overweight Cargo</h4>
-          <p className={styles.sectionText}>{regulations.overweight}</p>
+          <h4 className={styles.sectionTitle}>Operating Time</h4>
+          <p className={styles.sectionText}>{regulations.operatingTime}</p>
         </div>
       )}
 
-      {regulations.superload && (
+      {regulations.restrictions && (
         <div className={styles.section}>
-          <h4 className={styles.sectionTitle}>Superload Regulations</h4>
-          <p className={styles.sectionText}>{regulations.superload}</p>
+          <h4 className={styles.sectionTitle}>Restrictions</h4>
+          <p className={styles.sectionText}>{regulations.restrictions}</p>
         </div>
       )}
 
-      {regulations.timeRestrictions && (
+      {regulations.speedLimit && (
         <div className={styles.section}>
-          <h4 className={styles.sectionTitle}>Time Restrictions</h4>
-          <p className={styles.sectionText}>{regulations.timeRestrictions}</p>
+          <h4 className={styles.sectionTitle}>Speed Limit</h4>
+          <p className={styles.sectionText}>{regulations.speedLimit}</p>
         </div>
       )}
 
-      {regulations.routeRestrictions && (
+      {regulations.legalDimensions && (
         <div className={styles.section}>
-          <h4 className={styles.sectionTitle}>Route Restrictions</h4>
-          <p className={styles.sectionText}>{regulations.routeRestrictions}</p>
+          <h4 className={styles.sectionTitle}>Legal Dimensions</h4>
+          <p className={styles.sectionText}>{regulations.legalDimensions}</p>
         </div>
       )}
 
-      {regulations.permitRequirements && (
+      {regulations.routinePermitLimits && (
         <div className={styles.section}>
-          <h4 className={styles.sectionTitle}>Permit Requirements</h4>
-          <p className={styles.sectionText}>{regulations.permitRequirements}</p>
+          <h4 className={styles.sectionTitle}>Routine Oversize Permit Limits</h4>
+          <p className={styles.sectionText}>{regulations.routinePermitLimits}</p>
         </div>
       )}
 
-      {regulations.contactInfo && (
-        <div className={styles.contactBox}>
-          <h4 className={styles.contactTitle}>Contact Information</h4>
-          <p className={styles.contactText}>{regulations.contactInfo}</p>
+      {regulations.escorts && (
+        <div className={styles.section}>
+          <h4 className={styles.sectionTitle}>Escorts</h4>
+          <p className={styles.sectionText}>{regulations.escorts}</p>
+        </div>
+      )}
+
+      {regulations.securityMeasures && (
+        <div className={styles.section}>
+          <h4 className={styles.sectionTitle}>Security Measures</h4>
+          <p className={styles.sectionText}>{regulations.securityMeasures}</p>
         </div>
       )}
     </div>
