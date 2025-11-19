@@ -1,13 +1,13 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import {
   ComposableMap,
   Geographies,
   Geography,
   Marker,
 } from 'react-simple-maps';
-import { geoCentroid } from 'd3-geo';
+import { geoCentroid, geoAlbersUsa } from 'd3-geo';
 import styles from './USMap.module.css';
 
 interface USMapProps {
@@ -34,22 +34,87 @@ const stateCodeMap: Record<string, string> = {
 };
 
 // States that need external labels with leader lines (small/close states in Northeast)
-// Positions are calculated dynamically to prevent overlap
 const statesWithExternalLabels = new Set([
-  'ME',  // Maine
-  'NH',  // New Hampshire
-  'VT',  // Vermont
-  'MA',  // Massachusetts
-  'RI',  // Rhode Island
-  'CT',  // Connecticut
-  'NJ',  // New Jersey
-  'DE',  // Delaware
-  'MD',  // Maryland
-  'DC',  // District of Columbia
+  'ME', 'NH', 'VT', 'MA', 'RI', 'CT', 'NJ', 'DE', 'MD', 'DC',
 ]);
+
+// Helper function to safely get centroid from geometry
+const getCentroid = (geo: any): [number, number] | null => {
+  if (!geo?.geometry) return null;
+  
+  try {
+    const result = geoCentroid(geo.geometry);
+    if (result && Array.isArray(result) && result.length >= 2) {
+      const lon = result[0];
+      const lat = result[1];
+      if (typeof lon === 'number' && typeof lat === 'number' && !isNaN(lon) && !isNaN(lat)) {
+        return [lon, lat];
+      }
+    }
+  } catch (error) {
+    // Silently fail - will return null
+  }
+  
+  return null;
+};
+
+interface ExternalLabelPosition {
+  stateCode: string;
+  centroid: [number, number];
+  projectedX: number;
+  projectedY: number;
+  labelX: number;
+  labelY: number;
+}
 
 const USMap: React.FC<USMapProps> = ({ onStateSelect, selectedState }) => {
   const [hoveredState, setHoveredState] = useState<string | null>(null);
+  const mapContainerRef = useRef<HTMLDivElement>(null);
+  const [externalLabelPositions, setExternalLabelPositions] = useState<ExternalLabelPosition[]>([]);
+  const [svgDimensions, setSvgDimensions] = useState({ width: 960, height: 900 });
+
+  // Update SVG dimensions and recalculate label positions
+  useEffect(() => {
+    const updateDimensions = () => {
+      const svg = mapContainerRef.current?.querySelector('svg');
+      if (svg) {
+        const viewBox = svg.getAttribute('viewBox');
+        let width = 960;
+        let height = 900;
+
+        if (viewBox) {
+          const parts = viewBox.split(/\s+|,/).filter(Boolean);
+          if (parts.length >= 4) {
+            const w = Number(parts[2]);
+            const h = Number(parts[3]);
+            if (!isNaN(w) && w > 0) width = w;
+            if (!isNaN(h) && h > 0) height = h;
+          }
+        }
+
+        // Fallback to actual dimensions
+        if (width === 960 || height === 900) {
+          const rect = svg.getBoundingClientRect();
+          width = rect.width || width;
+          height = rect.height || height;
+        }
+
+        setSvgDimensions({ width, height });
+      }
+    };
+
+    // Initial update
+    const timer = setTimeout(updateDimensions, 100);
+    
+    // Update on resize
+    window.addEventListener('resize', updateDimensions);
+    
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('resize', updateDimensions);
+    };
+  }, []);
+
 
   const getStateCode = (geo: any): string | null => {
     const fips = geo.properties?.STATE_FIPS || geo.id;
@@ -68,218 +133,202 @@ const USMap: React.FC<USMapProps> = ({ onStateSelect, selectedState }) => {
     if (!stateCode) return '#CBE8FF';
     
     if (stateCode === selectedState) {
-      return '#1E3A8A'; // Primary blue for selected
+      return '#1E3A8A';
     }
     if (stateCode === hoveredState) {
-      return '#3B82F6'; // Primary blue light for hover
+      return '#3B82F6';
     }
-    return '#CBE8FF'; // Light blue for default
+    return '#CBE8FF';
   };
 
   return (
-    <div className={styles.mapWrapper}>
+    <div className={styles.mapWrapper} ref={mapContainerRef}>
       <ComposableMap
         projection="geoAlbersUsa"
         className={styles.mapContainer}
         style={{ width: '100%', height: 'auto' }}
       >
         <Geographies geography={geoUrl}>
-          {({ geographies, projection }: { geographies: any[]; projection: any }) => (
-            <>
-              {geographies.map((geo: any) => {
-                const stateCode = getStateCode(geo);
-                const isSelected = stateCode === selectedState;
+          {({ geographies }: { geographies: any[] }) => {
+            // Create projection matching ComposableMap
+            const proj = geoAlbersUsa()
+              .scale(1070)
+              .translate([svgDimensions.width / 2, svgDimensions.height / 2]);
 
-                return (
-                  <Geography
-                    key={geo.rsmKey}
-                    geography={geo}
-                    fill={getFillColor(geo)}
-                    stroke="#FFFFFF"
-                    strokeWidth={isSelected ? 2 : 1}
-                    style={{
-                      default: {
-                        outline: 'none',
-                        cursor: 'pointer',
-                        transition: 'all 0.2s ease',
-                      },
-                      hover: {
-                        outline: 'none',
-                        cursor: 'pointer',
-                        fill: '#3B82F6',
-                      },
-                      pressed: {
-                        outline: 'none',
-                        fill: '#1E3A8A',
-                      },
-                    }}
-                    onMouseEnter={() => {
-                      if (stateCode) {
-                        setHoveredState(stateCode);
-                      }
-                    }}
-                    onMouseLeave={() => {
-                      setHoveredState(null);
-                    }}
-                    onClick={() => handleStateClick(geo)}
-                  />
-                );
-              })}
-              {(() => {
-                // First pass: collect all states with external labels and their centroids
-                const externalLabelStates: Array<{
-                  geo: any;
-                  stateCode: string;
-                  centroid: [number, number];
-                  projectedCentroid: [number, number];
-                }> = [];
+            // Process all states
+            const stateData = geographies
+              .map((geo: any) => {
+                const stateCode = getStateCode(geo);
+                if (!stateCode) return null;
                 
-                const regularLabelStates: Array<{
-                  geo: any;
-                  stateCode: string;
-                  centroid: [number, number];
-                }> = [];
+                const centroid = getCentroid(geo);
+                if (!centroid) return null;
                 
-                geographies.forEach((geo: any) => {
+                return {
+                  geo,
+                  stateCode,
+                  centroid,
+                  needsExternalLabel: statesWithExternalLabels.has(stateCode),
+                };
+              })
+              .filter((item): item is NonNullable<typeof item> => item !== null);
+
+            // Separate states
+            const regularStates = stateData.filter(s => !s.needsExternalLabel);
+            const externalStates = stateData.filter(s => s.needsExternalLabel);
+
+            // Calculate external label positions
+            const minSpacing = 28;
+            const labelXOffset = 50; // Reduced from 100 to bring labels closer
+            const labelPositions: ExternalLabelPosition[] = [];
+            
+            // Sort by latitude (north to south) for vertical stacking
+            const sortedExternal = [...externalStates].sort((a, b) => b.centroid[1] - a.centroid[1]);
+            
+            sortedExternal.forEach((state, index) => {
+              const projected = proj(state.centroid);
+              if (!projected || !Array.isArray(projected) || projected.length < 2) return;
+              
+              const projX = projected[0];
+              const projY = projected[1];
+              
+              if (typeof projX !== 'number' || typeof projY !== 'number' || isNaN(projX) || isNaN(projY)) {
+                return;
+              }
+              
+              let labelY = projY;
+              
+              // Prevent overlap
+              if (index > 0) {
+                const prevLabel = labelPositions[index - 1];
+                const minY = prevLabel.labelY + minSpacing;
+                if (labelY < minY) {
+                  labelY = minY;
+                }
+              }
+              
+              // Constrain to SVG bounds
+              labelY = Math.max(30, Math.min(labelY, svgDimensions.height - 30));
+              
+              // Position label to the right, but keep within reasonable bounds
+              const labelX = Math.min(projX + labelXOffset, svgDimensions.width + 80);
+              
+              labelPositions.push({
+                stateCode: state.stateCode,
+                centroid: state.centroid,
+                projectedX: projX,
+                projectedY: projY,
+                labelX,
+                labelY,
+              });
+            });
+
+            return (
+              <>
+                {/* Render state geographies */}
+                {geographies.map((geo: any) => {
                   const stateCode = getStateCode(geo);
-                  if (!stateCode) return;
+                  const isSelected = stateCode === selectedState;
+
+                  return (
+                    <Geography
+                      key={geo.rsmKey}
+                      geography={geo}
+                      fill={getFillColor(geo)}
+                      stroke="#FFFFFF"
+                      strokeWidth={isSelected ? 2 : 1}
+                      style={{
+                        default: {
+                          outline: 'none',
+                          cursor: 'pointer',
+                          transition: 'all 0.2s ease',
+                        },
+                        hover: {
+                          outline: 'none',
+                          cursor: 'pointer',
+                          fill: '#3B82F6',
+                        },
+                        pressed: {
+                          outline: 'none',
+                          fill: '#1E3A8A',
+                        },
+                      }}
+                      onMouseEnter={() => {
+                        if (stateCode) {
+                          setHoveredState(stateCode);
+                        }
+                      }}
+                      onMouseLeave={() => {
+                        setHoveredState(null);
+                      }}
+                      onClick={() => handleStateClick(geo)}
+                    />
+                  );
+                })}
+
+                {/* Render regular labels (inside states) */}
+                {regularStates.map(({ geo, stateCode, centroid }) => (
+                  <Marker key={`label-${geo.rsmKey}`} coordinates={centroid}>
+                    <text
+                      textAnchor="middle"
+                      dominantBaseline="middle"
+                      className={styles.stateLabel}
+                      style={{
+                        fill: stateCode === selectedState ? '#FFFFFF' : '#374151',
+                        fontSize: stateCode === selectedState ? '16px' : '14px',
+                        fontWeight: stateCode === selectedState ? '700' : '600',
+                        pointerEvents: 'none',
+                        userSelect: 'none',
+                        fontFamily: 'var(--font-primary)',
+                      }}
+                    >
+                      {stateCode}
+                    </text>
+                  </Marker>
+                ))}
+
+                {/* Render external labels with leader lines */}
+                {labelPositions.map((labelData) => {
+                  const isSelected = labelData.stateCode === selectedState;
                   
-                  let centroid: [number, number] | null = null;
-                  
-                  try {
-                    if (geo.geometry) {
-                      centroid = geoCentroid(geo.geometry) as [number, number];
-                    }
-                  } catch (error) {
-                    if (geo.geometry?.type === 'Polygon' && geo.geometry.coordinates?.[0]?.[0]) {
-                      const coords = geo.geometry.coordinates[0];
-                      const midPoint = coords[Math.floor(coords.length / 2)];
-                      if (midPoint && Array.isArray(midPoint) && midPoint.length >= 2) {
-                        centroid = [midPoint[0], midPoint[1]];
-                      }
-                    }
-                  }
-                  
-                  if (!centroid) return;
-                  
-                  const needsExternalLabel = statesWithExternalLabels.has(stateCode);
-                  
-                  if (needsExternalLabel) {
-                    const [centroidX, centroidY] = projection(centroid);
-                    externalLabelStates.push({
-                      geo,
-                      stateCode,
-                      centroid,
-                      projectedCentroid: [centroidX, centroidY],
-                    });
-                  } else {
-                    regularLabelStates.push({ geo, stateCode, centroid });
-                  }
-                });
-                
-                // Sort external label states by Y position (top to bottom)
-                externalLabelStates.sort((a, b) => a.projectedCentroid[1] - b.projectedCentroid[1]);
-                
-                // Calculate label positions with minimum spacing to prevent overlap
-                const minLabelSpacing = 25; // Minimum pixels between labels
-                const labelXOffset = 60; // Fixed X position for all external labels
-                const labelPositions: Array<{ stateCode: string; x: number; y: number }> = [];
-                
-                externalLabelStates.forEach((state, index) => {
-                  const baseY = state.projectedCentroid[1];
-                  let labelY = baseY;
-                  
-                  // Check for overlap with previous labels
-                  if (index > 0) {
-                    const prevLabel = labelPositions[index - 1];
-                    const minY = prevLabel.y + minLabelSpacing;
-                    if (labelY < minY) {
-                      labelY = minY;
-                    }
-                  }
-                  
-                  labelPositions.push({
-                    stateCode: state.stateCode,
-                    x: state.projectedCentroid[0] + labelXOffset,
-                    y: labelY,
-                  });
-                });
-                
-                // Create a map for quick lookup
-                const labelPositionMap = new Map(
-                  labelPositions.map(pos => [pos.stateCode, pos])
-                );
-                
-                return (
-                  <>
-                    {/* Render regular labels */}
-                    {regularLabelStates.map(({ geo, stateCode, centroid }) => (
-                      <Marker key={`label-${geo.rsmKey}`} coordinates={centroid}>
-                        <text
-                          textAnchor="middle"
-                          dominantBaseline="middle"
-                          className={styles.stateLabel}
-                          style={{
-                            fill: stateCode === selectedState ? '#FFFFFF' : '#374151',
-                            fontSize: stateCode === selectedState ? '16px' : '14px',
-                            fontWeight: stateCode === selectedState ? '700' : '600',
-                            pointerEvents: 'none',
-                            userSelect: 'none',
-                            fontFamily: 'var(--font-primary)',
-                          }}
-                        >
-                          {stateCode}
-                        </text>
-                      </Marker>
-                    ))}
-                    
-                    {/* Render external labels with leader lines */}
-                    {externalLabelStates.map(({ geo, stateCode, projectedCentroid }) => {
-                      const labelPos = labelPositionMap.get(stateCode);
-                      if (!labelPos) return null;
-                      
-                      const [centroidX, centroidY] = projectedCentroid;
-                      
-                      return (
-                        <g key={`label-${geo.rsmKey}`}>
-                          {/* Leader line */}
-                          <line
-                            x1={centroidX}
-                            y1={centroidY}
-                            x2={labelPos.x}
-                            y2={labelPos.y}
-                            stroke={stateCode === selectedState ? '#1E3A8A' : '#9CA3AF'}
-                            strokeWidth={stateCode === selectedState ? 2 : 1}
-                            strokeDasharray={stateCode === selectedState ? '0' : '3,3'}
-                            opacity={0.6}
-                            className={styles.leaderLine}
-                          />
-                          {/* Label */}
-                          <text
-                            x={labelPos.x}
-                            y={labelPos.y}
-                            textAnchor="middle"
-                            dominantBaseline="middle"
-                            className={styles.stateLabel}
-                            style={{
-                              fill: stateCode === selectedState ? '#1E3A8A' : '#374151',
-                              fontSize: stateCode === selectedState ? '16px' : '14px',
-                              fontWeight: stateCode === selectedState ? '700' : '600',
-                              pointerEvents: 'none',
-                              userSelect: 'none',
-                              fontFamily: 'var(--font-primary)',
-                            }}
-                          >
-                            {stateCode}
-                          </text>
-                        </g>
-                      );
-                    })}
-                  </>
-                );
-              })()}
-            </>
-          )}
+                  return (
+                    <g key={`external-${labelData.stateCode}`}>
+                      {/* Leader line */}
+                      <line
+                        x1={labelData.projectedX}
+                        y1={labelData.projectedY}
+                        x2={labelData.labelX}
+                        y2={labelData.labelY}
+                        stroke={isSelected ? '#1E3A8A' : '#9CA3AF'}
+                        strokeWidth={isSelected ? 2 : 1}
+                        strokeDasharray="0"
+                        opacity={0.6}
+                        className={styles.leaderLine}
+                      />
+                      {/* Label */}
+                      <text
+                        x={labelData.labelX}
+                        y={labelData.labelY}
+                        textAnchor="middle"
+                        dominantBaseline="middle"
+                        className={styles.stateLabel}
+                        style={{
+                          fill: isSelected ? '#1E3A8A' : '#374151',
+                          fontSize: isSelected ? '16px' : '14px',
+                          fontWeight: isSelected ? '700' : '600',
+                          pointerEvents: 'none',
+                          userSelect: 'none',
+                          fontFamily: 'var(--font-primary)',
+                        }}
+                      >
+                        {labelData.stateCode}
+                      </text>
+                    </g>
+                  );
+                })}
+              </>
+            );
+          }}
         </Geographies>
       </ComposableMap>
     </div>
@@ -287,4 +336,3 @@ const USMap: React.FC<USMapProps> = ({ onStateSelect, selectedState }) => {
 };
 
 export default USMap;
-

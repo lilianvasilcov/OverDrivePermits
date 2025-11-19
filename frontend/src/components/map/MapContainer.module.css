@@ -38,11 +38,6 @@
 .mapDesktop {
   display: block;
   position: relative;
-  background-color: var(--color-white);
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-md);
-  padding: var(--spacing-6);
-  border: 1px solid var(--color-gray-200);
   overflow: visible;
 }
 
