@@ -1,13 +1,14 @@
 'use client';
 
-import React, { useState, lazy, Suspense } from 'react';
-import { useForm } from 'react-hook-form';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
+import { useForm, Controller } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import axios from 'axios';
 import { permitFormSchema, PermitFormData } from './validationSchema';
 import { PermitRequest } from '@/types/permit.types';
 import { EQUIPMENT_OPTIONS } from '@/utils/constants/equipment';
 import { US_STATES } from '@/utils/constants/states';
+import { formatPhoneInput, formatPhoneNumber } from '@/utils/formatPhone';
 import Input from '@/components/common/Input';
 import Select from '@/components/common/Select';
 import Button from '@/components/common/Button/Button';
@@ -32,6 +33,7 @@ const PermitForm: React.FC = () => {
     reset,
     watch,
     setValue,
+    control,
   } = useForm<PermitFormData>({
     resolver: yupResolver(permitFormSchema),
     mode: 'onBlur',
@@ -48,7 +50,7 @@ const PermitForm: React.FC = () => {
   const [selectedStates, setSelectedStates] = useState<string[]>([]);
 
   // Update number of axles when equipment changes
-  React.useEffect(() => {
+  useEffect(() => {
     if (selectedEquipment) {
       const equipment = EQUIPMENT_OPTIONS.find(eq => eq.value === selectedEquipment);
       if (equipment) {
@@ -202,14 +204,30 @@ const PermitForm: React.FC = () => {
               />
               </div>
               <div className={styles.colMd6}>
-              <Input
-                label="Phone Number"
-                type="tel"
-                required
-                error={errors.phone?.message}
-                placeholder="(555) 123-4567"
-                {...register('phone')}
-              />
+                <Controller
+                  name="phone"
+                  control={control}
+                  rules={{ required: 'Phone number is required' }}
+                  render={({ field }) => (
+                    <Input
+                      label="Phone Number"
+                      type="tel"
+                      required
+                      error={errors.phone?.message}
+                      placeholder="(555) 123-4567"
+                      value={field.value || ''}
+                      onChange={(e) => {
+                        const formatted = formatPhoneInput(e.target.value);
+                        field.onChange(formatted);
+                      }}
+                      onBlur={(e) => {
+                        const formatted = formatPhoneNumber(e.target.value);
+                        field.onChange(formatted);
+                        field.onBlur();
+                      }}
+                    />
+                  )}
+                />
               </div>
               <div className={styles.colMd6}>
               <Input

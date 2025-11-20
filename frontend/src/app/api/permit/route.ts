@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import { PermitRequest } from '@/types/permit.types';
+import { formatPhoneNumber } from '@/utils/formatPhone';
 
 // Helper function to escape HTML to prevent XSS
 const escapeHtml = (text: string): string => {
@@ -196,7 +197,7 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             </div>
             <div class="field">
                 <div class="label">Phone Number</div>
-              <div class="value">${escapeHtml(data.phone || '')}</div>
+              <div class="value">${escapeHtml(formatPhoneNumber(data.phone))}</div>
             </div>
             ${data.companyName ? `
             <div class="field">
