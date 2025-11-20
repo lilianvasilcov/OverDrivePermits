@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
           <div className={styles.section}>
             <h2 className={styles.sectionTitle}>1. Introduction</h2>
             <p className={styles.paragraph}>
-              OVERDRIVE PERMITS ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy 
+              OVERDRIVE PERMITS (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy 
               explains how we collect, use, disclose, and safeguard your information when you visit our website and use 
               our permit services. Please read this privacy policy carefully. If you do not agree with the terms of this 
               privacy policy, please do not access the site.
@@ -142,7 +142,7 @@ export default function PrivacyPolicyPage() {
               <li><strong>Objection:</strong> Object to certain processing activities</li>
             </ul>
             <p className={styles.paragraph}>
-              To exercise these rights, please contact us using the information provided in the "Contact Us" section below.
+              To exercise these rights, please contact us using the information provided in the &quot;Contact Us&quot; section below.
             </p>
           </div>
 
@@ -165,7 +165,7 @@ export default function PrivacyPolicyPage() {
           </div>
 
           <div className={styles.section}>
-            <h2 className={styles.sectionTitle}>9. Children's Privacy</h2>
+            <h2 className={styles.sectionTitle}>9. Children&apos;s Privacy</h2>
             <p className={styles.paragraph}>
               Our services are not intended for individuals under the age of 18. We do not knowingly collect personal 
               information from children. If you believe we have inadvertently collected information from a child, please 
@@ -177,7 +177,7 @@ export default function PrivacyPolicyPage() {
             <h2 className={styles.sectionTitle}>10. Changes to This Privacy Policy</h2>
             <p className={styles.paragraph}>
               We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new 
-              Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy 
+              Privacy Policy on this page and updating the &quot;Last Updated&quot; date. You are advised to review this Privacy 
               Policy periodically for any changes.
             </p>
           </div>

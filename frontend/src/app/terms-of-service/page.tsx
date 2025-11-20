@@ -106,7 +106,7 @@ export default function TermsOfServicePage() {
           <div className={styles.section}>
             <h2 className={styles.sectionTitle}>6. Limitation of Liability</h2>
             <p className={styles.paragraph}>
-              <strong>6.1 Service Disclaimer:</strong> Our services are provided "as is" and "as available" without 
+              <strong>6.1 Service Disclaimer:</strong> Our services are provided &quot;as is&quot; and &quot;as available&quot; without 
               warranties of any kind, either express or implied. We do not warrant that our services will be uninterrupted, 
               error-free, or completely secure.
             </p>
@@ -132,7 +132,7 @@ export default function TermsOfServicePage() {
             <p className={styles.paragraph}>
               You agree to indemnify, defend, and hold harmless OVERDRIVE PERMITS, its officers, directors, employees, 
               agents, and affiliates from any claims, damages, losses, liabilities, and expenses (including reasonable 
-              attorneys' fees) arising from:
+              attorneys&apos; fees) arising from:
             </p>
             <ul className={styles.list}>
               <li>Your use of our services</li>
@@ -177,7 +177,7 @@ export default function TermsOfServicePage() {
             <h2 className={styles.sectionTitle}>11. Changes to Terms</h2>
             <p className={styles.paragraph}>
               We reserve the right to modify these Terms of Service at any time. We will notify users of any material 
-              changes by posting the updated terms on this page and updating the "Last Updated" date. Your continued use 
+              changes by posting the updated terms on this page and updating the &quot;Last Updated&quot; date. Your continued use 
               of our services after such modifications constitutes acceptance of the updated terms.
             </p>
           </div>
