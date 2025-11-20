@@ -1,22 +1,25 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import styles from './Header.module.css';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  const headerRef = useRef<HTMLElement>(null);
+  const [headerHeight, setHeaderHeight] = useState(73);
 
   useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768);
+    const updateHeaderHeight = () => {
+      if (headerRef.current) {
+        setHeaderHeight(headerRef.current.offsetHeight);
+      }
     };
     
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
+    updateHeaderHeight();
+    window.addEventListener('resize', updateHeaderHeight);
     
-    return () => window.removeEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', updateHeaderHeight);
   }, []);
 
   useEffect(() => {
@@ -37,7 +40,8 @@ const Header: React.FC = () => {
 
     if (isMenuOpen) {
       document.addEventListener('mousedown', handleClickOutside);
-      window.addEventListener('scroll', handleScroll);
+      document.addEventListener('touchstart', handleClickOutside);
+      window.addEventListener('scroll', handleScroll, { passive: true });
       // Prevent body scroll when menu is open
       document.body.style.overflow = 'hidden';
     } else {
@@ -46,6 +50,7 @@ const Header: React.FC = () => {
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
       window.removeEventListener('scroll', handleScroll);
       document.body.style.overflow = '';
     };
@@ -56,7 +61,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className={styles.header}>
+    <header ref={headerRef} className={styles.header}>
       <div className={styles.container}>
         <div className={styles.logoContainer}>
           <Image 
@@ -67,7 +72,10 @@ const Header: React.FC = () => {
             className={styles.logo}
             priority
           />
-          <span className={styles.logoText}>OVERDRIVE PERMITS</span>
+          <span className={styles.logoText}>
+            <span className={styles.logoTextFull}>OVERDRIVE PERMITS</span>
+            <span className={styles.logoTextShort}>OVERDRIVE</span>
+          </span>
         </div>
         
         {/* Desktop Navigation */}
@@ -79,10 +87,11 @@ const Header: React.FC = () => {
 
         {/* Mobile Menu Button */}
         <button 
-          className={styles.menuButton}
+          className={`${styles.menuButton} ${isMenuOpen ? styles.menuButtonOpen : ''}`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="Toggle menu"
           aria-expanded={isMenuOpen}
+          type="button"
         >
           <span className={`${styles.hamburger} ${isMenuOpen ? styles.hamburgerOpen : ''}`}>
             <span></span>
@@ -93,8 +102,12 @@ const Header: React.FC = () => {
       </div>
 
       {/* Mobile Navigation Menu */}
-      <nav className={`${styles.mobileMenu} ${isMenuOpen ? styles.mobileMenuOpen : ''}`}>
-        <div className={styles.mobileNavContent}>
+      <div 
+        className={`${styles.mobileMenu} ${isMenuOpen ? styles.mobileMenuOpen : ''}`}
+        style={{ '--header-height': `${headerHeight}px` } as React.CSSProperties}
+      >
+        <div className={styles.mobileMenuOverlay} onClick={handleNavClick} aria-hidden="true" />
+        <nav className={styles.mobileNavContent}>
           <a href="#map" className={styles.mobileNavLink} onClick={handleNavClick}>
             State Regulations
           </a>
@@ -104,8 +117,8 @@ const Header: React.FC = () => {
           <a href="#faq" className={styles.mobileNavLink} onClick={handleNavClick}>
             FAQ
           </a>
+        </nav>
         </div>
-      </nav>
     </header>
   );
 };

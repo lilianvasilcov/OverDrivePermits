@@ -227,43 +227,43 @@ const USMap: React.FC<USMapProps> = ({ onStateSelect, selectedState }) => {
               <>
                 {/* Render state geographies */}
                 {geographies.map((geo: any) => {
-                  const stateCode = getStateCode(geo);
-                  const isSelected = stateCode === selectedState;
+              const stateCode = getStateCode(geo);
+              const isSelected = stateCode === selectedState;
 
-                  return (
-                    <Geography
-                      key={geo.rsmKey}
-                      geography={geo}
-                      fill={getFillColor(geo)}
-                      stroke="#FFFFFF"
-                      strokeWidth={isSelected ? 2 : 1}
-                      style={{
-                        default: {
-                          outline: 'none',
-                          cursor: 'pointer',
-                          transition: 'all 0.2s ease',
-                        },
-                        hover: {
-                          outline: 'none',
-                          cursor: 'pointer',
-                          fill: '#3B82F6',
-                        },
-                        pressed: {
-                          outline: 'none',
-                          fill: '#1E3A8A',
-                        },
-                      }}
-                      onMouseEnter={() => {
-                        if (stateCode) {
-                          setHoveredState(stateCode);
-                        }
-                      }}
-                      onMouseLeave={() => {
-                        setHoveredState(null);
-                      }}
-                      onClick={() => handleStateClick(geo)}
-                    />
-                  );
+              return (
+                <Geography
+                  key={geo.rsmKey}
+                  geography={geo}
+                  fill={getFillColor(geo)}
+                  stroke="#FFFFFF"
+                  strokeWidth={isSelected ? 2 : 1}
+                  style={{
+                    default: {
+                      outline: 'none',
+                      cursor: 'pointer',
+                      transition: 'all 0.2s ease',
+                    },
+                    hover: {
+                      outline: 'none',
+                      cursor: 'pointer',
+                      fill: '#3B82F6',
+                    },
+                    pressed: {
+                      outline: 'none',
+                      fill: '#1E3A8A',
+                    },
+                  }}
+                  onMouseEnter={() => {
+                    if (stateCode) {
+                      setHoveredState(stateCode);
+                    }
+                  }}
+                  onMouseLeave={() => {
+                    setHoveredState(null);
+                  }}
+                  onClick={() => handleStateClick(geo)}
+                />
+              );
                 })}
 
                 {/* Render regular labels (inside states) */}

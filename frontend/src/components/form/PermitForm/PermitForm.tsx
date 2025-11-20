@@ -76,9 +76,14 @@ const PermitForm: React.FC = () => {
         });
       }
     } catch (error: any) {
+      const errorMessage = error.response?.data?.message || error.message || 'Failed to submit permit request. Please try again later.';
+      const errorDetails = error.response?.data?.error;
+      
       setSubmitStatus({
         type: 'error',
-        message: error.response?.data?.message || 'Failed to submit permit request. Please try again later.',
+        message: errorDetails && process.env.NODE_ENV === 'development' 
+          ? `${errorMessage} (${errorDetails})` 
+          : errorMessage,
       });
     } finally {
       setIsSubmitting(false);

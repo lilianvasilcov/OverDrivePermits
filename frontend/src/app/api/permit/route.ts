@@ -2,17 +2,78 @@ import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import { PermitRequest } from '@/types/permit.types';
 
+// Helper function to escape HTML to prevent XSS
+const escapeHtml = (text: string): string => {
+  const map: { [key: string]: string } = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#039;',
+  };
+  return text.replace(/[&<>"']/g, (m) => map[m]);
+};
+
 // Email service configuration
 const createTransporter = () => {
+  // Validate required environment variables
+  const smtpUser = process.env.SMTP_USER;
+  const smtpPass = process.env.SMTP_PASS;
+
+  if (!smtpUser || !smtpPass) {
+    throw new Error(
+      'SMTP configuration is incomplete. Please check your environment variables: SMTP_USER, SMTP_PASS'
+    );
+  }
+
+  // Auto-detect Gmail if SMTP_HOST is not set and user is a Gmail address
+  const smtpHost = process.env.SMTP_HOST || (smtpUser.includes('@gmail.com') ? 'smtp.gmail.com' : null);
+  
+  if (!smtpHost) {
+    throw new Error(
+      'SMTP_HOST is required. Please set SMTP_HOST in your environment variables, or use a Gmail account.'
+    );
+  }
+
+  const smtpPort = parseInt(process.env.SMTP_PORT || '587', 10);
+  const isSecure = smtpPort === 465 || process.env.SMTP_SECURE === 'true';
+
+  // For Gmail, use service option
+  if (smtpHost.includes('gmail.com') || smtpUser.includes('@gmail.com')) {
+    return nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: smtpUser,
+        pass: smtpPass,
+      },
+    });
+  }
+
+  // For other SMTP providers
   return nodemailer.createTransport({
-    host: process.env.SMTP_HOST || 'smtp.gmail.com',
-    port: parseInt(process.env.SMTP_PORT || '587'),
-    secure: false,
+    host: smtpHost,
+    port: smtpPort,
+    secure: isSecure, // true for 465, false for other ports
     auth: {
-      user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASS,
+      user: smtpUser,
+      pass: smtpPass,
     },
-  });
+    // Add TLS options for better compatibility
+    tls: {
+      rejectUnauthorized: process.env.SMTP_REJECT_UNAUTHORIZED !== 'false',
+    },
+  } as nodemailer.TransportOptions);
+};
+
+// Verify SMTP connection (optional - some servers don't support verify)
+const verifyTransporter = async (transporter: nodemailer.Transporter): Promise<void> => {
+  try {
+    await transporter.verify();
+  } catch (error: any) {
+    // Log warning but don't throw - we'll try to send anyway
+    console.warn('SMTP connection verification failed (will attempt to send anyway):', error.message);
+    // Don't throw - let the actual send attempt determine if there's a real problem
+  }
 };
 
 // Generate admin email template (enhanced with better branding)
@@ -127,20 +188,20 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
               <div class="section-title">Customer Information</div>
             <div class="field">
                 <div class="label">Full Name</div>
-              <div class="value">${data.customerName}</div>
+              <div class="value">${escapeHtml(data.customerName)}</div>
             </div>
             <div class="field">
                 <div class="label">Email Address</div>
-              <div class="value">${data.email}</div>
+              <div class="value">${escapeHtml(data.email)}</div>
             </div>
             <div class="field">
                 <div class="label">Phone Number</div>
-              <div class="value">${data.phone}</div>
+              <div class="value">${escapeHtml(data.phone)}</div>
             </div>
             ${data.companyName ? `
             <div class="field">
                 <div class="label">Company Name</div>
-              <div class="value">${data.companyName}</div>
+              <div class="value">${escapeHtml(data.companyName)}</div>
             </div>
             ` : ''}
             </div>
@@ -153,12 +214,12 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             </div>
             <div class="field">
                 <div class="label">State</div>
-              <div class="value">${data.state}</div>
+              <div class="value">${escapeHtml(data.state)}</div>
             </div>
             ${data.route ? `
             <div class="field">
                 <div class="label">Route</div>
-              <div class="value">${data.route}</div>
+              <div class="value">${escapeHtml(data.route)}</div>
             </div>
             ` : ''}
             ${data.startDate ? `
@@ -181,19 +242,19 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             ${data.cargoWeight ? `
             <div class="field">
                 <div class="label">Weight</div>
-              <div class="value">${data.cargoWeight}</div>
+              <div class="value">${escapeHtml(data.cargoWeight)}</div>
             </div>
             ` : ''}
             ${data.cargoDimensions ? `
             <div class="field">
                 <div class="label">Dimensions</div>
-              <div class="value">${data.cargoDimensions}</div>
+              <div class="value">${escapeHtml(data.cargoDimensions)}</div>
             </div>
             ` : ''}
             ${data.cargoType ? `
             <div class="field">
                 <div class="label">Cargo Type</div>
-              <div class="value">${data.cargoType}</div>
+              <div class="value">${escapeHtml(data.cargoType)}</div>
             </div>
             ` : ''}
             </div>
@@ -203,7 +264,7 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             <div class="section">
               <div class="section-title">Additional Notes</div>
             <div class="field">
-              <div class="value">${data.notes}</div>
+              <div class="value">${escapeHtml(data.notes)}</div>
               </div>
             </div>
             ` : ''}
@@ -351,7 +412,7 @@ const generateUserConfirmationTemplate = (data: PermitRequest): string => {
       <body>
         <div class="email-container">
           <div class="header">
-            <h1>Thank You, ${data.customerName}!</h1>
+            <h1>Thank You, ${escapeHtml(data.customerName)}!</h1>
             <p>Your permit request has been received</p>
           </div>
           <div class="content">
@@ -369,12 +430,12 @@ const generateUserConfirmationTemplate = (data: PermitRequest): string => {
               </div>
               <div class="detail-row">
                 <span class="detail-label">State:</span>
-                <span class="detail-value">${data.state}</span>
+                <span class="detail-value">${escapeHtml(data.state)}</span>
               </div>
               ${data.route ? `
               <div class="detail-row">
                 <span class="detail-label">Route:</span>
-                <span class="detail-value">${data.route}</span>
+                <span class="detail-value">${escapeHtml(data.route)}</span>
               </div>
               ` : ''}
             </div>
@@ -419,40 +480,108 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Send emails
-    const transporter = createTransporter();
-    const adminEmail = process.env.ADMIN_EMAIL || 'admin@overdrivepermits.com';
-    const fromEmail = process.env.SMTP_USER || 'noreply@overdrivepermits.com';
+    // Validate SMTP configuration
+    let transporter: nodemailer.Transporter;
+    try {
+      transporter = createTransporter();
+      // Try to verify SMTP connection (non-blocking)
+      await verifyTransporter(transporter);
+    } catch (configError: any) {
+      console.error('SMTP configuration error:', configError);
+      return NextResponse.json(
+        {
+          success: false,
+          message: configError.message || 'Email service is not properly configured. Please check your SMTP settings.',
+        },
+        { status: 500 }
+      );
+    }
+
+    // Use QUOTE_EMAIL if available, otherwise ADMIN_EMAIL, otherwise default
+    const adminEmail = process.env.QUOTE_EMAIL || process.env.ADMIN_EMAIL || 'admin@overdrivepermits.com';
+    const fromEmail = process.env.SMTP_FROM || process.env.SMTP_USER || 'noreply@overdrivepermits.com';
+    const fromName = process.env.SMTP_FROM_NAME || 'OVERDRIVE PERMITS';
+
+    // Format from address with name
+    const fromAddress = `${fromName} <${fromEmail}>`;
 
     // Send admin notification email
+    try {
     await transporter.sendMail({
-      from: fromEmail,
+        from: fromAddress,
       to: adminEmail,
-      subject: `New Permit Request - ${data.state} - ${data.permitType}`,
+        replyTo: data.email,
+        subject: `New Permit Request - ${escapeHtml(data.state)} - ${data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1)}`,
       html: generateAdminEmailTemplate(data),
     });
+    } catch (adminEmailError: any) {
+      console.error('Failed to send admin notification email:', adminEmailError);
+      const errorMessage = adminEmailError.message || 'Unknown error';
+      const errorCode = adminEmailError.code || 'UNKNOWN';
+      
+      // Provide more helpful error messages
+      let userMessage = 'Failed to send notification email. ';
+      if (errorCode === 'EAUTH') {
+        userMessage += 'SMTP authentication failed. Please check your SMTP_USER and SMTP_PASS.';
+      } else if (errorCode === 'ECONNECTION') {
+        userMessage += 'Could not connect to SMTP server. Please check your SMTP_HOST and SMTP_PORT.';
+      } else if (errorMessage.includes('Invalid login')) {
+        userMessage += 'Invalid email credentials. Please check your SMTP_USER and SMTP_PASS.';
+      } else {
+        userMessage += errorMessage;
+      }
+      
+      return NextResponse.json(
+        {
+          success: false,
+          message: userMessage,
+          error: process.env.NODE_ENV === 'development' ? errorMessage : undefined,
+        },
+        { status: 500 }
+      );
+    }
 
     // Send user confirmation email
     try {
       await transporter.sendMail({
-        from: fromEmail,
+        from: fromAddress,
         to: data.email,
         subject: 'Permit Request Received - OVERDRIVE PERMITS',
         html: generateUserConfirmationTemplate(data),
       });
-    } catch (emailError) {
+    } catch (userEmailError: any) {
       // Log error but don't fail the request if user email fails
-      console.error('Failed to send user confirmation email:', emailError);
+      // Admin email was sent successfully, so we consider the request processed
+      console.error('Failed to send user confirmation email:', userEmailError);
+      // Still return success since admin was notified
     }
 
     return NextResponse.json({
       success: true,
       message: 'Permit request submitted successfully',
     });
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error submitting permit request:', error);
+    console.error('Error stack:', error.stack);
+    
+    // Provide more detailed error information
+    let errorMessage = 'Failed to submit permit request. ';
+    if (error.message) {
+      if (error.message.includes('SMTP')) {
+        errorMessage += 'SMTP configuration error: ' + error.message;
+      } else {
+        errorMessage += error.message;
+      }
+    } else {
+      errorMessage += 'Please check your email configuration and try again.';
+    }
+    
     return NextResponse.json(
-      { success: false, message: 'Failed to submit permit request' },
+      {
+        success: false,
+        message: errorMessage,
+        error: process.env.NODE_ENV === 'development' ? error.message : undefined,
+      },
       { status: 500 }
     );
   }

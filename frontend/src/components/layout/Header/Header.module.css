@@ -6,6 +6,7 @@
   top: 0;
   z-index: 100;
   box-shadow: var(--shadow-sm);
+  width: 100%;
 }
 
 .container {
@@ -16,6 +17,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  width: 100%;
 }
 
 .logoContainer {
@@ -23,6 +25,8 @@
   align-items: center;
   gap: var(--spacing-3);
   z-index: 101;
+  flex: 1;
+  min-width: 0;
 }
 
 .logo {
@@ -39,6 +43,16 @@
   color: var(--color-gray-900);
   letter-spacing: -0.02em;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.logoTextFull {
+  display: inline;
+}
+
+.logoTextShort {
+  display: none;
 }
 
 .nav {
@@ -54,6 +68,7 @@
   transition: color var(--transition-base);
   position: relative;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .navLink:hover {
@@ -82,14 +97,23 @@
   border: none;
   cursor: pointer;
   padding: var(--spacing-2);
-  z-index: 101;
+  z-index: 102;
   position: relative;
+  margin-left: var(--spacing-3);
+  flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .menuButton:focus-visible {
   outline: 2px solid var(--color-primary-blue);
   outline-offset: 2px;
   border-radius: var(--radius-sm);
+}
+
+.menuButtonOpen {
+  position: fixed;
+  right: var(--spacing-4);
+  top: var(--spacing-4);
 }
 
 .hamburger {
@@ -106,21 +130,21 @@
   height: 2px;
   background-color: var(--color-gray-900);
   border-radius: 2px;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transform-origin: center;
 }
 
 .hamburgerOpen span:nth-child(1) {
-  transform: rotate(45deg) translate(6px, 6px);
+  transform: rotate(45deg) translate(7px, 7px);
 }
 
 .hamburgerOpen span:nth-child(2) {
   opacity: 0;
-  transform: translateX(-10px);
+  transform: translateX(-20px);
 }
 
 .hamburgerOpen span:nth-child(3) {
-  transform: rotate(-45deg) translate(6px, -6px);
+  transform: rotate(-45deg) translate(7px, -7px);
 }
 
 /* Mobile Navigation Menu */
@@ -131,31 +155,46 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
   z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity var(--transition-base), visibility var(--transition-base);
+  pointer-events: none;
 }
 
 .mobileMenuOpen {
+  pointer-events: auto;
+}
+
+.mobileMenuOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.mobileMenuOpen .mobileMenuOverlay {
   opacity: 1;
   visibility: visible;
 }
 
 .mobileNavContent {
   position: absolute;
-  top: 73px;
+  top: calc(var(--header-height, 73px));
   left: 0;
   right: 0;
   background-color: var(--color-white);
   border-bottom: 1px solid var(--color-gray-200);
   box-shadow: var(--shadow-lg);
-  padding: var(--spacing-4) 0;
+  padding: var(--spacing-2) 0;
   transform: translateY(-100%);
-  transition: transform var(--transition-base);
-  max-height: calc(100vh - 73px);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  max-height: calc(100vh - var(--header-height, 73px));
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  pointer-events: auto;
 }
 
 .mobileMenuOpen .mobileNavContent {
@@ -164,13 +203,17 @@
 
 .mobileNavLink {
   display: block;
-  padding: var(--spacing-4) var(--spacing-6);
+  padding: var(--spacing-5) var(--spacing-6);
   color: var(--color-gray-700);
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-base);
   text-decoration: none;
   transition: background-color var(--transition-base), color var(--transition-base);
   border-bottom: 1px solid var(--color-gray-100);
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .mobileNavLink:last-child {
@@ -178,15 +221,28 @@
 }
 
 .mobileNavLink:hover,
-.mobileNavLink:focus {
+.mobileNavLink:focus,
+.mobileNavLink:active {
   background-color: var(--color-gray-50);
-  color: var(--color-primary-red);
+  color: var(--color-primary-blue);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .container {
+    padding: 0 var(--spacing-4);
+  }
+
   .logoText {
     font-size: var(--font-size-base);
+  }
+
+  .logoTextFull {
+    display: none;
+  }
+
+  .logoTextShort {
+    display: inline;
   }
 
   .logo {
@@ -205,22 +261,48 @@
     display: block;
   }
 
-  .container {
-    padding: 0 var(--spacing-4);
+  .header {
+    padding: var(--spacing-3) 0;
   }
 }
 
 @media (max-width: 480px) {
+  .container {
+    padding: 0 var(--spacing-3);
+    gap: var(--spacing-2);
+  }
+
   .logoText {
     font-size: var(--font-size-sm);
+    letter-spacing: -0.01em;
   }
 
   .logo {
     height: 28px;
   }
 
-  .container {
-    padding: 0 var(--spacing-3);
+  .logoContainer {
+    gap: var(--spacing-2);
+    min-width: 0;
+  }
+
+  .menuButton {
+    padding: var(--spacing-1);
+    margin-left: var(--spacing-2);
+  }
+
+  .menuButtonOpen {
+    right: var(--spacing-3);
+    top: var(--spacing-3);
+  }
+
+  .mobileNavLink {
+    padding: var(--spacing-4) var(--spacing-4);
+    font-size: var(--font-size-sm);
+  }
+
+  .hamburger {
+    width: 22px;
+    height: 18px;
   }
 }
-
