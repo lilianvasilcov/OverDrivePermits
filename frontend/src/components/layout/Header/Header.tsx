@@ -24,9 +24,14 @@ const Header: React.FC = () => {
 
   useEffect(() => {
     // Close menu when clicking outside
-    const handleClickOutside = (event: MouseEvent) => {
+    const handleClickOutside = (event: MouseEvent | TouchEvent) => {
       const target = event.target as HTMLElement;
-      if (isMenuOpen && !target.closest(`.${styles.mobileMenu}`) && !target.closest(`.${styles.menuButton}`)) {
+      if (
+        isMenuOpen && 
+        !target.closest(`.${styles.mobileMenu}`) && 
+        !target.closest(`.${styles.menuButton}`) &&
+        !target.closest(`.${styles.mobileNavContent}`)
+      ) {
         setIsMenuOpen(false);
       }
     };
@@ -42,7 +47,6 @@ const Header: React.FC = () => {
       document.addEventListener('mousedown', handleClickOutside);
       document.addEventListener('touchstart', handleClickOutside);
       window.addEventListener('scroll', handleScroll, { passive: true });
-      // Prevent body scroll when menu is open
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = '';
@@ -56,8 +60,17 @@ const Header: React.FC = () => {
     };
   }, [isMenuOpen]);
 
-  const handleNavClick = () => {
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+    e.preventDefault();
     setIsMenuOpen(false);
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
@@ -80,15 +93,37 @@ const Header: React.FC = () => {
         
         {/* Desktop Navigation */}
         <nav className={styles.nav}>
-          <a href="#map" className={styles.navLink} onClick={handleNavClick}>State Regulations</a>
-          <a href="#form" className={styles.navLink} onClick={handleNavClick}>Request Permit</a>
-          <a href="#faq" className={styles.navLink} onClick={handleNavClick}>FAQ</a>
+          <a href="#map" className={styles.navLink} onClick={(e) => handleNavClick(e, 'map')}>
+            State Regulations
+          </a>
+          <a href="#form" className={styles.navLink} onClick={(e) => handleNavClick(e, 'form')}>
+            Request Permit
+          </a>
+          <a href="#faq" className={styles.navLink} onClick={(e) => handleNavClick(e, 'faq')}>
+            FAQ
+          </a>
         </nav>
+
+        {/* Desktop Support Section */}
+        <div className={styles.supportSection}>
+          <div className={styles.supportBadge}>
+            <svg className={styles.supportIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span className={styles.supportText}>24/7 Support</span>
+          </div>
+          <a href="tel:+15551234567" className={styles.phoneLink}>
+            <svg className={styles.phoneIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            <span className={styles.phoneNumber}>(555) 123-4567</span>
+          </a>
+        </div>
 
         {/* Mobile Menu Button */}
         <button 
           className={`${styles.menuButton} ${isMenuOpen ? styles.menuButtonOpen : ''}`}
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          onClick={handleMenuToggle}
           aria-label="Toggle menu"
           aria-expanded={isMenuOpen}
           type="button"
@@ -102,26 +137,53 @@ const Header: React.FC = () => {
       </div>
 
       {/* Mobile Navigation Menu */}
-      <div 
-        className={`${styles.mobileMenu} ${isMenuOpen ? styles.mobileMenuOpen : ''}`}
-        style={{ '--header-height': `${headerHeight}px` } as React.CSSProperties}
-      >
-        <div className={styles.mobileMenuOverlay} onClick={handleNavClick} aria-hidden="true" />
-        <nav className={styles.mobileNavContent}>
-          <a href="#map" className={styles.mobileNavLink} onClick={handleNavClick}>
-            State Regulations
-          </a>
-          <a href="#form" className={styles.mobileNavLink} onClick={handleNavClick}>
-            Request Permit
-          </a>
-          <a href="#faq" className={styles.mobileNavLink} onClick={handleNavClick}>
-            FAQ
-          </a>
-        </nav>
+      {isMenuOpen && (
+        <div 
+          className={styles.mobileMenu}
+          style={{ '--header-height': `${headerHeight}px` } as React.CSSProperties}
+        >
+          <div className={styles.mobileMenuOverlay} onClick={handleMenuToggle} aria-hidden="true" />
+          <nav className={styles.mobileNavContent}>
+            <div className={styles.mobileSupportSection}>
+              <div className={styles.mobileSupportBadge}>
+                <svg className={styles.mobileSupportIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>24/7 Support</span>
+              </div>
+              <a href="tel:+15551234567" className={styles.mobilePhoneLink}>
+                <svg className={styles.mobilePhoneIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                <span>(555) 123-4567</span>
+              </a>
+            </div>
+            <a 
+              href="#map" 
+              className={styles.mobileNavLink} 
+              onClick={(e) => handleNavClick(e, 'map')}
+            >
+              State Regulations
+            </a>
+            <a 
+              href="#form" 
+              className={styles.mobileNavLink} 
+              onClick={(e) => handleNavClick(e, 'form')}
+            >
+              Request Permit
+            </a>
+            <a 
+              href="#faq" 
+              className={styles.mobileNavLink} 
+              onClick={(e) => handleNavClick(e, 'faq')}
+            >
+              FAQ
+            </a>
+          </nav>
         </div>
+      )}
     </header>
   );
 };
 
 export default Header;
-
