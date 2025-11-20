@@ -51,6 +51,7 @@ const HeroSection: React.FC = () => {
             </div>
 
             <div className={styles.ctaContainer}>
+              <div className={styles.ctaButtonWrapper}>
               <Button 
                 variant="primary" 
                 size="large"
@@ -59,6 +60,11 @@ const HeroSection: React.FC = () => {
               >
                 Get Started Today
               </Button>
+                <div className={styles.priceContainer}>
+                  <span className={styles.priceLabel}>Get your permits today for only</span>
+                  <span className={styles.priceValue}>$25.00</span>
+                </div>
+              </div>
               <p className={styles.ctaSubtext}>
                 No commitment required • Free consultation
               </p>

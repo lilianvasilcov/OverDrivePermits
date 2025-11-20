@@ -145,14 +145,51 @@
   animation: fadeInUp 0.8s ease-out 0.5s both;
 }
 
+.ctaButtonWrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-12);
+  flex-wrap: wrap;
+}
+
 .ctaButton {
   box-shadow: 0 8px 24px rgba(30, 58, 138, 0.25);
   transition: all var(--transition-base);
+  height: auto;
 }
 
 .ctaButton:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 32px rgba(30, 58, 138, 0.35);
+}
+
+.priceContainer {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--spacing-2);
+  white-space: nowrap;
+}
+
+.priceLabel {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-gray-900);
+  letter-spacing: 0.01em;
+  line-height: 1;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.priceValue {
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-primary-blue);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
 }
 
 .ctaSubtext {
@@ -348,6 +385,22 @@
 
   .trustItem {
     justify-content: center;
+  }
+
+  .ctaButtonWrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-6);
+  }
+
+  .priceContainer {
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+  }
+
+  .priceValue {
+    font-size: var(--font-size-2xl);
   }
 }
 
