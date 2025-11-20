@@ -206,16 +206,45 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             ` : ''}
             </div>
             
+            ${data.origin || data.destination || data.state ? `
             <div class="section">
-              <div class="section-title">Permit Details</div>
+              <div class="section-title">Route Information</div>
+            ${data.origin ? `
             <div class="field">
-                <div class="label">Permit Type</div>
-                <div class="value">${data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1)}</div>
+                <div class="label">Origin</div>
+              <div class="value">${escapeHtml(data.origin)}</div>
             </div>
+            ` : ''}
+            ${data.destination ? `
+            <div class="field">
+                <div class="label">Destination</div>
+              <div class="value">${escapeHtml(data.destination)}</div>
+            </div>
+            ` : ''}
+            ${data.avoidHighways !== undefined ? `
+            <div class="field">
+                <div class="label">Route Type</div>
+              <div class="value">${data.avoidHighways === '0' ? 'Interstate' : 'Non-Interstate'}</div>
+            </div>
+            ` : ''}
+            ${data.selectedStates && data.selectedStates.length > 0 ? `
+            <div class="field">
+                <div class="label">Selected States</div>
+              <div class="value">${data.selectedStates.map(state => escapeHtml(state)).join(', ')}</div>
+            </div>
+            ` : ''}
+            ${data.state ? `
             <div class="field">
                 <div class="label">State</div>
               <div class="value">${escapeHtml(data.state)}</div>
             </div>
+            ` : ''}
+            ${data.permitType ? `
+            <div class="field">
+                <div class="label">Permit Type</div>
+                <div class="value">${data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1)}</div>
+            </div>
+            ` : ''}
             ${data.route ? `
             <div class="field">
                 <div class="label">Route</div>
@@ -235,6 +264,119 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
               </div>
               ` : ''}
             </div>
+            ` : ''}
+            
+            ${data.commodityLength || data.commodityWidth || data.commodityHeight || data.commodityWeight ? `
+            <div class="section">
+              <div class="section-title">Load Dimensions</div>
+            ${data.commodityLength ? `
+            <div class="field">
+                <div class="label">Length</div>
+              <div class="value">${escapeHtml(data.commodityLength)}</div>
+            </div>
+            ` : ''}
+            ${data.commodityWidth ? `
+            <div class="field">
+                <div class="label">Width</div>
+              <div class="value">${escapeHtml(data.commodityWidth)}</div>
+            </div>
+            ` : ''}
+            ${data.commodityHeight ? `
+            <div class="field">
+                <div class="label">Height</div>
+              <div class="value">${escapeHtml(data.commodityHeight)}</div>
+            </div>
+            ` : ''}
+            ${data.commodityWeight ? `
+            <div class="field">
+                <div class="label">Weight</div>
+              <div class="value">${escapeHtml(data.commodityWeight)}</div>
+            </div>
+            ` : ''}
+            </div>
+            ` : ''}
+            
+            ${data.tractorTrailerDisplayName || data.numberOfAxles ? `
+            <div class="section">
+              <div class="section-title">Equipment</div>
+            ${data.tractorTrailerDisplayName ? `
+            <div class="field">
+                <div class="label">Tractor & Trailer</div>
+              <div class="value">${escapeHtml(data.tractorTrailerDisplayName)}</div>
+            </div>
+            ` : ''}
+            ${data.numberOfAxles ? `
+            <div class="field">
+                <div class="label">Number of Axles</div>
+              <div class="value">${escapeHtml(data.numberOfAxles)}</div>
+            </div>
+            ` : ''}
+            </div>
+            ` : ''}
+            
+            ${data.length || data.width || data.height || data.weightGross ? `
+            <div class="section">
+              <div class="section-title">Overall Dimensions</div>
+            ${data.length ? `
+            <div class="field">
+                <div class="label">Length</div>
+              <div class="value">${escapeHtml(data.length)}</div>
+            </div>
+            ` : ''}
+            ${data.width ? `
+            <div class="field">
+                <div class="label">Width</div>
+              <div class="value">${escapeHtml(data.width)}</div>
+            </div>
+            ` : ''}
+            ${data.height ? `
+            <div class="field">
+                <div class="label">Height</div>
+              <div class="value">${escapeHtml(data.height)}</div>
+            </div>
+            ` : ''}
+            ${data.weightGross ? `
+            <div class="field">
+                <div class="label">Weight</div>
+              <div class="value">${escapeHtml(data.weightGross)}</div>
+            </div>
+            ` : ''}
+            </div>
+            ` : ''}
+            
+            ${data.overhangFront || data.overhangRear || data.kingpin ? `
+            <div class="section">
+              <div class="section-title">Extra Fields</div>
+            ${data.overhangFront ? `
+            <div class="field">
+                <div class="label">Overhang Front</div>
+              <div class="value">${escapeHtml(data.overhangFront)}</div>
+            </div>
+            ` : ''}
+            ${data.overhangRear ? `
+            <div class="field">
+                <div class="label">Overhang Rear</div>
+              <div class="value">${escapeHtml(data.overhangRear)}</div>
+            </div>
+            ` : ''}
+            ${data.kingpin ? `
+            <div class="field">
+                <div class="label">Kingpin</div>
+              <div class="value">${escapeHtml(data.kingpin)}</div>
+            </div>
+            ` : ''}
+            </div>
+            ` : ''}
+            
+            ${data.promoCode ? `
+            <div class="section">
+              <div class="section-title">Promo Code</div>
+            <div class="field">
+                <div class="label">Promo Code</div>
+              <div class="value">${escapeHtml(data.promoCode)}</div>
+            </div>
+            </div>
+            ` : ''}
             
             ${data.cargoWeight || data.cargoDimensions || data.cargoType ? `
             <div class="section">
@@ -424,14 +566,30 @@ const generateUserConfirmationTemplate = (data: PermitRequest): string => {
             
             <div class="details-box">
               <h3>Request Summary</h3>
+              ${data.origin && data.destination ? `
               <div class="detail-row">
-                <span class="detail-label">Permit Type:</span>
-                <span class="detail-value">${data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1)}</span>
+                <span class="detail-label">Route:</span>
+                <span class="detail-value">${escapeHtml(data.origin)} → ${escapeHtml(data.destination)}</span>
               </div>
+              ` : ''}
+              ${data.state ? `
               <div class="detail-row">
                 <span class="detail-label">State:</span>
                 <span class="detail-value">${escapeHtml(data.state)}</span>
               </div>
+              ` : ''}
+              ${data.permitType ? `
+              <div class="detail-row">
+                <span class="detail-label">Permit Type:</span>
+                <span class="detail-value">${data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1)}</span>
+              </div>
+              ` : ''}
+              ${data.tractorTrailerDisplayName ? `
+              <div class="detail-row">
+                <span class="detail-label">Equipment:</span>
+                <span class="detail-value">${escapeHtml(data.tractorTrailerDisplayName)}</span>
+              </div>
+              ` : ''}
               ${data.route ? `
               <div class="detail-row">
                 <span class="detail-label">Route:</span>
@@ -463,10 +621,18 @@ export async function POST(request: NextRequest) {
   try {
     const data: PermitRequest = await request.json();
 
-    // Basic validation
-    if (!data.customerName || !data.email || !data.phone || !data.state) {
+    // Basic validation - require contact info and either state OR origin/destination
+    if (!data.customerName || !data.email || !data.phone) {
       return NextResponse.json(
-        { success: false, message: 'Missing required fields' },
+        { success: false, message: 'Missing required fields: name, email, and phone are required' },
+        { status: 400 }
+      );
+    }
+
+    // Require either state (old form) or origin/destination (new form)
+    if (!data.state && (!data.origin || !data.destination)) {
+      return NextResponse.json(
+        { success: false, message: 'Missing required fields: please provide either state or origin/destination' },
         { status: 400 }
       );
     }
@@ -511,7 +677,9 @@ export async function POST(request: NextRequest) {
         from: fromAddress,
       to: adminEmail,
         replyTo: data.email,
-        subject: `New Permit Request - ${escapeHtml(data.state)} - ${data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1)}`,
+        subject: data.origin && data.destination 
+          ? `New Quote Request - ${escapeHtml(data.origin)} to ${escapeHtml(data.destination)}`
+          : `New Permit Request - ${data.state ? escapeHtml(data.state) : 'N/A'} - ${data.permitType ? data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1) : 'Quote'}`,
       html: generateAdminEmailTemplate(data),
     });
     } catch (adminEmailError: any) {
@@ -546,7 +714,7 @@ export async function POST(request: NextRequest) {
       await transporter.sendMail({
         from: fromAddress,
         to: data.email,
-        subject: 'Permit Request Received - OVERDRIVE PERMITS',
+        subject: 'Quote Request Received - OVERDRIVE PERMITS',
         html: generateUserConfirmationTemplate(data),
       });
     } catch (userEmailError: any) {

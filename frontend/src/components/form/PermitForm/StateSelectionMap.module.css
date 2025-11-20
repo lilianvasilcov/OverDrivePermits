@@ -1,0 +1,75 @@
+.mapWrapper {
+  width: 100%;
+  position: relative;
+  padding-right: 80px;
+  overflow: visible;
+  margin-bottom: var(--spacing-4);
+}
+
+.mapHeader {
+  margin-bottom: var(--spacing-4);
+  padding: var(--spacing-3);
+  background-color: var(--color-gray-50);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-gray-200);
+}
+
+.mapInstructions {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  margin-bottom: var(--spacing-2);
+}
+
+.selectedStatesList {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-700);
+  margin-top: var(--spacing-2);
+  padding: var(--spacing-2);
+  background-color: var(--color-white);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-gray-300);
+}
+
+.mapContainer {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: visible;
+}
+
+.mapContainer svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  overflow: visible;
+}
+
+.stateLabel {
+  font-family: var(--font-primary, 'Inter', sans-serif);
+  font-weight: 600;
+  pointer-events: none;
+  user-select: none;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.leaderLine {
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .mapContainer {
+    height: 400px;
+  }
+  
+  .mapWrapper {
+    padding-right: 0;
+  }
+  
+  .stateLabel {
+    font-size: 12px !important;
+  }
+}
+

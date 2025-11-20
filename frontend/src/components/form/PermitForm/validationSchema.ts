@@ -1,11 +1,10 @@
 import * as yup from 'yup';
-import { US_STATES } from '@/utils/constants/states';
 
 export const permitFormSchema = yup.object().shape({
-  // Customer Information
+  // Contact Information
   customerName: yup
     .string()
-    .required('Customer name is required')
+    .required('Full name is required')
     .min(2, 'Name must be at least 2 characters')
     .max(100, 'Name must be less than 100 characters'),
   
@@ -23,70 +22,55 @@ export const permitFormSchema = yup.object().shape({
     )
     .min(10, 'Phone number must be at least 10 digits'),
   
-  // Company Information (optional)
   companyName: yup
     .string()
     .max(100, 'Company name must be less than 100 characters'),
   
-  // Permit Details
-  permitType: yup
+  // Origin and Destination
+  origin: yup
     .string()
-    .oneOf(['oversized', 'overweight', 'superload', 'other'], 'Please select a valid permit type')
-    .required('Permit type is required'),
+    .required('Origin is required')
+    .min(2, 'Origin must be at least 2 characters')
+    .max(200, 'Origin must be less than 200 characters'),
   
-  state: yup
+  destination: yup
     .string()
-    .required('State is required')
-    .oneOf(
-      US_STATES.map(s => s.code),
-      'Please select a valid state'
-    ),
+    .required('Destination is required')
+    .min(2, 'Destination must be at least 2 characters')
+    .max(200, 'Destination must be less than 200 characters'),
   
-  route: yup
+  avoidHighways: yup
     .string()
-    .max(500, 'Route must be less than 500 characters'),
+    .oneOf(['0', '1'], 'Please select a valid route type')
+    .required('Route type is required'),
   
-  startDate: yup
-    .string()
-    .matches(
-      /^\d{4}-\d{2}-\d{2}$/,
-      'Please enter a valid date (YYYY-MM-DD)'
-    ),
+  // Load Dimensions
+  commodityLength: yup.string().max(50),
+  commodityWidth: yup.string().max(50),
+  commodityHeight: yup.string().max(50),
+  commodityWeight: yup.string().max(50),
   
-  endDate: yup
-    .string()
-    .matches(
-      /^\d{4}-\d{2}-\d{2}$/,
-      'Please enter a valid date (YYYY-MM-DD)'
-    )
-    .test(
-      'is-after-start',
-      'End date must be after start date',
-      function(value) {
-        const { startDate } = this.parent;
-        if (!value || !startDate) return true;
-        return new Date(value) >= new Date(startDate);
-      }
-    ),
+  // Equipment
+  tractorTrailerId: yup.string().max(100),
+  tractorTrailerDisplayName: yup.string().max(200),
+  numberOfAxles: yup.string().max(10),
+  moveType: yup.string().max(50),
   
-  // Cargo Information
-  cargoWeight: yup
-    .string()
-    .max(50, 'Weight must be less than 50 characters'),
+  // Overall Dimensions
+  length: yup.string().max(50),
+  width: yup.string().max(50),
+  height: yup.string().max(50),
+  weightGross: yup.string().max(50),
   
-  cargoDimensions: yup
-    .string()
-    .max(200, 'Dimensions must be less than 200 characters'),
+  // Extra Fields
+  overhangFront: yup.string().max(50),
+  overhangRear: yup.string().max(50),
+  kingpin: yup.string().max(50),
   
-  cargoType: yup
+  // Promo Code
+  promoCode: yup
     .string()
-    .max(100, 'Cargo type must be less than 100 characters'),
-  
-  // Additional Notes
-  notes: yup
-    .string()
-    .max(1000, 'Notes must be less than 1000 characters'),
+    .max(50, 'Promo code must be less than 50 characters'),
 });
 
 export type PermitFormData = yup.InferType<typeof permitFormSchema>;
-

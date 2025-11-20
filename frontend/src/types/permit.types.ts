@@ -1,25 +1,53 @@
 export interface PermitRequest {
-  // Customer Information
-  customerName: string;
-  email: string;
-  phone: string;
+  // Origin and Destination
+  origin?: string;
+  destination?: string;
+  originLatLng?: string;
+  destinationLatLng?: string;
+  avoidHighways?: '0' | '1'; // '0' = Interstate, '1' = Non-Interstate
   
-  // Company Information (optional)
+  // Selected States
+  selectedStates?: string[];
+  
+  // Load Dimensions
+  commodityLength?: string;
+  commodityWidth?: string;
+  commodityHeight?: string;
+  commodityWeight?: string;
+  
+  // Equipment
+  tractorTrailerId?: string;
+  tractorTrailerDisplayName?: string;
+  numberOfAxles?: string;
+  moveType?: string;
+  
+  // Overall Dimensions
+  length?: string;
+  width?: string;
+  height?: string;
+  weightGross?: string;
+  
+  // Extra Fields
+  overhangFront?: string;
+  overhangRear?: string;
+  kingpin?: string;
+  
+  // Promo Code
+  promoCode?: string;
+  
+  // Legacy fields (for backward compatibility)
+  customerName?: string;
+  email?: string;
+  phone?: string;
   companyName?: string;
-  
-  // Permit Details
-  permitType: 'oversized' | 'overweight' | 'superload' | 'other';
-  state: string;
+  permitType?: 'oversized' | 'overweight' | 'superload' | 'other';
+  state?: string;
   route?: string;
   startDate?: string;
   endDate?: string;
-  
-  // Cargo Information
   cargoWeight?: string;
   cargoDimensions?: string;
   cargoType?: string;
-  
-  // Additional Notes
   notes?: string;
 }
 

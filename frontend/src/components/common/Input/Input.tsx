@@ -4,7 +4,7 @@ import React, { forwardRef } from 'react';
 import styles from './Input.module.css';
 
 interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
-  label?: string;
+  label?: string | React.ReactNode;
   error?: string;
   required?: boolean;
   helperText?: string;
