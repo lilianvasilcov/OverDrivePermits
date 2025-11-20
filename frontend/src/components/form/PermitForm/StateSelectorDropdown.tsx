@@ -19,7 +19,7 @@ const StateSelectorDropdown: React.FC<StateSelectorDropdownProps> = ({
   const dropdownRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Filter states based on search query
+  // Filter states based on search query (by first letter/letters)
   useEffect(() => {
     if (!searchQuery.trim()) {
       setFilteredStates(US_STATES);
@@ -27,8 +27,8 @@ const StateSelectorDropdown: React.FC<StateSelectorDropdownProps> = ({
       const query = searchQuery.toLowerCase();
       const filtered = US_STATES.filter(
         state =>
-          state.name.toLowerCase().includes(query) ||
-          state.code.toLowerCase().includes(query)
+          state.name.toLowerCase().startsWith(query) ||
+          state.code.toLowerCase().startsWith(query)
       );
       setFilteredStates(filtered);
     }
