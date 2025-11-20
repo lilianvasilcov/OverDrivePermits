@@ -188,15 +188,15 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
               <div class="section-title">Customer Information</div>
             <div class="field">
                 <div class="label">Full Name</div>
-              <div class="value">${escapeHtml(data.customerName)}</div>
+              <div class="value">${escapeHtml(data.customerName || '')}</div>
             </div>
             <div class="field">
                 <div class="label">Email Address</div>
-              <div class="value">${escapeHtml(data.email)}</div>
+              <div class="value">${escapeHtml(data.email || '')}</div>
             </div>
             <div class="field">
                 <div class="label">Phone Number</div>
-              <div class="value">${escapeHtml(data.phone)}</div>
+              <div class="value">${escapeHtml(data.phone || '')}</div>
             </div>
             ${data.companyName ? `
             <div class="field">
@@ -212,13 +212,13 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             ${data.origin ? `
             <div class="field">
                 <div class="label">Origin</div>
-              <div class="value">${escapeHtml(data.origin)}</div>
+              <div class="value">${escapeHtml(data.origin || '')}</div>
             </div>
             ` : ''}
             ${data.destination ? `
             <div class="field">
                 <div class="label">Destination</div>
-              <div class="value">${escapeHtml(data.destination)}</div>
+              <div class="value">${escapeHtml(data.destination || '')}</div>
             </div>
             ` : ''}
             ${data.avoidHighways !== undefined ? `
@@ -236,7 +236,7 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             ${data.state ? `
             <div class="field">
                 <div class="label">State</div>
-              <div class="value">${escapeHtml(data.state)}</div>
+              <div class="value">${escapeHtml(data.state || '')}</div>
             </div>
             ` : ''}
             ${data.permitType ? `
@@ -248,7 +248,7 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             ${data.route ? `
             <div class="field">
                 <div class="label">Route</div>
-              <div class="value">${escapeHtml(data.route)}</div>
+              <div class="value">${escapeHtml(data.route || '')}</div>
             </div>
             ` : ''}
             ${data.startDate ? `
@@ -272,25 +272,25 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             ${data.commodityLength ? `
             <div class="field">
                 <div class="label">Length</div>
-              <div class="value">${escapeHtml(data.commodityLength)}</div>
+              <div class="value">${escapeHtml(data.commodityLength || '')}</div>
             </div>
             ` : ''}
             ${data.commodityWidth ? `
             <div class="field">
                 <div class="label">Width</div>
-              <div class="value">${escapeHtml(data.commodityWidth)}</div>
+              <div class="value">${escapeHtml(data.commodityWidth || '')}</div>
             </div>
             ` : ''}
             ${data.commodityHeight ? `
             <div class="field">
                 <div class="label">Height</div>
-              <div class="value">${escapeHtml(data.commodityHeight)}</div>
+              <div class="value">${escapeHtml(data.commodityHeight || '')}</div>
             </div>
             ` : ''}
             ${data.commodityWeight ? `
             <div class="field">
                 <div class="label">Weight</div>
-              <div class="value">${escapeHtml(data.commodityWeight)}</div>
+              <div class="value">${escapeHtml(data.commodityWeight || '')}</div>
             </div>
             ` : ''}
             </div>
@@ -302,13 +302,13 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             ${data.tractorTrailerDisplayName ? `
             <div class="field">
                 <div class="label">Tractor & Trailer</div>
-              <div class="value">${escapeHtml(data.tractorTrailerDisplayName)}</div>
+              <div class="value">${escapeHtml(data.tractorTrailerDisplayName || '')}</div>
             </div>
             ` : ''}
             ${data.numberOfAxles ? `
             <div class="field">
                 <div class="label">Number of Axles</div>
-              <div class="value">${escapeHtml(data.numberOfAxles)}</div>
+              <div class="value">${escapeHtml(data.numberOfAxles || '')}</div>
             </div>
             ` : ''}
             </div>
@@ -320,25 +320,25 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             ${data.length ? `
             <div class="field">
                 <div class="label">Length</div>
-              <div class="value">${escapeHtml(data.length)}</div>
+              <div class="value">${escapeHtml(data.length || '')}</div>
             </div>
             ` : ''}
             ${data.width ? `
             <div class="field">
                 <div class="label">Width</div>
-              <div class="value">${escapeHtml(data.width)}</div>
+              <div class="value">${escapeHtml(data.width || '')}</div>
             </div>
             ` : ''}
             ${data.height ? `
             <div class="field">
                 <div class="label">Height</div>
-              <div class="value">${escapeHtml(data.height)}</div>
+              <div class="value">${escapeHtml(data.height || '')}</div>
             </div>
             ` : ''}
             ${data.weightGross ? `
             <div class="field">
                 <div class="label">Weight</div>
-              <div class="value">${escapeHtml(data.weightGross)}</div>
+              <div class="value">${escapeHtml(data.weightGross || '')}</div>
             </div>
             ` : ''}
             </div>
@@ -350,19 +350,19 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             ${data.overhangFront ? `
             <div class="field">
                 <div class="label">Overhang Front</div>
-              <div class="value">${escapeHtml(data.overhangFront)}</div>
+              <div class="value">${escapeHtml(data.overhangFront || '')}</div>
             </div>
             ` : ''}
             ${data.overhangRear ? `
             <div class="field">
                 <div class="label">Overhang Rear</div>
-              <div class="value">${escapeHtml(data.overhangRear)}</div>
+              <div class="value">${escapeHtml(data.overhangRear || '')}</div>
             </div>
             ` : ''}
             ${data.kingpin ? `
             <div class="field">
                 <div class="label">Kingpin</div>
-              <div class="value">${escapeHtml(data.kingpin)}</div>
+              <div class="value">${escapeHtml(data.kingpin || '')}</div>
             </div>
             ` : ''}
             </div>
@@ -373,7 +373,7 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
               <div class="section-title">Promo Code</div>
             <div class="field">
                 <div class="label">Promo Code</div>
-              <div class="value">${escapeHtml(data.promoCode)}</div>
+              <div class="value">${escapeHtml(data.promoCode || '')}</div>
             </div>
             </div>
             ` : ''}
@@ -384,19 +384,19 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             ${data.cargoWeight ? `
             <div class="field">
                 <div class="label">Weight</div>
-              <div class="value">${escapeHtml(data.cargoWeight)}</div>
+              <div class="value">${escapeHtml(data.cargoWeight || '')}</div>
             </div>
             ` : ''}
             ${data.cargoDimensions ? `
             <div class="field">
                 <div class="label">Dimensions</div>
-              <div class="value">${escapeHtml(data.cargoDimensions)}</div>
+              <div class="value">${escapeHtml(data.cargoDimensions || '')}</div>
             </div>
             ` : ''}
             ${data.cargoType ? `
             <div class="field">
                 <div class="label">Cargo Type</div>
-              <div class="value">${escapeHtml(data.cargoType)}</div>
+              <div class="value">${escapeHtml(data.cargoType || '')}</div>
             </div>
             ` : ''}
             </div>
@@ -406,7 +406,7 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             <div class="section">
               <div class="section-title">Additional Notes</div>
             <div class="field">
-              <div class="value">${escapeHtml(data.notes)}</div>
+              <div class="value">${escapeHtml(data.notes || '')}</div>
               </div>
             </div>
             ` : ''}
@@ -554,7 +554,7 @@ const generateUserConfirmationTemplate = (data: PermitRequest): string => {
       <body>
         <div class="email-container">
           <div class="header">
-            <h1>Thank You, ${escapeHtml(data.customerName)}!</h1>
+            <h1>Thank You, ${escapeHtml(data.customerName || '')}!</h1>
             <p>Your permit request has been received</p>
           </div>
           <div class="content">
@@ -569,13 +569,13 @@ const generateUserConfirmationTemplate = (data: PermitRequest): string => {
               ${data.origin && data.destination ? `
               <div class="detail-row">
                 <span class="detail-label">Route:</span>
-                <span class="detail-value">${escapeHtml(data.origin)} → ${escapeHtml(data.destination)}</span>
+                <span class="detail-value">${escapeHtml(data.origin || '')} → ${escapeHtml(data.destination || '')}</span>
               </div>
               ` : ''}
               ${data.state ? `
               <div class="detail-row">
                 <span class="detail-label">State:</span>
-                <span class="detail-value">${escapeHtml(data.state)}</span>
+                <span class="detail-value">${escapeHtml(data.state || '')}</span>
               </div>
               ` : ''}
               ${data.permitType ? `
@@ -587,13 +587,13 @@ const generateUserConfirmationTemplate = (data: PermitRequest): string => {
               ${data.tractorTrailerDisplayName ? `
               <div class="detail-row">
                 <span class="detail-label">Equipment:</span>
-                <span class="detail-value">${escapeHtml(data.tractorTrailerDisplayName)}</span>
+                <span class="detail-value">${escapeHtml(data.tractorTrailerDisplayName || '')}</span>
               </div>
               ` : ''}
               ${data.route ? `
               <div class="detail-row">
                 <span class="detail-label">Route:</span>
-                <span class="detail-value">${escapeHtml(data.route)}</span>
+                <span class="detail-value">${escapeHtml(data.route || '')}</span>
               </div>
               ` : ''}
             </div>
@@ -678,8 +678,8 @@ export async function POST(request: NextRequest) {
       to: adminEmail,
         replyTo: data.email,
         subject: data.origin && data.destination 
-          ? `New Quote Request - ${escapeHtml(data.origin)} to ${escapeHtml(data.destination)}`
-          : `New Permit Request - ${data.state ? escapeHtml(data.state) : 'N/A'} - ${data.permitType ? data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1) : 'Quote'}`,
+          ? `New Quote Request - ${escapeHtml(data.origin || '')} to ${escapeHtml(data.destination || '')}`
+          : `New Permit Request - ${data.state ? escapeHtml(data.state || '') : 'N/A'} - ${data.permitType ? data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1) : 'Quote'}`,
       html: generateAdminEmailTemplate(data),
     });
     } catch (adminEmailError: any) {
