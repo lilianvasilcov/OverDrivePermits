@@ -209,6 +209,49 @@
   color: var(--color-primary-red);
 }
 
+/* Social Media Section */
+.socialMedia {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-4);
+  margin-top: var(--spacing-4);
+  padding-top: var(--spacing-4);
+  border-top: 1px solid var(--color-gray-200);
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: var(--color-gray-600);
+  background: var(--color-white);
+  border: 1.5px solid var(--color-gray-300);
+  border-radius: var(--radius-full);
+  transition: all var(--transition-base);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.socialIcon svg {
+  width: 20px;
+  height: 20px;
+  transition: transform var(--transition-base);
+}
+
+.socialIcon:hover {
+  color: var(--color-white);
+  background: linear-gradient(135deg, var(--color-primary-blue) 0%, var(--color-primary-red) 100%);
+  border-color: transparent;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+}
+
+.socialIcon:hover svg {
+  transform: scale(1.1);
+}
+
 /* Bottom Bar */
 .bottomBar {
   padding-top: var(--spacing-8);
@@ -350,6 +393,22 @@
     gap: var(--spacing-3);
   }
 
+  .socialMedia {
+    gap: var(--spacing-3);
+    margin-top: var(--spacing-3);
+    padding-top: var(--spacing-3);
+  }
+
+  .socialIcon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .socialIcon svg {
+    width: 18px;
+    height: 18px;
+  }
+
   .bottomBar {
     padding-top: var(--spacing-6);
     gap: var(--spacing-3);
@@ -416,6 +475,22 @@
   .contactIcon {
     width: 18px;
     height: 18px;
+  }
+
+  .socialMedia {
+    gap: var(--spacing-2);
+    margin-top: var(--spacing-2);
+    padding-top: var(--spacing-2);
+  }
+
+  .socialIcon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .socialIcon svg {
+    width: 16px;
+    height: 16px;
   }
 
   .bottomBar {

@@ -183,7 +183,7 @@
 }
 
 .priceValue {
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-extrabold);
   color: var(--color-primary-blue);
   line-height: 1;
