@@ -58,11 +58,11 @@ const HeroSection: React.FC = () => {
                 onClick={handleGetStarted}
                 className={styles.ctaButton}
               >
-                Get Started Today
+                Request a Quote
               </Button>
                 <div className={styles.priceContainer}>
                   <span className={styles.priceLabel}>Get your permits today for only</span>
-                  <span className={styles.priceValue}>$25.00</span>
+                  <span className={styles.priceValue}>$25.00/State</span>
                 </div>
               </div>
               <p className={styles.ctaSubtext}>
