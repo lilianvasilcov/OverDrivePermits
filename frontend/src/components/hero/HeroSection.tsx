@@ -52,14 +52,14 @@ const HeroSection: React.FC = () => {
 
             <div className={styles.ctaContainer}>
               <div className={styles.ctaButtonWrapper}>
-              <Button 
-                variant="primary" 
-                size="large"
-                onClick={handleGetStarted}
-                className={styles.ctaButton}
-              >
-                Request a Quote
-              </Button>
+                <Button 
+                  variant="primary" 
+                  size="large"
+                  onClick={handleGetStarted}
+                  className={styles.ctaButton}
+                >
+                  Request a Quote
+                </Button>
                 <div className={styles.priceContainer}>
                   <span className={styles.priceLabel}>Get your permits today for only</span>
                   <span className={styles.priceValue}>$25.00/State</span>

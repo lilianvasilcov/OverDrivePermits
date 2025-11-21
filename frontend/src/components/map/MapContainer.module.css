@@ -52,6 +52,30 @@
   padding: var(--spacing-6);
   border: 1px solid var(--color-gray-200);
   min-height: 400px;
+  max-height: 600px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom scrollbar styling */
+.regulationsContainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+.regulationsContainer::-webkit-scrollbar-track {
+  background: var(--color-gray-100);
+  border-radius: var(--radius-full);
+}
+
+.regulationsContainer::-webkit-scrollbar-thumb {
+  background: var(--color-gray-300);
+  border-radius: var(--radius-full);
+}
+
+.regulationsContainer::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gray-400);
 }
 
 /* Tablet: Stack map and regulations */
@@ -101,6 +125,7 @@
 
   .regulationsContainer {
     min-height: 300px;
+    max-height: 500px;
     padding: var(--spacing-4);
   }
 
@@ -137,6 +162,7 @@
 
   .regulationsContainer {
     min-height: 250px;
+    max-height: 400px;
     padding: var(--spacing-3);
   }
 
