@@ -30,8 +30,8 @@
 
 .mapWrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--spacing-8);
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: -0.5rem;
   align-items: start;
 }
 
@@ -39,6 +39,7 @@
   display: block;
   position: relative;
   overflow: visible;
+  margin-right: -0.5rem;
 }
 
 .mapMobile {
