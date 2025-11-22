@@ -193,8 +193,8 @@
 }
 
 .ctaSubtext {
-  margin-top: var(--spacing-3);
-  font-size: var(--font-size-sm);
+  margin-top: var(--spacing-4);
+  font-size: var(--font-size-xs);
   color: var(--color-gray-500);
   font-weight: var(--font-weight-medium);
 }
