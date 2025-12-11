@@ -125,8 +125,7 @@ const PermitForm: React.FC = () => {
         reset();
         setShowExtraFields(false);
         setSelectedStates([]);
-        // Scroll to top of form to show success message
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        // Keep user at current position to see success message
       } else {
         setSubmitStatus({
           type: 'error',
