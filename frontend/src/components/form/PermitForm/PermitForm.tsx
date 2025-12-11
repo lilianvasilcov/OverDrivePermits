@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useRef, lazy, Suspense } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { useForm, Controller } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import axios from 'axios';
@@ -26,7 +26,6 @@ const PermitForm: React.FC = () => {
     type: 'success' | 'error' | null;
     message: string;
   }>({ type: null, message: '' });
-  const alertRef = useRef<HTMLDivElement>(null);
 
   const {
     register,
@@ -161,17 +160,15 @@ const PermitForm: React.FC = () => {
   const phone = watch('phone');
   const isFormValid = customerName && email && phone && origin && destination;
 
-  // Scroll to alert message when status changes
+  // Scroll to top of form section when status changes
   useEffect(() => {
-    if (submitStatus.type && alertRef.current) {
-      // Small delay to ensure the DOM has updated
-      setTimeout(() => {
-        alertRef.current?.scrollIntoView({ 
-          behavior: 'smooth', 
-          block: 'start',
-          inline: 'nearest'
-        });
-      }, 100);
+    if (submitStatus.type) {
+      const formSection = document.getElementById('form');
+      if (formSection) {
+        setTimeout(() => {
+          formSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 100);
+      }
     }
   }, [submitStatus.type]);
 
@@ -187,7 +184,6 @@ const PermitForm: React.FC = () => {
 
         {submitStatus.type && (
           <div
-            ref={alertRef}
             className={`${styles.alert} ${
               submitStatus.type === 'success' ? styles.alertSuccess : styles.alertError
             }`}
