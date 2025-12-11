@@ -168,7 +168,7 @@ const PermitForm: React.FC = () => {
       setTimeout(() => {
         alertRef.current?.scrollIntoView({ 
           behavior: 'smooth', 
-          block: 'nearest',
+          block: 'start',
           inline: 'nearest'
         });
       }, 100);
