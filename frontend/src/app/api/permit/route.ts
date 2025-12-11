@@ -129,40 +129,41 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             opacity: 0.9;
           }
           .content { 
-            padding: 32px 24px; 
+            padding: 24px 20px; 
             background: #FFFFFF;
           }
           .section {
-            margin-bottom: 24px;
+            margin-bottom: 16px;
           }
           .section:last-child {
             margin-bottom: 0;
           }
           .section-title {
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 600;
             color: #1E3A8A;
-            margin-bottom: 16px;
-            padding-bottom: 8px;
+            margin-bottom: 10px;
+            padding-bottom: 6px;
             border-bottom: 2px solid #E5E7EB;
           }
-          .fields-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 12px;
-            margin-bottom: 16px;
+          .fields-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 12px;
           }
-          .fields-grid-3 {
-            grid-template-columns: repeat(3, 1fr);
-          }
-          .field { 
-            padding: 10px 12px;
+          .fields-table td {
+            padding: 8px 10px;
             background: #F9FAFB;
-            border-radius: 6px;
+            border-left: 3px solid #1E3A8A;
+            vertical-align: top;
+          }
+          .fields-table td:first-child {
             border-left: 3px solid #1E3A8A;
           }
-          .field-full {
-            grid-column: 1 / -1;
+          .field-cell {
+            padding: 8px 10px;
+            background: #F9FAFB;
+            border-left: 3px solid #1E3A8A;
           }
           .label { 
             font-weight: 600; 
@@ -171,19 +172,13 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             text-transform: uppercase;
             letter-spacing: 0.05em;
             margin-bottom: 4px;
+            display: block;
           }
           .value { 
             color: #1F2937;
             font-size: 14px;
             word-break: break-word;
-          }
-          @media (max-width: 600px) {
-            .fields-grid {
-              grid-template-columns: 1fr;
-            }
-            .fields-grid-3 {
-              grid-template-columns: 1fr;
-            }
+            display: block;
           }
           .footer {
             background: #F9FAFB;
@@ -204,235 +199,271 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
           <div class="content">
             <div class="section">
               <div class="section-title">Customer Information</div>
-              <div class="fields-grid">
-                <div class="field">
-                  <div class="label">Full Name</div>
-                  <div class="value">${escapeHtml(data.customerName || '')}</div>
-                </div>
-                <div class="field">
-                  <div class="label">Phone Number</div>
-                  <div class="value">${escapeHtml(formatPhoneNumber(data.phone))}</div>
-                </div>
-                <div class="field field-full">
-                  <div class="label">Email Address</div>
-                  <div class="value">${escapeHtml(data.email || '')}</div>
-                </div>
+              <table class="fields-table" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  <td class="field-cell" width="50%">
+                    <span class="label">Full Name</span>
+                    <span class="value">${escapeHtml(data.customerName || '')}</span>
+                  </td>
+                  <td class="field-cell" width="50%">
+                    <span class="label">Phone Number</span>
+                    <span class="value">${escapeHtml(formatPhoneNumber(data.phone))}</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="field-cell" colspan="2">
+                    <span class="label">Email Address</span>
+                    <span class="value">${escapeHtml(data.email || '')}</span>
+                  </td>
+                </tr>
                 ${data.companyName ? `
-                <div class="field field-full">
-                  <div class="label">Company Name</div>
-                  <div class="value">${escapeHtml(data.companyName)}</div>
-                </div>
+                <tr>
+                  <td class="field-cell" colspan="2">
+                    <span class="label">Company Name</span>
+                    <span class="value">${escapeHtml(data.companyName)}</span>
+                  </td>
+                </tr>
                 ` : ''}
-              </div>
+              </table>
             </div>
             
             ${data.origin || data.destination || data.state ? `
             <div class="section">
               <div class="section-title">Route Information</div>
-              <div class="fields-grid">
-                ${data.origin ? `
-                <div class="field">
-                  <div class="label">Origin</div>
-                  <div class="value">${escapeHtml(data.origin || '')}</div>
-                </div>
-                ` : ''}
-                ${data.destination ? `
-                <div class="field">
-                  <div class="label">Destination</div>
-                  <div class="value">${escapeHtml(data.destination || '')}</div>
-                </div>
+              <table class="fields-table" cellpadding="0" cellspacing="0" border="0" width="100%">
+                ${data.origin || data.destination ? `
+                <tr>
+                  ${data.origin ? `
+                  <td class="field-cell" width="50%">
+                    <span class="label">Origin</span>
+                    <span class="value">${escapeHtml(data.origin || '')}</span>
+                  </td>
+                  ` : ''}
+                  ${data.destination ? `
+                  <td class="field-cell" width="50%">
+                    <span class="label">Destination</span>
+                    <span class="value">${escapeHtml(data.destination || '')}</span>
+                  </td>
+                  ` : ''}
+                </tr>
                 ` : ''}
                 ${data.avoidHighways !== undefined ? `
-                <div class="field">
-                  <div class="label">Route Type</div>
-                  <div class="value">${data.avoidHighways === '0' ? 'Interstate' : 'Non-Interstate'}</div>
-                </div>
-                ` : ''}
-                ${data.state ? `
-                <div class="field">
-                  <div class="label">State</div>
-                  <div class="value">${escapeHtml(data.state || '')}</div>
-                </div>
-                ` : ''}
-                ${data.permitType ? `
-                <div class="field">
-                  <div class="label">Permit Type</div>
-                  <div class="value">${data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1)}</div>
-                </div>
-                ` : ''}
-                ${data.route ? `
-                <div class="field">
-                  <div class="label">Route</div>
-                  <div class="value">${escapeHtml(data.route || '')}</div>
-                </div>
-                ` : ''}
-                ${data.startDate ? `
-                <div class="field">
-                  <div class="label">Start Date</div>
-                  <div class="value">${formatDate(data.startDate)}</div>
-                </div>
-                ` : ''}
-                ${data.endDate ? `
-                <div class="field">
-                  <div class="label">End Date</div>
-                  <div class="value">${formatDate(data.endDate)}</div>
-                </div>
+                <tr>
+                  <td class="field-cell" colspan="2">
+                    <span class="label">Route Type</span>
+                    <span class="value">${data.avoidHighways === '0' ? 'Interstate' : 'Non-Interstate'}</span>
+                  </td>
+                </tr>
                 ` : ''}
                 ${data.selectedStates && data.selectedStates.length > 0 ? `
-                <div class="field field-full">
-                  <div class="label">Selected States</div>
-                  <div class="value">${data.selectedStates.map(state => escapeHtml(state)).join(', ')}</div>
-                </div>
+                <tr>
+                  <td class="field-cell" colspan="2">
+                    <span class="label">Selected States</span>
+                    <span class="value">${data.selectedStates.map(state => escapeHtml(state)).join(', ')}</span>
+                  </td>
+                </tr>
                 ` : ''}
-              </div>
+                ${data.state ? `
+                <tr>
+                  <td class="field-cell" colspan="2">
+                    <span class="label">State</span>
+                    <span class="value">${escapeHtml(data.state || '')}</span>
+                  </td>
+                </tr>
+                ` : ''}
+                ${data.permitType ? `
+                <tr>
+                  <td class="field-cell" colspan="2">
+                    <span class="label">Permit Type</span>
+                    <span class="value">${data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1)}</span>
+                  </td>
+                </tr>
+                ` : ''}
+                ${data.route ? `
+                <tr>
+                  <td class="field-cell" colspan="2">
+                    <span class="label">Route</span>
+                    <span class="value">${escapeHtml(data.route || '')}</span>
+                  </td>
+                </tr>
+                ` : ''}
+                ${data.startDate || data.endDate ? `
+                <tr>
+                  ${data.startDate ? `
+                  <td class="field-cell" width="50%">
+                    <span class="label">Start Date</span>
+                    <span class="value">${formatDate(data.startDate)}</span>
+                  </td>
+                  ` : ''}
+                  ${data.endDate ? `
+                  <td class="field-cell" width="50%">
+                    <span class="label">End Date</span>
+                    <span class="value">${formatDate(data.endDate)}</span>
+                  </td>
+                  ` : ''}
+                </tr>
+                ` : ''}
+              </table>
             </div>
             ` : ''}
             
             ${data.commodityLength || data.commodityWidth || data.commodityHeight || data.commodityWeight ? `
             <div class="section">
               <div class="section-title">Load Dimensions</div>
-              <div class="fields-grid fields-grid-3">
-                ${data.commodityLength ? `
-                <div class="field">
-                  <div class="label">Length</div>
-                  <div class="value">${escapeHtml(data.commodityLength || '')}</div>
-                </div>
-                ` : ''}
-                ${data.commodityWidth ? `
-                <div class="field">
-                  <div class="label">Width</div>
-                  <div class="value">${escapeHtml(data.commodityWidth || '')}</div>
-                </div>
-                ` : ''}
-                ${data.commodityHeight ? `
-                <div class="field">
-                  <div class="label">Height</div>
-                  <div class="value">${escapeHtml(data.commodityHeight || '')}</div>
-                </div>
-                ` : ''}
-                ${data.commodityWeight ? `
-                <div class="field">
-                  <div class="label">Weight</div>
-                  <div class="value">${escapeHtml(data.commodityWeight || '')}</div>
-                </div>
-                ` : ''}
-              </div>
+              <table class="fields-table" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  ${data.commodityLength ? `
+                  <td class="field-cell" width="25%">
+                    <span class="label">Length</span>
+                    <span class="value">${escapeHtml(data.commodityLength || '')}</span>
+                  </td>
+                  ` : ''}
+                  ${data.commodityWidth ? `
+                  <td class="field-cell" width="25%">
+                    <span class="label">Width</span>
+                    <span class="value">${escapeHtml(data.commodityWidth || '')}</span>
+                  </td>
+                  ` : ''}
+                  ${data.commodityHeight ? `
+                  <td class="field-cell" width="25%">
+                    <span class="label">Height</span>
+                    <span class="value">${escapeHtml(data.commodityHeight || '')}</span>
+                  </td>
+                  ` : ''}
+                  ${data.commodityWeight ? `
+                  <td class="field-cell" width="25%">
+                    <span class="label">Weight</span>
+                    <span class="value">${escapeHtml(data.commodityWeight || '')}</span>
+                  </td>
+                  ` : ''}
+                </tr>
+              </table>
             </div>
             ` : ''}
             
             ${data.tractorTrailerDisplayName || data.numberOfAxles ? `
             <div class="section">
               <div class="section-title">Equipment</div>
-              <div class="fields-grid">
-                ${data.tractorTrailerDisplayName ? `
-                <div class="field">
-                  <div class="label">Tractor & Trailer</div>
-                  <div class="value">${escapeHtml(data.tractorTrailerDisplayName || '')}</div>
-                </div>
-                ` : ''}
-                ${data.numberOfAxles ? `
-                <div class="field">
-                  <div class="label">Number of Axles</div>
-                  <div class="value">${escapeHtml(data.numberOfAxles || '')}</div>
-                </div>
-                ` : ''}
-              </div>
+              <table class="fields-table" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  ${data.tractorTrailerDisplayName ? `
+                  <td class="field-cell" width="70%">
+                    <span class="label">Tractor & Trailer</span>
+                    <span class="value">${escapeHtml(data.tractorTrailerDisplayName || '')}</span>
+                  </td>
+                  ` : ''}
+                  ${data.numberOfAxles ? `
+                  <td class="field-cell" width="30%">
+                    <span class="label">Number of Axles</span>
+                    <span class="value">${escapeHtml(data.numberOfAxles || '')}</span>
+                  </td>
+                  ` : ''}
+                </tr>
+              </table>
             </div>
             ` : ''}
             
             ${data.length || data.width || data.height || data.weightGross ? `
             <div class="section">
               <div class="section-title">Overall Dimensions</div>
-              <div class="fields-grid fields-grid-3">
-                ${data.length ? `
-                <div class="field">
-                  <div class="label">Length</div>
-                  <div class="value">${escapeHtml(data.length || '')}</div>
-                </div>
-                ` : ''}
-                ${data.width ? `
-                <div class="field">
-                  <div class="label">Width</div>
-                  <div class="value">${escapeHtml(data.width || '')}</div>
-                </div>
-                ` : ''}
-                ${data.height ? `
-                <div class="field">
-                  <div class="label">Height</div>
-                  <div class="value">${escapeHtml(data.height || '')}</div>
-                </div>
-                ` : ''}
-                ${data.weightGross ? `
-                <div class="field">
-                  <div class="label">Weight</div>
-                  <div class="value">${escapeHtml(data.weightGross || '')}</div>
-                </div>
-                ` : ''}
-              </div>
+              <table class="fields-table" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  ${data.length ? `
+                  <td class="field-cell" width="25%">
+                    <span class="label">Length</span>
+                    <span class="value">${escapeHtml(data.length || '')}</span>
+                  </td>
+                  ` : ''}
+                  ${data.width ? `
+                  <td class="field-cell" width="25%">
+                    <span class="label">Width</span>
+                    <span class="value">${escapeHtml(data.width || '')}</span>
+                  </td>
+                  ` : ''}
+                  ${data.height ? `
+                  <td class="field-cell" width="25%">
+                    <span class="label">Height</span>
+                    <span class="value">${escapeHtml(data.height || '')}</span>
+                  </td>
+                  ` : ''}
+                  ${data.weightGross ? `
+                  <td class="field-cell" width="25%">
+                    <span class="label">Weight</span>
+                    <span class="value">${escapeHtml(data.weightGross || '')}</span>
+                  </td>
+                  ` : ''}
+                </tr>
+              </table>
             </div>
             ` : ''}
             
             ${data.overhangFront || data.overhangRear || data.kingpin ? `
             <div class="section">
               <div class="section-title">Extra Fields</div>
-              <div class="fields-grid fields-grid-3">
-                ${data.overhangFront ? `
-                <div class="field">
-                  <div class="label">Overhang Front</div>
-                  <div class="value">${escapeHtml(data.overhangFront || '')}</div>
-                </div>
-                ` : ''}
-                ${data.overhangRear ? `
-                <div class="field">
-                  <div class="label">Overhang Rear</div>
-                  <div class="value">${escapeHtml(data.overhangRear || '')}</div>
-                </div>
-                ` : ''}
-                ${data.kingpin ? `
-                <div class="field">
-                  <div class="label">Kingpin</div>
-                  <div class="value">${escapeHtml(data.kingpin || '')}</div>
-                </div>
-                ` : ''}
-              </div>
+              <table class="fields-table" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  ${data.overhangFront ? `
+                  <td class="field-cell" width="33.33%">
+                    <span class="label">Overhang Front</span>
+                    <span class="value">${escapeHtml(data.overhangFront || '')}</span>
+                  </td>
+                  ` : ''}
+                  ${data.overhangRear ? `
+                  <td class="field-cell" width="33.33%">
+                    <span class="label">Overhang Rear</span>
+                    <span class="value">${escapeHtml(data.overhangRear || '')}</span>
+                  </td>
+                  ` : ''}
+                  ${data.kingpin ? `
+                  <td class="field-cell" width="33.33%">
+                    <span class="label">Kingpin</span>
+                    <span class="value">${escapeHtml(data.kingpin || '')}</span>
+                  </td>
+                  ` : ''}
+                </tr>
+              </table>
             </div>
             ` : ''}
             
             ${data.promoCode ? `
             <div class="section">
               <div class="section-title">Promo Code</div>
-              <div class="fields-grid">
-                <div class="field">
-                  <div class="label">Promo Code</div>
-                  <div class="value">${escapeHtml(data.promoCode || '')}</div>
-                </div>
-              </div>
+              <table class="fields-table" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  <td class="field-cell">
+                    <span class="label">Promo Code</span>
+                    <span class="value">${escapeHtml(data.promoCode || '')}</span>
+                  </td>
+                </tr>
+              </table>
             </div>
             ` : ''}
             
             ${data.cargoWeight || data.cargoDimensions || data.cargoType ? `
             <div class="section">
               <div class="section-title">Cargo Information</div>
-              <div class="fields-grid">
-                ${data.cargoWeight ? `
-                <div class="field">
-                  <div class="label">Weight</div>
-                  <div class="value">${escapeHtml(data.cargoWeight || '')}</div>
-                </div>
-                ` : ''}
-                ${data.cargoDimensions ? `
-                <div class="field">
-                  <div class="label">Dimensions</div>
-                  <div class="value">${escapeHtml(data.cargoDimensions || '')}</div>
-                </div>
-                ` : ''}
-                ${data.cargoType ? `
-                <div class="field">
-                  <div class="label">Cargo Type</div>
-                  <div class="value">${escapeHtml(data.cargoType || '')}</div>
-                </div>
-                ` : ''}
-              </div>
+              <table class="fields-table" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  ${data.cargoWeight ? `
+                  <td class="field-cell" width="33.33%">
+                    <span class="label">Weight</span>
+                    <span class="value">${escapeHtml(data.cargoWeight || '')}</span>
+                  </td>
+                  ` : ''}
+                  ${data.cargoDimensions ? `
+                  <td class="field-cell" width="33.33%">
+                    <span class="label">Dimensions</span>
+                    <span class="value">${escapeHtml(data.cargoDimensions || '')}</span>
+                  </td>
+                  ` : ''}
+                  ${data.cargoType ? `
+                  <td class="field-cell" width="33.33%">
+                    <span class="label">Cargo Type</span>
+                    <span class="value">${escapeHtml(data.cargoType || '')}</span>
+                  </td>
+                  ` : ''}
+                </tr>
+              </table>
             </div>
             ` : ''}
             
