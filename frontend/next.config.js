@@ -16,10 +16,6 @@ const nextConfig = {
   swcMinify: true,
   // Optimize fonts
   optimizeFonts: true,
-  // Experimental features for better performance
-  experimental: {
-    optimizeCss: true,
-  },
   // Compiler options
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production' ? {
