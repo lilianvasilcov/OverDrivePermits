@@ -117,6 +117,14 @@
   background-color: var(--color-gray-50);
 }
 
+.searchLabel {
+  display: block;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-gray-700);
+  margin-bottom: var(--spacing-2);
+}
+
 .searchInput {
   width: 100%;
   padding: var(--spacing-2) var(--spacing-3);

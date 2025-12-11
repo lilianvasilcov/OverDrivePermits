@@ -1,6 +1,6 @@
 'use client';
 
-import React, { forwardRef } from 'react';
+import React, { forwardRef, useId } from 'react';
 import styles from './Select.module.css';
 
 interface SelectOption {
@@ -18,7 +18,13 @@ interface SelectProps extends React.SelectHTMLAttributes<HTMLSelectElement> {
 }
 
 const Select = forwardRef<HTMLSelectElement, SelectProps>(
-  ({ label, error, required, helperText, options, placeholder, className = '', ...props }, ref) => {
+  ({ label, error, required, helperText, options, placeholder, className = '', id, name, ...props }, ref) => {
+    // Use React's useId for stable server/client hydration
+    const generatedId = useId();
+    // Ensure we always have an id for label association
+    const selectId = id || name || generatedId;
+    const selectName = name || selectId;
+    
     const selectClasses = [
       styles.select,
       error && styles.selectError,
@@ -28,17 +34,19 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
     return (
       <div className={styles.selectGroup}>
         {label && (
-          <label className={styles.label} htmlFor={props.id || props.name}>
+          <label className={styles.label} htmlFor={selectId}>
             {label}
             {required && <span className={styles.required}> *</span>}
           </label>
         )}
         <select
+          {...props}
           ref={ref}
+          id={selectId}
+          name={selectName}
           className={selectClasses}
           aria-invalid={error ? 'true' : 'false'}
-          aria-describedby={error ? `${props.id || props.name}-error` : undefined}
-          {...props}
+          aria-describedby={error ? `${selectId}-error` : undefined}
         >
           {placeholder && (
             <option value="" disabled>
@@ -52,7 +60,7 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
           ))}
         </select>
         {error && (
-          <span id={`${props.id || props.name}-error`} className={styles.error}>
+          <span id={`${selectId}-error`} className={styles.error}>
             {error}
           </span>
         )}

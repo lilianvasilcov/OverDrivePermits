@@ -12,6 +12,7 @@ import { formatPhoneInput, formatPhoneNumber } from '@/utils/formatPhone';
 import Input from '@/components/common/Input';
 import Select from '@/components/common/Select';
 import Button from '@/components/common/Button/Button';
+import Icon from '@/components/common/Icon';
 import StateSelectorDropdown from './StateSelectorDropdown';
 import styles from './PermitForm.module.css';
 
@@ -247,10 +248,10 @@ const PermitForm: React.FC = () => {
               <div className={styles.colMd6}>
                 <Input
                   label={
-                    <>
-                      <i className="fa fa-map-marker fa-fw"></i>
-                      <span className={styles.iconText}>Origin</span>
-                    </>
+                    <span className={styles.iconText}>
+                      <Icon name="map-marker" />
+                      <span>Origin</span>
+                    </span>
                   }
                   type="text"
                   placeholder="Houston or 77001"
@@ -261,10 +262,10 @@ const PermitForm: React.FC = () => {
               <div className={styles.colMd6}>
                 <Input
                   label={
-                    <>
-                      <i className="fa fa-map-marker fa-fw"></i>
-                      <span className={styles.iconText}>Destination</span>
-                    </>
+                    <span className={styles.iconText}>
+                      <Icon name="map-marker" />
+                      <span>Destination</span>
+                    </span>
                   }
                   type="text"
                   placeholder="Chicago or 60007"
@@ -340,10 +341,10 @@ const PermitForm: React.FC = () => {
               <div className={styles.colMd3}>
                 <Input
                   label={
-                    <>
-                      <i className="fa fa-arrows-h fa-fw"></i>
-                      <span className={styles.iconText}>Length</span>
-                    </>
+                    <span className={styles.iconText}>
+                      <Icon name="arrows-h" />
+                      <span>Length</span>
+                    </span>
                   }
                   type="text"
                   placeholder="30'"
@@ -354,10 +355,10 @@ const PermitForm: React.FC = () => {
               <div className={styles.colMd3}>
               <Input
                   label={
-                    <>
-                      <i className="fa fa-expand fa-fw"></i>
-                      <span className={styles.iconText}>Width</span>
-                    </>
+                    <span className={styles.iconText}>
+                      <Icon name="expand" />
+                      <span>Width</span>
+                    </span>
                   }
                 type="text"
                   placeholder="5'6&quot;"
@@ -368,10 +369,10 @@ const PermitForm: React.FC = () => {
               <div className={styles.colMd3}>
                 <Input
                   label={
-                    <>
-                      <i className="fa fa-arrows-v fa-fw"></i>
-                      <span className={styles.iconText}>Height</span>
-                    </>
+                    <span className={styles.iconText}>
+                      <Icon name="arrows-v" />
+                      <span>Height</span>
+                    </span>
                   }
                   type="text"
                   placeholder="10'6&quot;"
@@ -382,10 +383,10 @@ const PermitForm: React.FC = () => {
               <div className={styles.colMd3}>
                 <Input
                   label={
-                    <>
-                      <i className="fa fa-lock fa-fw"></i>
-                      <span className={styles.iconText}>Weight</span>
-                    </>
+                    <span className={styles.iconText}>
+                      <Icon name="lock" />
+                      <span>Weight</span>
+                    </span>
                   }
                   type="text"
                   placeholder="25000"
@@ -402,6 +403,7 @@ const PermitForm: React.FC = () => {
                 <h4 className={styles.sectionTitleSmall}>Equipment</h4>
                 <div className={styles.equipmentSelector}>
                   <Select
+                    label="Equipment"
                     options={equipmentOptions}
                     placeholder="Click here to add tractor and trailer"
                     error={errors.tractorTrailerId?.message}
@@ -429,10 +431,10 @@ const PermitForm: React.FC = () => {
               <div className={styles.colMd3}>
               <Input
                   label={
-                    <>
-                      <i className="fa fa-arrows-h fa-fw"></i>
-                      <span className={styles.iconText}>Length</span>
-                    </>
+                    <span className={styles.iconText}>
+                      <Icon name="arrows-h" />
+                      <span>Length</span>
+                    </span>
                   }
                 type="text"
                   placeholder="75'"
@@ -443,10 +445,10 @@ const PermitForm: React.FC = () => {
               <div className={styles.colMd3}>
               <Input
                   label={
-                    <>
-                      <i className="fa fa-expand fa-fw"></i>
-                      <span className={styles.iconText}>Width</span>
-                    </>
+                    <span className={styles.iconText}>
+                      <Icon name="expand" />
+                      <span>Width</span>
+                    </span>
                   }
                 type="text"
                   placeholder="8'6&quot;"
@@ -457,10 +459,10 @@ const PermitForm: React.FC = () => {
               <div className={styles.colMd3}>
               <Input
                   label={
-                    <>
-                      <i className="fa fa-arrows-v fa-fw"></i>
-                      <span className={styles.iconText}>Height</span>
-                    </>
+                    <span className={styles.iconText}>
+                      <Icon name="arrows-v" />
+                      <span>Height</span>
+                    </span>
                   }
                 type="text"
                   placeholder="13'6&quot;"
@@ -471,10 +473,10 @@ const PermitForm: React.FC = () => {
               <div className={styles.colMd3}>
                 <Input
                   label={
-                    <>
-                      <i className="fa fa-truck fa-fw"></i>
-                      <span className={styles.iconText}>Weight</span>
-                    </>
+                    <span className={styles.iconText}>
+                      <Icon name="truck" />
+                      <span>Weight</span>
+                    </span>
                   }
                   type="text"
                   placeholder="80000"

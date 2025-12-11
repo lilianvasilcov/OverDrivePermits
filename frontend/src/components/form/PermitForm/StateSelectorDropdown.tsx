@@ -124,14 +124,19 @@ const StateSelectorDropdown: React.FC<StateSelectorDropdownProps> = ({
         {isOpen && (
           <div className={styles.dropdownMenu}>
             <div className={styles.searchContainer}>
+              <label htmlFor="state-search-input" className={styles.searchLabel}>
+                Search states
+              </label>
               <input
                 ref={inputRef}
+                id="state-search-input"
                 type="text"
                 className={styles.searchInput}
                 placeholder="Search states (e.g., 'geo' for Georgia)"
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
                 onClick={e => e.stopPropagation()}
+                aria-label="Search states"
               />
             </div>
 

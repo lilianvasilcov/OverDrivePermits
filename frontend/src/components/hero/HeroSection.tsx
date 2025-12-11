@@ -76,10 +76,11 @@ const HeroSection: React.FC = () => {
               <Image 
                 src="/logo.png" 
                 alt="OVERDRIVE PERMITS Logo" 
-                width={600}
-                height={600}
+                width={500}
+                height={500}
                 className={styles.heroLogo}
                 priority
+                sizes="(max-width: 768px) 350px, (max-width: 1024px) 500px, 500px"
               />
               <div className={styles.logoGlow} aria-hidden="true" />
             </div>
