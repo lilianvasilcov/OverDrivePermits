@@ -133,7 +133,7 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             background: #FFFFFF;
           }
           .section {
-            margin-bottom: 32px;
+            margin-bottom: 24px;
           }
           .section:last-child {
             margin-bottom: 0;
@@ -146,27 +146,44 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
             padding-bottom: 8px;
             border-bottom: 2px solid #E5E7EB;
           }
+          .fields-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 16px;
+          }
+          .fields-grid-3 {
+            grid-template-columns: repeat(3, 1fr);
+          }
           .field { 
-            margin-bottom: 16px; 
-            padding: 12px;
+            padding: 10px 12px;
             background: #F9FAFB;
-            border-radius: 8px;
+            border-radius: 6px;
             border-left: 3px solid #1E3A8A;
           }
-          .field:last-child {
-            margin-bottom: 0;
+          .field-full {
+            grid-column: 1 / -1;
           }
           .label { 
             font-weight: 600; 
             color: #374151;
-            font-size: 13px;
+            font-size: 11px;
             text-transform: uppercase;
             letter-spacing: 0.05em;
             margin-bottom: 4px;
           }
           .value { 
             color: #1F2937;
-            font-size: 15px;
+            font-size: 14px;
+            word-break: break-word;
+          }
+          @media (max-width: 600px) {
+            .fields-grid {
+              grid-template-columns: 1fr;
+            }
+            .fields-grid-3 {
+              grid-template-columns: 1fr;
+            }
           }
           .footer {
             background: #F9FAFB;
@@ -187,219 +204,235 @@ const generateAdminEmailTemplate = (data: PermitRequest): string => {
           <div class="content">
             <div class="section">
               <div class="section-title">Customer Information</div>
-            <div class="field">
-                <div class="label">Full Name</div>
-              <div class="value">${escapeHtml(data.customerName || '')}</div>
-            </div>
-            <div class="field">
-                <div class="label">Email Address</div>
-              <div class="value">${escapeHtml(data.email || '')}</div>
-            </div>
-            <div class="field">
-                <div class="label">Phone Number</div>
-              <div class="value">${escapeHtml(formatPhoneNumber(data.phone))}</div>
-            </div>
-            ${data.companyName ? `
-            <div class="field">
-                <div class="label">Company Name</div>
-              <div class="value">${escapeHtml(data.companyName)}</div>
-            </div>
-            ` : ''}
+              <div class="fields-grid">
+                <div class="field">
+                  <div class="label">Full Name</div>
+                  <div class="value">${escapeHtml(data.customerName || '')}</div>
+                </div>
+                <div class="field">
+                  <div class="label">Phone Number</div>
+                  <div class="value">${escapeHtml(formatPhoneNumber(data.phone))}</div>
+                </div>
+                <div class="field field-full">
+                  <div class="label">Email Address</div>
+                  <div class="value">${escapeHtml(data.email || '')}</div>
+                </div>
+                ${data.companyName ? `
+                <div class="field field-full">
+                  <div class="label">Company Name</div>
+                  <div class="value">${escapeHtml(data.companyName)}</div>
+                </div>
+                ` : ''}
+              </div>
             </div>
             
             ${data.origin || data.destination || data.state ? `
             <div class="section">
               <div class="section-title">Route Information</div>
-            ${data.origin ? `
-            <div class="field">
-                <div class="label">Origin</div>
-              <div class="value">${escapeHtml(data.origin || '')}</div>
-            </div>
-            ` : ''}
-            ${data.destination ? `
-            <div class="field">
-                <div class="label">Destination</div>
-              <div class="value">${escapeHtml(data.destination || '')}</div>
-            </div>
-            ` : ''}
-            ${data.avoidHighways !== undefined ? `
-            <div class="field">
-                <div class="label">Route Type</div>
-              <div class="value">${data.avoidHighways === '0' ? 'Interstate' : 'Non-Interstate'}</div>
-            </div>
-            ` : ''}
-            ${data.selectedStates && data.selectedStates.length > 0 ? `
-            <div class="field">
-                <div class="label">Selected States</div>
-              <div class="value">${data.selectedStates.map(state => escapeHtml(state)).join(', ')}</div>
-            </div>
-            ` : ''}
-            ${data.state ? `
-            <div class="field">
-                <div class="label">State</div>
-              <div class="value">${escapeHtml(data.state || '')}</div>
-            </div>
-            ` : ''}
-            ${data.permitType ? `
-            <div class="field">
-                <div class="label">Permit Type</div>
-                <div class="value">${data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1)}</div>
-            </div>
-            ` : ''}
-            ${data.route ? `
-            <div class="field">
-                <div class="label">Route</div>
-              <div class="value">${escapeHtml(data.route || '')}</div>
-            </div>
-            ` : ''}
-            ${data.startDate ? `
-            <div class="field">
-                <div class="label">Start Date</div>
-                <div class="value">${formatDate(data.startDate)}</div>
-            </div>
-            ` : ''}
-            ${data.endDate ? `
-            <div class="field">
-                <div class="label">End Date</div>
-                <div class="value">${formatDate(data.endDate)}</div>
+              <div class="fields-grid">
+                ${data.origin ? `
+                <div class="field">
+                  <div class="label">Origin</div>
+                  <div class="value">${escapeHtml(data.origin || '')}</div>
+                </div>
+                ` : ''}
+                ${data.destination ? `
+                <div class="field">
+                  <div class="label">Destination</div>
+                  <div class="value">${escapeHtml(data.destination || '')}</div>
+                </div>
+                ` : ''}
+                ${data.avoidHighways !== undefined ? `
+                <div class="field">
+                  <div class="label">Route Type</div>
+                  <div class="value">${data.avoidHighways === '0' ? 'Interstate' : 'Non-Interstate'}</div>
+                </div>
+                ` : ''}
+                ${data.state ? `
+                <div class="field">
+                  <div class="label">State</div>
+                  <div class="value">${escapeHtml(data.state || '')}</div>
+                </div>
+                ` : ''}
+                ${data.permitType ? `
+                <div class="field">
+                  <div class="label">Permit Type</div>
+                  <div class="value">${data.permitType.charAt(0).toUpperCase() + data.permitType.slice(1)}</div>
+                </div>
+                ` : ''}
+                ${data.route ? `
+                <div class="field">
+                  <div class="label">Route</div>
+                  <div class="value">${escapeHtml(data.route || '')}</div>
+                </div>
+                ` : ''}
+                ${data.startDate ? `
+                <div class="field">
+                  <div class="label">Start Date</div>
+                  <div class="value">${formatDate(data.startDate)}</div>
+                </div>
+                ` : ''}
+                ${data.endDate ? `
+                <div class="field">
+                  <div class="label">End Date</div>
+                  <div class="value">${formatDate(data.endDate)}</div>
+                </div>
+                ` : ''}
+                ${data.selectedStates && data.selectedStates.length > 0 ? `
+                <div class="field field-full">
+                  <div class="label">Selected States</div>
+                  <div class="value">${data.selectedStates.map(state => escapeHtml(state)).join(', ')}</div>
+                </div>
+                ` : ''}
               </div>
-              ` : ''}
             </div>
             ` : ''}
             
             ${data.commodityLength || data.commodityWidth || data.commodityHeight || data.commodityWeight ? `
             <div class="section">
               <div class="section-title">Load Dimensions</div>
-            ${data.commodityLength ? `
-            <div class="field">
-                <div class="label">Length</div>
-              <div class="value">${escapeHtml(data.commodityLength || '')}</div>
-            </div>
-            ` : ''}
-            ${data.commodityWidth ? `
-            <div class="field">
-                <div class="label">Width</div>
-              <div class="value">${escapeHtml(data.commodityWidth || '')}</div>
-            </div>
-            ` : ''}
-            ${data.commodityHeight ? `
-            <div class="field">
-                <div class="label">Height</div>
-              <div class="value">${escapeHtml(data.commodityHeight || '')}</div>
-            </div>
-            ` : ''}
-            ${data.commodityWeight ? `
-            <div class="field">
-                <div class="label">Weight</div>
-              <div class="value">${escapeHtml(data.commodityWeight || '')}</div>
-            </div>
-            ` : ''}
+              <div class="fields-grid fields-grid-3">
+                ${data.commodityLength ? `
+                <div class="field">
+                  <div class="label">Length</div>
+                  <div class="value">${escapeHtml(data.commodityLength || '')}</div>
+                </div>
+                ` : ''}
+                ${data.commodityWidth ? `
+                <div class="field">
+                  <div class="label">Width</div>
+                  <div class="value">${escapeHtml(data.commodityWidth || '')}</div>
+                </div>
+                ` : ''}
+                ${data.commodityHeight ? `
+                <div class="field">
+                  <div class="label">Height</div>
+                  <div class="value">${escapeHtml(data.commodityHeight || '')}</div>
+                </div>
+                ` : ''}
+                ${data.commodityWeight ? `
+                <div class="field">
+                  <div class="label">Weight</div>
+                  <div class="value">${escapeHtml(data.commodityWeight || '')}</div>
+                </div>
+                ` : ''}
+              </div>
             </div>
             ` : ''}
             
             ${data.tractorTrailerDisplayName || data.numberOfAxles ? `
             <div class="section">
               <div class="section-title">Equipment</div>
-            ${data.tractorTrailerDisplayName ? `
-            <div class="field">
-                <div class="label">Tractor & Trailer</div>
-              <div class="value">${escapeHtml(data.tractorTrailerDisplayName || '')}</div>
-            </div>
-            ` : ''}
-            ${data.numberOfAxles ? `
-            <div class="field">
-                <div class="label">Number of Axles</div>
-              <div class="value">${escapeHtml(data.numberOfAxles || '')}</div>
-            </div>
-            ` : ''}
+              <div class="fields-grid">
+                ${data.tractorTrailerDisplayName ? `
+                <div class="field">
+                  <div class="label">Tractor & Trailer</div>
+                  <div class="value">${escapeHtml(data.tractorTrailerDisplayName || '')}</div>
+                </div>
+                ` : ''}
+                ${data.numberOfAxles ? `
+                <div class="field">
+                  <div class="label">Number of Axles</div>
+                  <div class="value">${escapeHtml(data.numberOfAxles || '')}</div>
+                </div>
+                ` : ''}
+              </div>
             </div>
             ` : ''}
             
             ${data.length || data.width || data.height || data.weightGross ? `
             <div class="section">
               <div class="section-title">Overall Dimensions</div>
-            ${data.length ? `
-            <div class="field">
-                <div class="label">Length</div>
-              <div class="value">${escapeHtml(data.length || '')}</div>
-            </div>
-            ` : ''}
-            ${data.width ? `
-            <div class="field">
-                <div class="label">Width</div>
-              <div class="value">${escapeHtml(data.width || '')}</div>
-            </div>
-            ` : ''}
-            ${data.height ? `
-            <div class="field">
-                <div class="label">Height</div>
-              <div class="value">${escapeHtml(data.height || '')}</div>
-            </div>
-            ` : ''}
-            ${data.weightGross ? `
-            <div class="field">
-                <div class="label">Weight</div>
-              <div class="value">${escapeHtml(data.weightGross || '')}</div>
-            </div>
-            ` : ''}
+              <div class="fields-grid fields-grid-3">
+                ${data.length ? `
+                <div class="field">
+                  <div class="label">Length</div>
+                  <div class="value">${escapeHtml(data.length || '')}</div>
+                </div>
+                ` : ''}
+                ${data.width ? `
+                <div class="field">
+                  <div class="label">Width</div>
+                  <div class="value">${escapeHtml(data.width || '')}</div>
+                </div>
+                ` : ''}
+                ${data.height ? `
+                <div class="field">
+                  <div class="label">Height</div>
+                  <div class="value">${escapeHtml(data.height || '')}</div>
+                </div>
+                ` : ''}
+                ${data.weightGross ? `
+                <div class="field">
+                  <div class="label">Weight</div>
+                  <div class="value">${escapeHtml(data.weightGross || '')}</div>
+                </div>
+                ` : ''}
+              </div>
             </div>
             ` : ''}
             
             ${data.overhangFront || data.overhangRear || data.kingpin ? `
             <div class="section">
               <div class="section-title">Extra Fields</div>
-            ${data.overhangFront ? `
-            <div class="field">
-                <div class="label">Overhang Front</div>
-              <div class="value">${escapeHtml(data.overhangFront || '')}</div>
-            </div>
-            ` : ''}
-            ${data.overhangRear ? `
-            <div class="field">
-                <div class="label">Overhang Rear</div>
-              <div class="value">${escapeHtml(data.overhangRear || '')}</div>
-            </div>
-            ` : ''}
-            ${data.kingpin ? `
-            <div class="field">
-                <div class="label">Kingpin</div>
-              <div class="value">${escapeHtml(data.kingpin || '')}</div>
-            </div>
-            ` : ''}
+              <div class="fields-grid fields-grid-3">
+                ${data.overhangFront ? `
+                <div class="field">
+                  <div class="label">Overhang Front</div>
+                  <div class="value">${escapeHtml(data.overhangFront || '')}</div>
+                </div>
+                ` : ''}
+                ${data.overhangRear ? `
+                <div class="field">
+                  <div class="label">Overhang Rear</div>
+                  <div class="value">${escapeHtml(data.overhangRear || '')}</div>
+                </div>
+                ` : ''}
+                ${data.kingpin ? `
+                <div class="field">
+                  <div class="label">Kingpin</div>
+                  <div class="value">${escapeHtml(data.kingpin || '')}</div>
+                </div>
+                ` : ''}
+              </div>
             </div>
             ` : ''}
             
             ${data.promoCode ? `
             <div class="section">
               <div class="section-title">Promo Code</div>
-            <div class="field">
-                <div class="label">Promo Code</div>
-              <div class="value">${escapeHtml(data.promoCode || '')}</div>
-            </div>
+              <div class="fields-grid">
+                <div class="field">
+                  <div class="label">Promo Code</div>
+                  <div class="value">${escapeHtml(data.promoCode || '')}</div>
+                </div>
+              </div>
             </div>
             ` : ''}
             
             ${data.cargoWeight || data.cargoDimensions || data.cargoType ? `
             <div class="section">
               <div class="section-title">Cargo Information</div>
-            ${data.cargoWeight ? `
-            <div class="field">
-                <div class="label">Weight</div>
-              <div class="value">${escapeHtml(data.cargoWeight || '')}</div>
-            </div>
-            ` : ''}
-            ${data.cargoDimensions ? `
-            <div class="field">
-                <div class="label">Dimensions</div>
-              <div class="value">${escapeHtml(data.cargoDimensions || '')}</div>
-            </div>
-            ` : ''}
-            ${data.cargoType ? `
-            <div class="field">
-                <div class="label">Cargo Type</div>
-              <div class="value">${escapeHtml(data.cargoType || '')}</div>
-            </div>
-            ` : ''}
+              <div class="fields-grid">
+                ${data.cargoWeight ? `
+                <div class="field">
+                  <div class="label">Weight</div>
+                  <div class="value">${escapeHtml(data.cargoWeight || '')}</div>
+                </div>
+                ` : ''}
+                ${data.cargoDimensions ? `
+                <div class="field">
+                  <div class="label">Dimensions</div>
+                  <div class="value">${escapeHtml(data.cargoDimensions || '')}</div>
+                </div>
+                ` : ''}
+                ${data.cargoType ? `
+                <div class="field">
+                  <div class="label">Cargo Type</div>
+                  <div class="value">${escapeHtml(data.cargoType || '')}</div>
+                </div>
+                ` : ''}
+              </div>
             </div>
             ` : ''}
             
