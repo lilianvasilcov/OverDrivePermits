@@ -190,8 +190,8 @@ export default function PrivacyPolicyPage() {
             </p>
             <div className={styles.contactInfo}>
               <p><strong>OVERDRIVE PERMITS</strong></p>
-              <p>Email: <a href="mailto:info@overdrivepermits.com" className={styles.link}>info@overdrivepermits.com</a></p>
-              <p>Phone: <a href="tel:+15551234567" className={styles.link}>(555) 123-4567</a></p>
+              <p>Email: <a href="mailto:info@oswpermits.com" className={styles.link}>info@oswpermits.com</a></p>
+              <p>Phone: <a href="tel:(509) 645-2903" className={styles.link}>(509) 645-2903</a></p>
             </div>
           </div>
         </div>

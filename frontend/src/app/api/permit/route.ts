@@ -47,6 +47,8 @@ const createTransporter = () => {
         user: smtpUser,
         pass: smtpPass,
       },
+      // Note: Gmail may override the "from" address if it's not verified in Gmail settings
+      // To use a custom "from" address, configure "Send mail as" in Gmail account settings
     });
   }
 
@@ -730,11 +732,23 @@ export async function POST(request: NextRequest) {
 
     // Use QUOTE_EMAIL if available, otherwise ADMIN_EMAIL, otherwise default
     const adminEmail = process.env.QUOTE_EMAIL || process.env.ADMIN_EMAIL || 'admin@overdrivepermits.com';
+    
+    // Prioritize SMTP_FROM over SMTP_USER for the "from" address
+    // IMPORTANT: When using Gmail SMTP, Gmail may override the "from" address 
+    // unless the address is verified in Gmail's "Send mail as" settings
     const fromEmail = process.env.SMTP_FROM || process.env.SMTP_USER || 'noreply@overdrivepermits.com';
     const fromName = process.env.SMTP_FROM_NAME || 'OVERDRIVE PERMITS';
 
     // Format from address with name
-    const fromAddress = `${fromName} <${fromEmail}>`;
+    // Use the format: "Name <email@domain.com>" for better email client support
+    const fromAddress = fromName ? `${fromName} <${fromEmail}>` : fromEmail;
+    
+    // Log the from address being used (for debugging)
+    if (process.env.NODE_ENV === 'development') {
+      console.log('Email from address:', fromAddress);
+      console.log('SMTP_FROM env var:', process.env.SMTP_FROM);
+      console.log('SMTP_USER env var:', process.env.SMTP_USER);
+    }
 
     // Send admin notification email
     try {
